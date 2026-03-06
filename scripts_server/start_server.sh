@@ -9,6 +9,7 @@ MOD_ID_FILE="mod_ids.txt"
 
 USER_STEAM=""
 PASSWORD_STEAM=""
+WEBHOOK_URL_SERVER=""
 
 SERVER_MODS='-serverMod=servermod'
 SERVER_PORT='-port=2302'
@@ -253,6 +254,16 @@ main() {
         # Verifica se o PID foi capturado com sucesso
         if [[ -n "$SERVER_PIDS" ]]; then
             echo "✅ Servidor iniciado com os PIDs: $SERVER_PIDS"
+            
+            # Envia notificação ao Discord
+            curl -s -X POST "$WEBHOOK_URL_SERVER" \
+                -H "Content-Type: application/json" \
+                -d @- <<EOF
+{
+"username": "DayZ Server",
+"content": "✅ Servidor iniciado com sucesso!\n@everyone"
+}
+EOF
         else
             echo "❌ Não foi possível capturar o PID do servidor."
         fi
