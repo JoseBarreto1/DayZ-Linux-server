@@ -235,6 +235,19 @@ main() {
         # ===== EXECUÇÃO =====
         cd "$SERVER_DIR" || { echo "❌ Não foi possível entrar no diretório do servidor."; exit 1; }
 
+        # Captura todos os PIDs do processo real (filhos do Proton)
+        SERVER_PIDS=$(pgrep -u "$USER" -f "$SERVER_EXE")
+        if [[ -n "$SERVER_PIDS" ]]; then
+            echo "🛑 Encerrando processos em execução"
+            kill $SERVER_PIDS
+            sleep 2
+            for pid in $SERVER_PIDS; do
+                if ps -p "$pid" > /dev/null; then
+                    kill -9 "$pid"
+                fi
+            done
+        fi
+
         echo "🚀 Iniciando servidor DayZ com Proton..."
         "$PROTON_RUN" run "./$SERVER_EXE" $CONFIG $PROFILES "$MODS" "$SERVER_MODS" "$SERVER_PORT" "$SERVER_CPU" "$SERVER_OTHERS" &
 
