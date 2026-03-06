@@ -3,7 +3,7 @@
 # ===== CONFIGURAÇÃO =====
 SERVER_DIR="$HOME/steamcmd/dayzserver"
 SERVER_EXE="DayZServer_x64.exe"
-SCRIPT_DIR="$SERVER_DIR/script_server_linux"
+SCRIPT_DIR="$SERVER_DIR/scripts_server"
 MOD_ID_FILE="mod_ids.txt"
 MOD_SERVER_DIR="$SERVER_DIR/md"
 MOD_GAME_DIR="$HOME/steamcmd/mods/steamapps/workshop/content/221100/"

@@ -4,10 +4,10 @@
 SERVER_DIR="$HOME/steamcmd/dayzserver"
 PROTON_RUN="$SERVER_DIR/proton"
 SERVER_EXE="DayZServer_x64.exe"
-SCRIPT_DIR="$SERVER_DIR/script_server_linux"
+SCRIPT_DIR="$SERVER_DIR/scripts_server"
 MOD_ID_FILE="mod_ids.txt"
 
-USER_STEAM=
+USER_STEAM=""
 PASSWORD_STEAM=""
 
 SERVER_MODS='-serverMod=servermod'
