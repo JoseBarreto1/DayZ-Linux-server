@@ -1,0 +1,311 @@
+{
+    "typeName": "BXD_TreasureChest",
+    "worldPosition": [
+        6581.978515625,
+        336.089111328125,
+        9317.9873046875
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [],
+    "cargo": [
+        {
+            "typeName": "WeaponCleaningKit",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 72.14248657226563,
+            "row": 0,
+            "col": 0,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                100.0,
+                0.22028985619544984
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "WeaponCleaningKit",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 78.47285461425781,
+            "row": 2,
+            "col": 0,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                100.0,
+                0.061079613864421847
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DuctTape",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 35.479652404785159,
+            "row": 4,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                1.0,
+                100.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DuctTape",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 40.78733444213867,
+            "row": 8,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.07064958661794663
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DuctTape",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 34.38759994506836,
+            "row": 2,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                1.0,
+                100.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "ElectronicRepairKit",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 3,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                100.0,
+                0.22202986478805543
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DuctTape",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 33.453880310058597,
+            "row": 6,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                1.0,
+                33.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "My_DF_Gear_Items_ArmorsRepairKit",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 70.28412628173828,
+            "row": 8,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                1.0,
+                898.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Whetstone",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 8,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                100.0,
+                0.22202986478805543
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Whetstone",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 1,
+            "col": 8,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                100.0,
+                0.22115986049175263
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

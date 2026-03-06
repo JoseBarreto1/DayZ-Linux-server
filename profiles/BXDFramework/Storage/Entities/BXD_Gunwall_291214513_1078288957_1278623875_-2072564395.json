@@ -1,0 +1,929 @@
+{
+    "typeName": "BXD_Gunwall",
+    "worldPosition": [
+        6582.455078125,
+        337.3082580566406,
+        9295.8154296875
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "TF_M14_STD",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1897070499,
+            "health": 215.25509643554688,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    1
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "AD_LeupoldMk4",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1034251040,
+                    "health": 44.56922912597656,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_M14_Adapter",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -914534378,
+                    "health": 175.0896453857422,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.04899999871850014
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "TF_AK105",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1897070500,
+            "health": 256.7155456542969,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    1
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "TF_AK_6p20Compensator",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 1028323900,
+                    "health": 35.74073028564453,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "AK_PlasticBttstck",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -54823519,
+                    "health": 148.24977111816407,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_Mag_AK74_60Rnd",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -493635884,
+                    "health": 79.35269927978516,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 1,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 0,
+                        "magCrtrdgInfo": []
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_AK_MagpulMOEHndgrd_MLOCK",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1892350148,
+                    "health": 159.52330017089845,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_AK_Tactica_Tula10000Receiver",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -402306923,
+                    "health": 147.05343627929688,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "ACOGOptic",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1034251040,
+                    "health": 25.156408309936525,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [
+        {
+            "typeName": "Mag_STANAG_30Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.5218620300293,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 6,
+                "magCrtrdgInfo": [
+                    {
+                        "infoIndex": 0,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    },
+                    {
+                        "infoIndex": 1,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    },
+                    {
+                        "infoIndex": 2,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    },
+                    {
+                        "infoIndex": 3,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    },
+                    {
+                        "infoIndex": 4,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    },
+                    {
+                        "infoIndex": 5,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009999990463257
+                    }
+                ]
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Mag_STANAG_30Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 89.06080627441406,
+            "row": 0,
+            "col": 1,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 0,
+                "magCrtrdgInfo": []
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "TF_Mag_M4_PMAG10Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 51.98138427734375,
+            "row": 0,
+            "col": 2,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 8,
+                "magCrtrdgInfo": [
+                    {
+                        "infoIndex": 0,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 1,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 2,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 3,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 4,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 5,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 6,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    },
+                    {
+                        "infoIndex": 7,
+                        "className": "Bullet_556x45",
+                        "damage": 0.3009994626045227
+                    }
+                ]
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Mag_STANAG_30Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 64.07267761230469,
+            "row": 0,
+            "col": 3,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 0,
+                "magCrtrdgInfo": []
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "TF_Mag_M4_PMAG20Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 97.3525619506836,
+            "row": 0,
+            "col": 4,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 3,
+                "magCrtrdgInfo": [
+                    {
+                        "infoIndex": 0,
+                        "className": "Bullet_556x45",
+                        "damage": 0.0009918364230543376
+                    },
+                    {
+                        "infoIndex": 1,
+                        "className": "Bullet_556x45",
+                        "damage": 0.0009918364230543376
+                    },
+                    {
+                        "infoIndex": 2,
+                        "className": "Bullet_556x45",
+                        "damage": 0.0009918364230543376
+                    }
+                ]
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Mag_STANAG_30Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 61.72185516357422,
+            "row": 0,
+            "col": 5,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 0,
+                "magCrtrdgInfo": []
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Mag_STANAG_30Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 78.52750396728516,
+            "row": 0,
+            "col": 6,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 0,
+                "magCrtrdgInfo": []
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "HuntingOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 27.463951110839845,
+            "row": 3,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "MK4Optic_Tan",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 84.71339416503906,
+            "row": 3,
+            "col": 4,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 4,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {
+                "EnergyAmount": 0.0
+            },
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.21506983041763307
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "HuntingOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 35.49553680419922,
+            "row": 4,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "ACOGOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 25.98040771484375,
+            "row": 0,
+            "col": 7,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "HuntingOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 29.696346282958986,
+            "row": 4,
+            "col": 4,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "ACOGOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 35.167240142822269,
+            "row": 1,
+            "col": 7,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "ACOGOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 42.65800857543945,
+            "row": 2,
+            "col": 7,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "ACOGOptic",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 29.249704360961915,
+            "row": 3,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "AK_PlasticHndgrd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 145.88031005859376,
+            "row": 4,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "CharcoalTablets",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 17.509994506835939,
+            "row": 0,
+            "col": 9,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 6,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {
+                "StageType": 0,
+                "LastStageType": 0,
+                "DecayTimer": 0.0
+            },
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                1.0,
+                2.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "Mag_FAL_20Rnd",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 91.16560363769531,
+            "row": 5,
+            "col": 0,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 1,
+            "wpnState": {},
+            "magState": {
+                "ammoCount": 0,
+                "magCrtrdgInfo": []
+            },
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

@@ -1,0 +1,192 @@
+{
+    "typeName": "BXD_TreasureChest",
+    "worldPosition": [
+        6580.1982421875,
+        339.40069580078127,
+        9318.27734375
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [],
+    "cargo": [
+        {
+            "typeName": "SVD_Wooden",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 238.36227416992188,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "FAL",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 300.0,
+            "row": 3,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "TF_MK47_CQBR",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 279.4961242675781,
+            "row": 6,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "TF_M4_CMMG_RIPBttstck",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -54823130,
+                    "health": 194.97894287109376,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_AR10_CMMG9Hndgrd_MLOCK",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -761463309,
+                    "health": 212.5652313232422,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

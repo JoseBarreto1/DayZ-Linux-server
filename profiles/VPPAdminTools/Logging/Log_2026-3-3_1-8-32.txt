@@ -1,0 +1,163 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-3-3_1-8-32
+====================================================================================
+1:8:32 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+1:8:32 | [PermissionManager] Perm (FreeCamera) has been registered!
+1:8:32 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuServerManager) has been registered!
+1:8:32 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+1:8:32 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+1:8:32 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+1:8:32 | [PermissionManager] Perm (ServerManager:LoadScripts) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+1:8:32 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+1:8:32 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+1:8:32 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+1:8:32 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+1:8:32 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+1:8:32 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuBansManager) has been registered!
+1:8:32 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+1:8:32 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+1:8:32 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+1:8:32 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+1:8:32 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+1:8:32 | [PermissionManager] Adding Super Admin (76561198120369757)
+1:8:32 | [PermissionManager] Adding Super Admin (76561198360290787)
+1:8:32 | [PermissionManager] Loaded UserGroups.json
+1:8:32 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+1:8:32 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+1:8:32 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+1:8:32 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+1:8:32 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+1:8:32 | Building Sets Loaded: 0
+1:8:32 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+1:8:32 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+1:13:41 | Player "Barreto" (steamId=76561198360290787) connected to server!
+1:15:43 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:16:18 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:17:51 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:17:53 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:17:56 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:18:14 | "Barreto" (steamid=76561198360290787) toggled freecam
+1:19:31 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_BoxingShorts_Red)
+1:19:33 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_BoxingGloves_Red)
+1:19:36 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_BoxingHelmet_Red)
+1:20:5 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Crooked)
+1:20:9 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Crooked)
+1:20:48 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Crooked" (pos=<12257.275391, 140.039993, 12465.048828>)
+1:20:52 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_explosive_yellow)
+1:21:15 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_explosive_yellow" (pos=<12266.137695, 140.039993, 12476.878906>)
+1:21:21 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_explosive_grey)
+1:21:24 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_explosive_grey" (pos=<12264.227539, 140.039993, 12471.876953>)
+1:21:26 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_wild)
+1:21:28 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_wild_tox)
+1:21:33 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_wild" (pos=<12273.724609, 140.039993, 12478.146484>)
+1:21:51 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_wild_tox" (pos=<12236.181641, 140.039993, 12474.818359>)
+1:21:55 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_nude_tox)
+1:23:7 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_nude_tox" (pos=<12261.139648, 140.039993, 12451.519531>)
+1:23:10 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_fastlurk)
+1:23:32 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_fastlurk" (pos=<12250.805664, 140.039993, 12468.427734>)
+1:23:36 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Babdook)
+1:23:59 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Babdook" (pos=<12268.253906, 140.039993, 12446.156250>)
+1:24:3 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_ghost_girl)
+1:24:3 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_ghost_girl)
+1:24:10 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_ghost_girl" (pos=<12264.302734, 140.039993, 12461.711914>)
+1:24:22 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_ghost_girl" (pos=<12267.661133, 140.039993, 12482.109375>)
+1:24:28 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_gromble)
+1:24:44 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_gromble" (pos=<12251.904297, 140.039993, 12460.954102>)
+1:24:49 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Bride)
+1:24:49 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Bride)
+1:24:51 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Bride" (pos=<12249.895508, 140.039993, 12463.676758>)
+1:25:9 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Bride" (pos=<12268.234375, 140.039993, 12479.233398>)
+1:25:16 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Jester)
+1:25:38 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Jester" (pos=<12262.868164, 140.039993, 12516.340820>)
+1:25:46 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Naked)
+1:26:34 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Naked" (pos=<12253.233398, 140.039993, 12496.006836>)
+1:26:43 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Orc)
+1:27:3 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Orc" (pos=<12265.415039, 140.040009, 12484.565430>)
+1:27:13 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Samara)
+1:27:36 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Samara" (pos=<12256.587891, 140.039993, 12460.495117>)
+1:27:38 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_skeleton)
+1:28:0 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_skeleton" (pos=<12277.807617, 140.039993, 12482.489258>)
+1:28:9 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_SugarPlumFairy)
+1:28:34 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_SugarPlumFairy" (pos=<12300.600586, 140.039993, 12467.683594>)
+1:28:35 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12270.609375, 140.000000, 12467.542969>)
+1:28:36 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12258.429688, 140.000015, 12467.292969>)
+1:28:36 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12246.639648, 140.000000, 12467.586914>)
+1:28:41 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Valak)
+1:28:42 | "Barreto" (steamid=76561198360290787) Spawned Item: (BXD_zmb_Valak)
+1:28:44 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Valak" (pos=<12243.934570, 140.039993, 12466.302734>)
+1:29:4 | "Barreto" (steamid=76561198360290787) deleted object "BXD_zmb_Valak" (pos=<12237.127930, 140.039993, 12452.631836>)
+1:29:11 | Player "Barreto" (steamId=76561198360290787) initiated disconnect process...
+1:29:18 | Player "Barreto" (steamId=76561198360290787) disconnected early from server (EXIT NOW).
+1:29:26 | Player "Barreto" (steamId=76561198360290787) disconnected from server.

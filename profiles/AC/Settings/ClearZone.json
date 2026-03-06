@@ -1,0 +1,24 @@
+{
+    "m_Enable": 0,
+    "m_Logging": 1,
+    "m_Zones": [
+        {
+            "m_N": "Skalisty Island",
+            "m_X": 13653.7998046875,
+            "m_Y": 41.70000076293945,
+            "m_Z": 3035.60009765625,
+            "m_R": 500.0
+        },
+        {
+            "m_N": "Prison Island",
+            "m_X": 2674.35009765625,
+            "m_Y": 1.0,
+            "m_Z": 1275.5,
+            "m_R": 500.0
+        }
+    ],
+    "m_Filter": [
+        "Land_Misc_Well_Pump_Blue",
+        "Land_Misc_Well_Pump_Yellow"
+    ]
+}

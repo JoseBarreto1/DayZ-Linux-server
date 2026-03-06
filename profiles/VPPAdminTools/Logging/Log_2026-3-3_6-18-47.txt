@@ -1,0 +1,209 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-3-3_6-18-47
+====================================================================================
+6:18:47 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+6:18:47 | [PermissionManager] Perm (FreeCamera) has been registered!
+6:18:47 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuServerManager) has been registered!
+6:18:47 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+6:18:47 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+6:18:47 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+6:18:47 | [PermissionManager] Perm (ServerManager:LoadScripts) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+6:18:47 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+6:18:47 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+6:18:47 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+6:18:47 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+6:18:47 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+6:18:47 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuBansManager) has been registered!
+6:18:47 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+6:18:47 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+6:18:47 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+6:18:47 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+6:18:47 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+6:18:47 | [PermissionManager] Adding Super Admin (76561198120369757)
+6:18:47 | [PermissionManager] Adding Super Admin (76561198360290787)
+6:18:47 | [PermissionManager] Loaded UserGroups.json
+6:18:47 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+6:18:47 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+6:18:47 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+6:18:47 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+6:18:47 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+6:18:47 | Building Sets Loaded: 0
+6:18:47 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+6:18:47 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+6:20:47 | Player "Barreto" (steamId=76561198360290787) connected to server!
+6:20:58 | "Barreto" (steamid=76561198360290787) gave godmode to (steamid=76561198360290787)
+6:20:58 | "Barreto" (steamid=76561198360290787) gave unlimited ammo to (steamid=76561198360290787)
+6:21:15 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:21:31 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4922.068359, 333.931091, 10436.267578>)
+6:21:36 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:21:39 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4933.927246, 333.892242, 10422.602539>)
+6:21:39 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4942.823242, 333.877716, 10411.821289>)
+6:21:40 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4951.999512, 333.793732, 10400.878906>)
+6:21:40 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4962.455078, 333.267792, 10391.087891>)
+6:21:53 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5010.857910, 326.115173, 10379.832031>)
+6:21:53 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5022.874023, 324.694061, 10379.137695>)
+6:21:54 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5036.332031, 322.894440, 10378.326172>)
+6:21:54 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5050.508789, 320.925751, 10377.475586>)
+6:21:55 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5061.870605, 319.600250, 10377.444336>)
+6:24:49 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5256.738281, 306.235474, 10458.045898>)
+6:25:55 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5314.885254, 304.337952, 10480.788086>)
+6:25:55 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5330.488281, 304.843414, 10490.945313>)
+6:25:55 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5346.082031, 305.483490, 10500.096680>)
+6:25:56 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5363.387695, 306.063019, 10509.863281>)
+6:26:2 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5386.879883, 306.958893, 10519.370117>)
+6:26:3 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5400.353027, 307.964905, 10528.857422>)
+6:26:3 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5413.874512, 308.683075, 10537.824219>)
+6:26:4 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5423.579102, 309.094482, 10544.308594>)
+6:26:4 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5432.987305, 309.464600, 10550.823242>)
+6:26:4 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5437.881836, 310.497650, 10554.506836>)
+6:26:5 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5446.188477, 309.967621, 10562.638672>)
+6:26:5 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5453.247070, 310.258392, 10569.946289>)
+6:27:21 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:27:30 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:27:47 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5340.410645, 308.472534, 10571.250000>)
+6:27:47 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5306.042480, 306.386139, 10533.790039>)
+6:27:48 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5289.187988, 306.330109, 10515.652344>)
+6:27:48 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5267.481445, 306.890991, 10503.327148>)
+6:27:49 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5249.714355, 307.851227, 10493.677734>)
+6:27:49 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5218.954102, 308.214355, 10476.980469>)
+6:27:49 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5197.911133, 308.955353, 10465.176758>)
+6:27:50 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5156.198730, 310.367584, 10439.207031>)
+6:27:50 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5125.819824, 313.607300, 10420.387695>)
+6:27:51 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<5085.342773, 317.400909, 10395.250977>)
+6:28:23 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:28:38 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<2070.331543, 311.215240, 7645.975098>)
+6:28:39 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:29:50 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:30:39 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6360.557617, 304.879761, 7820.698730>)
+6:30:44 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6227.878906, 311.709229, 7894.583008>)
+6:30:45 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:30:51 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6189.781250, 309.774475, 7889.470703>)
+6:30:51 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6172.831055, 309.262390, 7885.632324>)
+6:30:52 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6159.810059, 308.769562, 7882.413086>)
+6:30:52 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6145.852051, 308.156830, 7880.705078>)
+6:30:53 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6127.236816, 306.292175, 7877.602051>)
+6:30:53 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6107.674316, 304.203705, 7874.209473>)
+6:30:54 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<6085.028809, 301.343719, 7859.390137>)
+6:32:44 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:32:59 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<9543.166992, 245.422913, 7628.998535>)
+6:33:0 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:33:33 | [WeatherManager] Send Data Count is 1
+6:42:21 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:42:46 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4031.988281, 367.216553, 11570.572266>)
+6:42:51 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<3866.371582, 359.066772, 11504.478516>)
+6:42:51 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:43:35 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:43:42 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4549.419922, 360.672119, 10852.188477>)
+6:43:48 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<4558.047363, 361.230957, 10854.916992>)
+6:43:49 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:12 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:21 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:23 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:32 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:34 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:47:53 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<2068.093262, 304.107269, 7565.806641>)
+6:47:53 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:49:14 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:49:18 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:49:21 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:49:58 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12048.810547, 140.000061, 12551.437500>)
+6:49:59 | "Barreto" (steamid=76561198360290787) toggled freecam
+6:50:7 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12099.796875, 140.000000, 12537.530273>)
+6:50:7 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12121.880859, 140.000000, 12525.560547>)
+6:50:8 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12133.724609, 140.000031, 12518.267578>)
+6:50:8 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12144.345703, 140.000000, 12512.006836>)
+6:50:9 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12154.166016, 139.999985, 12506.433594>)
+6:50:9 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12164.549805, 140.000031, 12500.600586>)
+6:50:9 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12174.679688, 140.000015, 12494.962891>)
+6:50:10 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12184.758789, 140.000015, 12489.357422>)
+6:50:10 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12194.058594, 139.999985, 12487.578125>)
+6:50:11 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12202.979492, 140.000000, 12486.515625>)
+6:50:11 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12212.392578, 140.000000, 12485.607422>)
+6:50:14 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12210.083984, 139.999985, 12508.516602>)
+6:50:15 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12205.127930, 140.000000, 12527.036133>)
+6:50:15 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12200.312500, 140.000015, 12544.187500>)
+6:50:15 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12195.130859, 140.000000, 12555.801758>)
+6:50:15 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12189.720703, 140.000015, 12567.660156>)
+6:50:16 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12184.342773, 140.000000, 12579.476563>)
+6:50:16 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12184.539063, 141.823593, 12579.768555>)
+6:50:17 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12184.584961, 142.732834, 12580.485352>)
+6:50:17 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12174.301758, 140.000000, 12600.375977>)
+6:50:18 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12169.777344, 140.000000, 12609.184570>)
+6:50:23 | "Barreto" (steamid=76561198360290787) deleted object "AirdropContainer_Medical" (pos=<12157.053711, 140.000000, 12618.975586>)
+6:50:46 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12180.263672, 140.000015, 12529.227539>)
+6:50:47 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12192.577148, 140.000000, 12509.080078>)
+6:50:48 | "Barreto" (steamid=76561198360290787) teleported to crosshair (pos=<12195.690430, 140.000000, 12498.498047>)
+6:50:56 | Player "Barreto" (steamId=76561198360290787) initiated disconnect process...
+6:50:58 | Player "Barreto" (steamId=76561198360290787) disconnected early from server (EXIT NOW).

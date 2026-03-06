@@ -1,0 +1,37 @@
+{
+    "ConfigVersion": 28,
+    "ID": 6,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Troca Times Brasileiro",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "TM_Flamengo",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 5,
+            "ClassName": "TM_Botafogo",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 5,
+            "ClassName": "TM_Corinthians",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 5,
+            "ClassName": "TM_Vasco",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 1
+}

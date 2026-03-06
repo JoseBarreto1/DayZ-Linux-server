@@ -1,0 +1,382 @@
+{
+    "typeName": "BXD_Locker",
+    "worldPosition": [
+        6591.04736328125,
+        336.090087890625,
+        9308.529296875
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "PMK_5A_Gas_Mask",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5658332,
+            "health": 51.40842819213867,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Armors_Titan",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 6119694,
+            "health": 100.0885009765625,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Rigs_DAR",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 89.4422836303711,
+                    "row": 0,
+                    "col": 5,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Armors_Heavy_assault",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 177.65467834472657,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Heads_GN",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": -1445057555,
+            "health": 56.94209289550781,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "CargoPants_Beige",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5612719,
+            "health": 149.4273223876953,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.39316439628601076
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [
+        {
+            "typeName": "TF_SCAR_MREXHndgrd_FDE",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 250.0,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "TF_SCAR_MREXHndgrd_FDE",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 250.0,
+            "row": 0,
+            "col": 3,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DeerSteakMeat",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 6,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 6,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {
+                "StageType": 2,
+                "LastStageType": 2,
+                "DecayTimer": 325244.875
+            },
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                13.0,
+                21.061986923217775,
+                0.0,
+                0.0,
+                224.0,
+                0.14633949100971223
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DeerSteakMeat",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 7,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 6,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {
+                "StageType": 2,
+                "LastStageType": 2,
+                "DecayTimer": 316650.03125
+            },
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                13.0,
+                21.102764129638673,
+                0.0,
+                0.0,
+                225.0,
+                0.14633949100971223
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "DeerSteakMeat",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 8,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 6,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {
+                "StageType": 2,
+                "LastStageType": 2,
+                "DecayTimer": 283223.375
+            },
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                13.0,
+                21.148536682128908,
+                0.0,
+                0.0,
+                225.0,
+                0.14633949100971223
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "BandageDressing",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 50.0,
+            "row": 0,
+            "col": 9,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                9.0,
+                1.0,
+                0.14633949100971223
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

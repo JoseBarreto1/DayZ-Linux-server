@@ -1,0 +1,1648 @@
+{
+    "typeName": "BXD_Mannequin_Female",
+    "worldPosition": [
+        6584.03466796875,
+        336.1993713378906,
+        9316.3681640625
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "My_DF_Gear_Backpacks_Terry",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5100557,
+            "health": 346.2243347167969,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "Crossbow_Autumn",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1345590156,
+                    "health": 164.29388427734376,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 3,
+                    "wpnState": {
+                        "chamberIsFull": 0,
+                        "current_muzzle": 0,
+                        "mode_count": 1,
+                        "muzzle": [
+                            0
+                        ],
+                        "isJammed": 0,
+                        "chamberCartridgeInfo": {},
+                        "intMagCrtrdgInfo": {}
+                    },
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "ACOGOptic",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -1034251040,
+                            "health": 48.77622604370117,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                8.0,
+                                0.049759671092033389
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "TF_MK47_CQBR",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1345590155,
+                    "health": 272.9823913574219,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 3,
+                    "wpnState": {
+                        "chamberIsFull": 1,
+                        "current_muzzle": 0,
+                        "mode_count": 1,
+                        "muzzle": [
+                            0
+                        ],
+                        "isJammed": 0,
+                        "chamberCartridgeInfo": {
+                            "0": {
+                                "infoIndex": 0,
+                                "className": "Bullet_762x39Tracer",
+                                "damage": 0.0
+                            }
+                        },
+                        "intMagCrtrdgInfo": {}
+                    },
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "TF_AR10_LancerHndgrd_MLOCK",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -761463309,
+                            "health": 233.5164337158203,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "TF_M4CraneBttstck",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -54823130,
+                            "health": 144.3389129638672,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                8.0,
+                                0.049912258982658389
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "Mag_AKM_Palm30Rnd",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -493635884,
+                            "health": 89.5551986694336,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 1,
+                            "wpnState": {},
+                            "magState": {
+                                "ammoCount": 30,
+                                "magCrtrdgInfo": [
+                                    {
+                                        "infoIndex": 0,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 1,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 2,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 3,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 4,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 5,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 6,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 7,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 8,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 9,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 10,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 11,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 12,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 13,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 14,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 15,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 16,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 17,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 18,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 19,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 20,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 21,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 22,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 23,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 24,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 25,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 26,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 27,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 28,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    },
+                                    {
+                                        "infoIndex": 29,
+                                        "className": "Bullet_762x39Tracer",
+                                        "damage": 0.0
+                                    }
+                                ]
+                            },
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "M68Optic",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -1034251040,
+                            "health": 50.0,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 4,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {
+                                "EnergyAmount": 0.0
+                            },
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [
+                {
+                    "typeName": "GhillieTop_Mossy",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 33.67565155029297,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "GhillieHood_Mossy",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 107.02108764648438,
+                    "row": 0,
+                    "col": 4,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "GhillieBushrag_Tan",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 39.27443313598633,
+                    "row": 4,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.04899999871850014
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Rigs_Maurice",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": -707980483,
+            "health": 80.58183288574219,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "TacticalGloves_Black",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 81.44380950927735,
+                    "row": 0,
+                    "col": 2,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.04899999871850014
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "AD_ACOG",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 91.51737976074219,
+                    "row": 0,
+                    "col": 6,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "WitchHood_Red",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 250.0,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "TF_FiveSeven",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 111.57643127441406,
+                    "row": 0,
+                    "col": 4,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 3,
+                    "wpnState": {
+                        "chamberIsFull": 1,
+                        "current_muzzle": 0,
+                        "mode_count": 1,
+                        "muzzle": [
+                            0
+                        ],
+                        "isJammed": 0,
+                        "chamberCartridgeInfo": {
+                            "0": {
+                                "infoIndex": 0,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            }
+                        },
+                        "intMagCrtrdgInfo": {}
+                    },
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "PistolSuppressor",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -1935622458,
+                            "health": 14.447507858276368,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "TLRLight",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": 145107529,
+                            "health": 56.0982666015625,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 4,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {
+                                "EnergyAmount": 0.0
+                            },
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "TF_Mag_FiveSeven_20Rnd",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -493635884,
+                            "health": 83.29383087158203,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 1,
+                            "wpnState": {},
+                            "magState": {
+                                "ammoCount": 19,
+                                "magCrtrdgInfo": [
+                                    {
+                                        "infoIndex": 0,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 1,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 2,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 3,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 4,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 5,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 6,
+                                        "className": "Bullet_57",
+                                        "damage": 0.3009999990463257
+                                    },
+                                    {
+                                        "infoIndex": 7,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 8,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 9,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 10,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 11,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 12,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 13,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 14,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 15,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 16,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 17,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    },
+                                    {
+                                        "infoIndex": 18,
+                                        "className": "Bullet_57",
+                                        "damage": 0.0010000000474974514
+                                    }
+                                ]
+                            },
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "TF_Mag_FiveSeven_20Rnd",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 82.99451446533203,
+                    "row": 2,
+                    "col": 2,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 1,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 20,
+                        "magCrtrdgInfo": [
+                            {
+                                "infoIndex": 0,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 1,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 2,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 3,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 4,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 5,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 6,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 7,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 8,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 9,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 10,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 11,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 12,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 13,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 14,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 15,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 16,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 17,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 18,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 19,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            }
+                        ]
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "TF_Mag_FiveSeven_20Rnd",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 61.1480598449707,
+                    "row": 2,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 1,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 20,
+                        "magCrtrdgInfo": [
+                            {
+                                "infoIndex": 0,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 1,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 2,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 3,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 4,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 5,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 6,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 7,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 8,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 9,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 10,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 11,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 12,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 13,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 14,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 15,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 16,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 17,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 18,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            },
+                            {
+                                "infoIndex": 19,
+                                "className": "Bullet_57",
+                                "damage": 0.0010000000474974514
+                            }
+                        ]
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "Mag_UMP_25Rnd",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 52.45673751831055,
+                    "row": 3,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 1,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 10,
+                        "magCrtrdgInfo": [
+                            {
+                                "infoIndex": 0,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 1,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 2,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 3,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 4,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 5,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 6,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 7,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 8,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            },
+                            {
+                                "infoIndex": 9,
+                                "className": "Bullet_45ACP",
+                                "damage": 0.3009999990463257
+                            }
+                        ]
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "UMP45",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1897070500,
+            "health": 230.6591796875,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "ACOGOptic",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1034251040,
+                    "health": 39.29655838012695,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                },
+                {
+                    "typeName": "PistolSuppressor",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -1935622458,
+                    "health": 13.817349433898926,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Rigs_Sineva",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 6119694,
+            "health": 70.2616958618164,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Items_ClothesPouch",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 98.53358459472656,
+                    "row": 0,
+                    "col": 2,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "M9A1_Bayonet",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": 206254677,
+                            "health": 89.54589080810547,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "Matchbox",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 49.29656982421875,
+                    "row": 4,
+                    "col": 7,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        1.0,
+                        100.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "ChickenFeather",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 2.017700433731079,
+                    "row": 4,
+                    "col": 6,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        1.0,
+                        15.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "Ammo_ImprovisedBolt_2",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 45.395591735839847,
+                    "row": 0,
+                    "col": 6,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 2,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 2,
+                        "magCrtrdgInfo": []
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "Ammo_ImprovisedBolt_2",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 46.71335983276367,
+                    "row": 0,
+                    "col": 7,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 2,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 5,
+                        "magCrtrdgInfo": []
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Backpacks_Shiled2",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 446.04937744140627,
+                    "row": 3,
+                    "col": 2,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.04899999871850014
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "TTsKOJacket_Camo",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5119774,
+            "health": 139.29769897460938,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "Jeans_Black",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5612719,
+            "health": 38.357200622558597,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.6539323925971985
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Heads_H09",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": -1445057555,
+            "health": 99.59562683105469,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "My_DF_Gear_Heads_Heavy_Armor2_Visor",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 438014152,
+                    "health": 66.81925964355469,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Items_Glasses",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1436473694,
+            "health": 45.702205657958987,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.11207038909196854
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

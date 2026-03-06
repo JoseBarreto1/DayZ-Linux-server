@@ -1,0 +1,39 @@
+{
+    "configVersion": 1,
+    "name": "zeloot",
+    "shortname": "BRz",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1750424182,
+    "creationDate": 1750423429,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 52561671,
+            "name": "[BRz]Xacall-BR",
+            "icon": "",
+            "position": [
+                1754.8720703125,
+                10.666943550109864,
+                2252.071533203125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198160368459",
+            "permissionGroup": 9,
+            "online": 0,
+            "health": 0.0
+        }
+    ],
+    "markers": []
+}

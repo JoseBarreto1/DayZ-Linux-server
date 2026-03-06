@@ -1,0 +1,279 @@
+{
+    "m_Enable": 0,
+    "m_Groups": [
+        {
+            "m_Name": "KIT",
+            "m_Steam": [
+                "00000000000000000"
+            ],
+            "m_Kits": [
+                "clothesblack;clothesgreen;clothesblue",
+                "foods",
+                "items",
+                "weapon"
+            ]
+        }
+    ],
+    "m_Everyone": [
+        "clothes",
+        "foods",
+        "items"
+    ],
+    "m_Kits": [
+        {
+            "m_Name": "clothes",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "TShirt_Beige;TShirt_Black;TShirt_Blue;TShirt_Green;TShirt_OrangeWhiteStripes;TShirt_Red;TShirt_RedBlackStripes;TShirt_White;TShirt_Grey",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Jeans_Black;Jeans_Blue;Jeans_Brown;Jeans_Green;Jeans_Grey;Jeans_BlueDark",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "BeanieHat_Beige;BeanieHat_Black;BeanieHat_Blue;BeanieHat_Brown;BeanieHat_Green;BeanieHat_Grey;BeanieHat_Pink;BeanieHat_Red",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "AthleticShoes_Blue;AthleticShoes_Black;AthleticShoes_Brown;AthleticShoes_Green;AthleticShoes_Grey",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        },
+        {
+            "m_Name": "clothesblack",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "TShirt_Black",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Jeans_Black",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "BeanieHat_Black",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "AthleticShoes_Black",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        },
+        {
+            "m_Name": "clothesgreen",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "TShirt_Green",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Jeans_Green",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "BeanieHat_Green",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "AthleticShoes_Green",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        },
+        {
+            "m_Name": "clothesblue",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "TShirt_Blue",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Jeans_Blue",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "BeanieHat_Blue",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "AthleticShoes_Blue",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        },
+        {
+            "m_Name": "foods",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "Apple;Pear;Plum",
+                    "m_QuickBar": 4,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "SodaCan_Pipsi;SodaCan_Cola;SodaCan_Spite;SodaCan_Kvass",
+                    "m_QuickBar": 0,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        },
+        {
+            "m_Name": "items",
+            "m_HealthMin": 75,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "KitchenKnife",
+                    "m_QuickBar": 1,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Rag",
+                    "m_QuickBar": 2,
+                    "m_StackMin": 50,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                },
+                {
+                    "m_Class": "Flashlight",
+                    "m_QuickBar": 3,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": [
+                        {
+                            "m_Class": "Battery9V",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "m_Name": "weapon",
+            "m_HealthMin": 100,
+            "m_HealthMax": 100,
+            "m_Items": [
+                {
+                    "m_Class": "M4A1",
+                    "m_QuickBar": 1,
+                    "m_StackMin": 0,
+                    "m_StackMax": 100,
+                    "m_Attachments": [
+                        {
+                            "m_Class": "M4_OEBttstck;M4_MPBttstck;M4_CQBBttstck",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        },
+                        {
+                            "m_Class": "M4_PlasticHndgrd;M4_RISHndgrd;M4_MPHndgrd",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        },
+                        {
+                            "m_Class": "Mag_STANAG_30Rnd",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        },
+                        {
+                            "m_Class": "M4_Suppressor;ImprovisedSuppressor",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        },
+                        {
+                            "m_Class": "ACOGOptic_6x;M68Optic;ReflexOptic",
+                            "m_QuickBar": 0,
+                            "m_StackMin": 50,
+                            "m_StackMax": 100,
+                            "m_Attachments": []
+                        }
+                    ]
+                },
+                {
+                    "m_Class": "Mag_STANAG_30Rnd",
+                    "m_QuickBar": 4,
+                    "m_StackMin": 50,
+                    "m_StackMax": 100,
+                    "m_Attachments": []
+                }
+            ]
+        }
+    ],
+    "m_MoveWeaponToHands": 0
+}

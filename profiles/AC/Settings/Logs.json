@@ -1,0 +1,35 @@
+{
+    "m_Admin": 0,
+    "m_Building": {
+        "m_Barrel": 0,
+        "m_Base": 0,
+        "m_CombinationLock": 0,
+        "m_Fence": 0,
+        "m_GardenPlot": 0,
+        "m_Tent": 0,
+        "m_TerritoryFlag": 0
+    },
+    "m_Player": {
+        "m_Connection": 0,
+        "m_Bleeding": 0,
+        "m_Bury": 0,
+        "m_HitBy": 0,
+        "m_Killed": 0,
+        "m_Machine": 0,
+        "m_Position": 0,
+        "m_Restrain": 0,
+        "m_Suicide": 0,
+        "m_Unconscious": 0
+    },
+    "m_Vehicle": {
+        "m_Close": 0,
+        "m_Engine": 0,
+        "m_Enter": 0,
+        "m_HitBy": 0,
+        "m_Leave": 0,
+        "m_Open": 0,
+        "m_Push": 0,
+        "m_Spawn": 0
+    },
+    "m_Inputs": []
+}

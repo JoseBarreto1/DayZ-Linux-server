@@ -1,0 +1,59 @@
+{
+    "configVersion": 1,
+    "name": "elCartel",
+    "shortname": "elC",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1754443773,
+    "creationDate": 1754424739,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 1138788381,
+            "name": "Groo",
+            "icon": "",
+            "position": [
+                33.46199417114258,
+                292.531494140625,
+                8532.3408203125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198345310407",
+            "permissionGroup": 9,
+            "online": 0,
+            "health": 100.0
+        },
+        {
+            "type": 4,
+            "uid": 1714277506,
+            "name": "CAPOTEI A VIATURA!",
+            "icon": "",
+            "position": [
+                51.27926254272461,
+                290.5849304199219,
+                8516.318359375
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198003532688",
+            "permissionGroup": 5,
+            "online": 0,
+            "health": 100.0
+        }
+    ],
+    "markers": []
+}

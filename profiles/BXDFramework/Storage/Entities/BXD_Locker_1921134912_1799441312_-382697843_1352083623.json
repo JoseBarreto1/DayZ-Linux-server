@@ -1,0 +1,341 @@
+{
+    "typeName": "BXD_Locker",
+    "worldPosition": [
+        6584.404296875,
+        336.19915771484377,
+        9309.408203125
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "My_DF_Gear_Armors_Trick",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 6119694,
+            "health": 131.19601440429688,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Armors_Hvk2",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 200.0,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.3786117136478424
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "NBCJacketGray",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 100.0,
+                    "row": 0,
+                    "col": 5,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.04899999871850014
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Heads_GT5",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 100.0,
+                    "row": 4,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Heads_Heavy",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 96.99855041503906,
+                    "row": 3,
+                    "col": 5,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "My_DF_Gear_Heads_Heavy_Visor",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": 438014152,
+                            "health": 71.76883697509766,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.04944021254777908
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "PaydayMask_Dallas",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5658332,
+            "health": 60.0,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.04899999871850014
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "TF_VPO136",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1897070500,
+            "health": 274.90277099609377,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 0,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {},
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [
+        {
+            "typeName": "My_DF_Gear_Heads_H09",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 99.73187255859375,
+            "row": 0,
+            "col": 0,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "My_DF_Gear_Armors_Elite",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 198.39125061035157,
+            "row": 0,
+            "col": 3,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.12576816976070405
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "NBCPantsGray",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 100.0,
+            "row": 0,
+            "col": 7,
+            "flipped": 1,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

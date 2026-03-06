@@ -1,0 +1,520 @@
+{
+    "typeName": "BXD_Locker",
+    "worldPosition": [
+        6588.78076171875,
+        336.0898742675781,
+        9302.5966796875
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "My_DF_Gear_Armors_FS",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 6119694,
+            "health": 199.73187255859376,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Armors_Hvk",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 172.0853271484375,
+                    "row": 0,
+                    "col": 5,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [
+                        {
+                            "typeName": "PlateCarrierHolster",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -951543029,
+                            "health": 85.68621063232422,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        },
+                        {
+                            "typeName": "My_DF_Gear_Items_ClothesPouch2",
+                            "worldPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "index": -230399667,
+                            "health": 98.95323181152344,
+                            "row": 0,
+                            "col": 0,
+                            "flipped": 0,
+                            "agents": 0,
+                            "itemType": 0,
+                            "wpnState": {},
+                            "magState": {},
+                            "energyState": {},
+                            "foodState": {},
+                            "attachments": [],
+                            "cargo": [],
+                            "damageZones": {},
+                            "itemBaseVariables": [
+                                0.0
+                            ],
+                            "customVariables": {},
+                            "locationType": 2
+                        }
+                    ],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Armors_Marksman",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 198.29583740234376,
+                    "row": 4,
+                    "col": 3,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Rigs_DAR",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 81.53813171386719,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Heads_H09",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": -1445057555,
+            "health": 100.0,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Rigs_Maurice",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": -707980483,
+            "health": 83.94482421875,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Rigs_Mounting",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 94.64400482177735,
+                    "row": 0,
+                    "col": 4,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Armors_FS",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 155.3063201904297,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Heads_D6_Visor",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 78.35660552978516,
+                    "row": 2,
+                    "col": 4,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "Military_Sweater_Black",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5119774,
+            "health": 85.3135757446289,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "My_DF_Gear_Backpacks_Travel",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 376.19403076171877,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        8.0,
+                        0.04899999871850014
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                8.0,
+                0.83148193359375
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "My_DF_Gear_Backpacks_GT1",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5100557,
+            "health": 479.9267578125,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [
+                {
+                    "typeName": "BXD_fake_ballon_exp_1",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 48.83124923706055,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                },
+                {
+                    "typeName": "My_DF_Gear_Heads_GT5",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": 0,
+                    "health": 100.0,
+                    "row": 0,
+                    "col": 5,
+                    "flipped": 1,
+                    "agents": 0,
+                    "itemType": 0,
+                    "wpnState": {},
+                    "magState": {},
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 3
+                }
+            ],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [
+        {
+            "typeName": "PlateCarrierVest",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 223.12815856933595,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        },
+        {
+            "typeName": "My_DF_Gear_Rigs_DAR",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 0,
+            "health": 93.08816528320313,
+            "row": 0,
+            "col": 5,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 3
+        }
+    ],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

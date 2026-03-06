@@ -1,0 +1,678 @@
+{
+    "Settings": [
+        {
+            "Config_Version": 1.0,
+            "Minimum_Players": 1,
+            "Cleanup_Radius": 5,
+            "Cleanup_Time_After_KOTH_Finished": 60,
+            "KOTH_Reward_Delete_On_Cleanup": 1,
+            "KOTH_Players_In_Radius_Check_Range": 200,
+            "KOTH_Max_Simultaneous": 1,
+            "KOTH_Simultaneous_Stagger_Time_Min": 1200,
+            "KOTH_Simultaneous_Stagger_Time_Max": 1800,
+            "KOTH_Start_Delay": 120,
+            "KOTH_Starting_Failed_Retry_Delay": 120,
+            "KOTH_Time_Between": 1800,
+            "KOTH_Time_Limit": 1200,
+            "KOTH_Capture_Time": 90,
+            "KOTH_Web_hook": "",
+            "aiFaction": "Flamengo",
+            "aiLoadout": "FlamengoLoadout",
+            "maxAmountAI": 5,
+            "minAmountAI": 2,
+            "porcentMusic": 95,
+            "tempMusic": 10,
+            "Radius_Zone": 200,
+            "KOTH_Spawn_Start_Delay": 120,
+            "KOTH_Capture_Speed_Bonus_PerPlayer_PerSec": 0.25,
+            "KOTH_Capture_Speed_Bonus_PerPlayer_PerSec_Max": 2.0,
+            "KOTH_Flag_Lower_If_Abandoned": 1,
+            "KOTH_Do_Smoke": 1,
+            "KOTH_Do_Fireworks_On_Win": 1,
+            "Map_Marker_Enabled": 1,
+            "LB_Marker_Radius": 150,
+            "Perspective_Marker_Enabled": 1,
+            "Notification_Enabled": 1,
+            "Logging_Enabled": 1,
+            "Debug_QuickMode": 0,
+            "Flags": [
+                "Flag_Bohemia",
+                "Flag_Chernarus",
+                "Flag_Pirates"
+            ],
+            "KOTH_Enemies": [
+                {
+                    "ClassName": "ZmbF_CitizenANormal_Brown",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Zmbm_Mummy",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_CanisLupus_Grey",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_UrsusArctos",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_CanisLupus_Grey",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_UrsusArctos",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_CanisLupus_Grey",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "ZmbF_Clerk_Normal_White",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "ZmbF_DoctorSkinny",
+                    "SpawnRarity": 0
+                }
+            ]
+        }
+    ],
+    "KOTHs": [
+        {
+            "Name": "Zelenogorsk Military",
+            "Reward_Position": [
+                2562.699951171875,
+                193.1750030517578,
+                5117.337890625
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Elektro Police Station",
+            "Reward_Position": [
+                10461.14453125,
+                5.956999778747559,
+                2258.447021484375
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Berezino",
+            "Reward_Position": [
+                12783.6,
+                6.011,
+                9656.53
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Svetloyarsk",
+            "Reward_Position": [
+                13934.5,
+                19.18,
+                13228.7
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Krasnostav",
+            "Reward_Position": [
+                11887.5,
+                140.012,
+                12481
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Airfield",
+            "Reward_Position": [
+                4547.63,
+                339.009,
+                10694.9
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Bashnya Military",
+            "Reward_Position": [
+                4032.41,
+                375.977,
+                11715
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "NovayaPetrovka",
+            "Reward_Position": [
+                3432,
+                192.742,
+                13025.5
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Troitskoe",
+            "Reward_Position": [
+                8010.44,
+                339.822,
+                14634.5
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Balota",
+            "Reward_Position": [
+                4961.58,
+                9.511,
+                2455.34
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Stary Sobor",
+            "Reward_Position": [
+                6037.73,
+                300.772,
+                7835.44
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "VMC Military",
+            "Reward_Position": [
+                4522.79,
+                316.194,
+                8278.74
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        },
+        {
+            "Name": "Myshkino Madeireira",
+            "Reward_Position": [
+                930.792,
+                181.119,
+                7657.41
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Enemies_Count": 18,
+            "Reward_Loot_Count": 6,
+            "Reward_Container_Classnames": [
+                "BXD_Kingchest_SupplyBox1"
+            ],
+            "Static_Objects": []
+        }
+    ],
+    "Reward_Containers": [
+        {
+            "ClassName": "BXD_Kingchest_SupplyBox1",
+            "Is_Scripted_Reward": 0
+        },
+        {
+            "ClassName": "BXD_Kingchest_SupplyBox2",
+            "Is_Scripted_Reward": 0
+        },
+        {
+            "ClassName": "BXD_Kingchest_SupplyBox3",
+            "Is_Scripted_Reward": 0
+        }
+    ],
+    "lootToSpawn": [
+        [
+            {
+                "itemName": "grupo1",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "Pen_Black", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "ElectronicRepairKit", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AKM", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "M4A1_Black", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "Mag_FAL_20Rnd", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "FAL", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "Mag_AKM_Drum75Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_UnlockingSledge", "qty": 100.0, "spawnChance": 20,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 35,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 25, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 25, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 25, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo2",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "FAL", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "M79", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "M14", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "Mag_M14_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AirdropFlare", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 55,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 55, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 35, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 35, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo3",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "SVD_Wooden", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "M79", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_SVD_10Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AirdropFlare", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 65,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 45, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo4",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "ElectronicRepairKit", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "FAL", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_SVD_10Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_UnlockingSledge", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "AirdropFlare", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 35,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo5",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 65,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "AKM", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_FAL_20Rnd", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_M14_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "ACOGOptic", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 65,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo6",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 65,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "SVD_Wooden", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "M4A1_Black", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "Mag_FAL_20Rnd", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "ACOGOptic", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AirdropFlare", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 25,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo7",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "M79", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "M14", "qty": 100.0, "spawnChance": 40,"children": [] },
+                    { "itemName": "Mag_AKM_Drum75Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 35,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ],
+        [
+            {
+                "itemName": "grupo8",
+                "qty": 0.0,
+                "spawnChance": 0,
+                "children": [
+                    { "itemName": "NBCHoodWhite", "qty": 100.0, "spawnChance": 45,"children": [] },
+                    { "itemName": "NBCHoodGray", "qty": 100.0, "spawnChance": 65,"children": [] },
+                    { "itemName": "NBCHoodYellow", "qty": 100.0, "spawnChance": 50,"children": [] },
+                    { "itemName": "ElectronicRepairKit", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "M79", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "M14", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "FAL", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_M14_20Rnd", "qty": 100.0, "spawnChance": 60,"children": [] },
+                    { "itemName": "Mag_SVD_10Rnd", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "ACOGOptic", "qty": 100.0, "spawnChance": 30,"children": [] },
+                    { "itemName": "CBD_LootRoomKey_Blue", "qty": 100.0, "spawnChance": 25,"children": [] },
+                    { "itemName": "BXD_StorageBox_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryLocker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_Locker_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_FourDoor_MilitaryLocker_Green_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_Mannequin_Male_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "BXD_DoubleGunRack_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
+                    { "itemName": "BXD_Gunwall_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_TreasureChest", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "BXD_MilitaryCrate_Green", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_308WinTracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_308Win_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_545x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_556x45_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x39_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54Tracer_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_762x54_20Rnd", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "AmmoBox_9x39AP_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "AmmoBox_9x39_20Rnd", "qty": 100.0, "spawnChance": 15, "children": [] }
+                ]
+            }
+        ]
+    ]
+}

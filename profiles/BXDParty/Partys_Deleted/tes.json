@@ -1,0 +1,39 @@
+{
+    "configVersion": 1,
+    "name": "teste",
+    "shortname": "tes",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1759331446,
+    "creationDate": 1759125801,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 630279087,
+            "name": "Barreto",
+            "icon": "",
+            "position": [
+                6586.4853515625,
+                344.4761657714844,
+                8271.849609375
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198360290787",
+            "permissionGroup": 9,
+            "online": 1,
+            "health": 100.0
+        }
+    ],
+    "markers": []
+}

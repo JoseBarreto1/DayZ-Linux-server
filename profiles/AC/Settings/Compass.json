@@ -1,0 +1,13 @@
+{
+    "m_Enable": 0,
+    "m_Background": {
+        "m_A": 75,
+        "m_R": 0,
+        "m_G": 0,
+        "m_B": 0
+    },
+    "m_ShowLetters": 1,
+    "m_ShowNumbers": 1,
+    "m_RequiredCompassItem": 0,
+    "m_RequiredCompassOpen": 1
+}

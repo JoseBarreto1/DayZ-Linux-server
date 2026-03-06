@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 8,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Troca Times Seleção",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 4,
+            "ClassName": "TM_Portugal",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 4,
+            "ClassName": "TM_BrasilYellow",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 1
+}

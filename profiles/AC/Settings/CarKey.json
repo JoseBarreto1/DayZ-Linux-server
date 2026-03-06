@@ -1,0 +1,26 @@
+{
+    "m_Enable": 0,
+    "m_Logging": 0,
+    "m_LockAfterLink": 1,
+    "m_LockPickTime": 0,
+    "m_LockPickDamage": 25,
+    "m_DisableLinkAfterPick": 0,
+    "m_DuplicateKeyDamage": 50,
+    "m_Grinders": [
+        {
+            "m_Name": "Green Mountain",
+            "m_Class": "AC_CarKey_Grinder",
+            "m_Position": {
+                "m_X": 3712.930908203125,
+                "m_Y": 402.8034362792969,
+                "m_Z": 5961.35546875
+            },
+            "m_Orientation": {
+                "m_Yaw": -16.0,
+                "m_Pitch": 0.0,
+                "m_Roll": 0.0
+            }
+        }
+    ],
+    "m_IgnoreVehicles": []
+}

@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 2,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Troca de Chave Vermelha",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "CBD_LootRoomKey_Red",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 2,
+            "ClassName": "LeatherSewingKit",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

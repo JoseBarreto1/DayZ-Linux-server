@@ -1,0 +1,40 @@
+{
+    "m_Enable": 0,
+    "m_ShowOnMap": 1,
+    "m_TimeDelay": 10,
+    "m_Zones": [
+        {
+            "m_Name": "Safe Zone",
+            "m_Icon": "shield",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 0,
+                "m_G": 255,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 8228.2099609375,
+                    "m_Y": 519.2999877929688,
+                    "m_Z": 9033.1904296875,
+                    "m_R": 300.0
+                },
+                {
+                    "m_X": 8093.4501953125,
+                    "m_Y": 508.79998779296877,
+                    "m_Z": 9330.6298828125,
+                    "m_R": 300.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 1
+        }
+    ],
+    "m_Messages": {
+        "m_Enter": "You just entered a safe zone.",
+        "m_Time": "You are leaving the zone in %TimeSeconds% seconds.",
+        "m_Exit": "You just left a safe zone."
+    },
+    "m_NotificationTime": 10,
+    "m_NotificationInChat": 0
+}

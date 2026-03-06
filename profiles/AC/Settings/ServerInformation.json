@@ -1,0 +1,107 @@
+{
+    "m_Enable": 1,
+    "m_ServerLogo": 1,
+    "m_Description": "Descrição do servidor",
+    "m_Tabs": [
+        {
+            "m_TabLabel": "REGRAS GERAIS",
+            "m_TabLines": [
+                "01 - Respeito é essencial. Toxicidade fora do jogo será punida.",
+                "02 - Racismo, homofobia e afins = banimento imediato.",
+                "03 - Hacks, macros, bugs = ban SEM aviso.",
+                "04 - Proibido divulgar outros servidores.",
+                "05 - Contas alternativas = ban de todas envolvidas.",
+                "06 - Flood/spam no chat será punido.",
+                "07 - Recusa de call para tela = tentativa de evasão.",
+                "08 - Bugs acontecem. Não há reembolso.",
+                "09 - Regras podem mudar sem aviso. Acompanhe o Discord.",
+                "10 - Dúvidas? Crie ticket no discord."
+            ]
+        },
+        {
+            "m_TabLabel": "BASES E VEÍCULOS",
+            "m_TabLines": [
+                "01 - Bases: máx. 4x4x4 (BBP).",
+                "02 - Proibido construir em áreas de interesse público. (fechando água, bases, cidades e etc.)",
+                "03 - Proibido construir bases somente para raid.",
+                "04 - Não construa perto de traders ou áreas militares.",
+                "05 - Só é possível construir após fazer a bandeira",
+                "06 - Veículos: só por ticket no Discord.",
+                "07 - Base Vanilla no mapa = Raid Livre 24/7.",
+                "08 - Sem garagem virtual. Guarde na base.",
+                "09 - Perdas por bugs ou roubos = abra ticket no discord.",
+                "10 - Lockpicks em teste. Acompanhe o Discord."
+            ]
+        },
+        {
+            "m_TabLabel": "TELAGEM",
+            "m_TabLines": [
+                "01 - Telagem = BAN PERMANENTE.",
+                "02 - Itens que geram ban:",
+                "    - Defender desabilitado.",
+                "    - Windows modificado.",
+                "    - Logs limpos/bloqueados.",
+                "    - Rede/logs ocultos.",
+                "    - Serviços do sistema desligados.",
+                "03 - Recusa de inspeção = ban imediato.",
+                "04 - Ao jogar, você aceita nossas regras.",
+                "05 - Cooperação com staff é obrigatória."
+            ]
+        },
+        {
+            "m_TabLabel": "TRADERS",
+            "m_TabLines": [
+                "01 - GREEN MOUNTAIN e KLEN",
+                "02 - Bots de troca de itens de eventos.",
+                "03 - Fique atento: há itens raros únicos.",
+                "04 - Trocas mudam por temporada/evento.",
+                "05 - Novidades sempre anunciadas no Discord.",
+                "06 - Use as trocas a seu favor!"
+            ]
+        },
+        {
+            "m_TabLabel": "BOTS NO SERVIDOR",
+            "m_TabLines": [
+                "TORCIDAS ORGANIZADAS TOMARAM O MAPA!",
+                "",
+                "NIVEL 1 - ARMAS BRANCAS",
+                "- Areas de spawn",
+                "- Muito agressivos",
+                "- Se te derrubarem: sequestro na pancada!",
+                "",
+                "NIVEL 2 - ARMAS NAO LETAIS (.22)",
+                "- Bases militares, ate mesmo iniciais",
+                "- Usam calibre .22 para desmaiar",
+                "- Se acabar a muni, usam porrada",
+                "",
+                "NIVEL 3 - ARMAS VANILLA",
+                "- NW Airfield, Tisy, Troitskoe",
+                "- Patrulhas bem armadas",
+                "- Enfrente somente se estiver equipado",
+                "",
+                "CAMISAS = MOEDA DE TROCA",
+                "- Dropam camisas da torcida",
+                "- Troque por kits no Discord (mercado-livre)",
+                "",
+                "AVISOS IMPORTANTES:",
+                "- Todos os bots sao hostis",
+                "- Patrulham em grupo",
+                "- Sem reembolso por morte para bots"
+            ]
+        }
+    ],
+    "m_Buttons": [
+        {
+            "m_ButtonText": "DOAÇÕES",
+            "m_ButtonLink": "https://discord.com/channels/1365066913033490603/1370869169813459024"
+        },
+        {
+            "m_ButtonText": "TIKTOK",
+            "m_ButtonLink": "https://www.tiktok.com/@baixada.cruelz"
+        },
+        {
+            "m_ButtonText": "DISCORD",
+            "m_ButtonLink": "https://discord.gg/WmtPytQ5NZ"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "configVersion": 1,
+    "name": "LINYUS",
+    "shortname": "LNS",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1749907905,
+    "creationDate": 1749824837,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 1251972497,
+            "name": "QUINTINERA",
+            "icon": "",
+            "position": [
+                6571.353515625,
+                336.2176513671875,
+                9334.5478515625
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198339998022",
+            "permissionGroup": 9,
+            "online": 1,
+            "health": 100.0
+        }
+    ],
+    "markers": [
+        {
+            "type": 3,
+            "uid": 1105232929,
+            "name": "BARRIL",
+            "icon": "BXD_SystemParty\\gui\\icons\\marker.paa",
+            "position": [
+                4507.76416015625,
+                176.77139282226563,
+                12913.490234375
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255
+        }
+    ]
+}

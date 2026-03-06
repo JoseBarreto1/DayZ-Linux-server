@@ -1,0 +1,67 @@
+{
+    "m_Enable": 0,
+    "m_Logging": 0,
+    "m_Direct": 0,
+    "m_Global": 0,
+    "m_Lines": 12,
+    "m_Timeout": 20,
+    "m_Waiting": 1,
+    "m_Distance": 50,
+    "m_Identity": 1,
+    "m_Color": {
+        "m_A": 255,
+        "m_R": 255,
+        "m_G": 255,
+        "m_B": 255
+    },
+    "m_Admin": {
+        "m_Color": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 0,
+            "m_B": 0
+        },
+        "m_Lenght": 120
+    },
+    "m_Event": {
+        "m_Color": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 0,
+            "m_B": 0
+        },
+        "m_Lenght": 120
+    },
+    "m_Game": {
+        "m_Color": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 0,
+            "m_B": 0
+        },
+        "m_Lenght": 120
+    },
+    "m_Group": {
+        "m_Color": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 200,
+            "m_B": 0
+        },
+        "m_Lenght": 75
+    },
+    "m_User": {
+        "m_Color": {
+            "m_A": 255,
+            "m_R": 0,
+            "m_G": 200,
+            "m_B": 255
+        },
+        "m_Lenght": 75
+    },
+    "m_Filter": [
+        "fuck",
+        "dumbass"
+    ],
+    "m_Webhook": ""
+}

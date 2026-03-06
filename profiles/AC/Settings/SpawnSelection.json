@@ -1,0 +1,76 @@
+{
+    "m_Enable": 1,
+    "m_Logging": 0,
+    "m_ShowMapZone": 1,
+    "m_Positions": [
+        {
+            "m_N": "Chernogorsk",
+            "m_X": 7308.0,
+            "m_Y": 3653.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Elektrozavodsk",
+            "m_X": 10022.0,
+            "m_Y": 2456.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Kamyshovo",
+            "m_X": 11901.0,
+            "m_Y": 3708.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Solnechny",
+            "m_X": 13090.0,
+            "m_Y": 6420.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Berezino",
+            "m_X": 12438.0,
+            "m_Y": 10039.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Svetloyarsk",
+            "m_X": 13881.0,
+            "m_Y": 12977.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Komarovo",
+            "m_X": 3329.0,
+            "m_Y": 2479.0,
+            "m_R": 100.0
+        },
+        {
+            "m_N": "Kamenka",
+            "m_X": 1659.0,
+            "m_Y": 2335.0,
+            "m_R": 100.0
+        }
+    ],
+    "m_Priority": [
+        {
+            "m_Steam": [
+                "00000000000000000"
+            ],
+            "m_Positions": [
+                {
+                    "m_N": "Stary Sobor",
+                    "m_X": 6282.0,
+                    "m_Y": 8048.0,
+                    "m_R": 100.0
+                }
+            ]
+        }
+    ],
+    "m_BlockDistance": 500,
+    "m_BlockDistanceTime": 60,
+    "m_BlockLastPosition": 0,
+    "m_SpawnProtectionTime": 0,
+    "m_SpawnProtectionBefore": "You have %Time% seconds of protection.",
+    "m_SpawnProtectionAfter": "Your protection is over"
+}

@@ -1,0 +1,72 @@
+{
+    "configVersion": 1,
+    "name": "EdsonFarias55",
+    "shortname": "EF55",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1749998224,
+    "creationDate": 1749915333,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 473839895,
+            "name": "EdsonFarias_54",
+            "icon": "",
+            "position": [
+                13644.326171875,
+                39.87710952758789,
+                13162.1220703125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561199209497289",
+            "permissionGroup": 9,
+            "online": 1,
+            "health": 100.0
+        }
+    ],
+    "markers": [
+        {
+            "type": 3,
+            "uid": 1698613925,
+            "name": "",
+            "icon": "BXD_SystemParty\\gui\\icons\\marker.paa",
+            "position": [
+                2866.724853515625,
+                275.2048034667969,
+                4021.25244140625
+            ],
+            "currentSubgroup": 0,
+            "colorA": 251,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 29
+        },
+        {
+            "type": 3,
+            "uid": 130486345,
+            "name": "",
+            "icon": "BXD_SystemParty\\gui\\icons\\marker.paa",
+            "position": [
+                2546.364501953125,
+                194.2833251953125,
+                5032.0478515625
+            ],
+            "currentSubgroup": 0,
+            "colorA": 251,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 29
+        }
+    ]
+}

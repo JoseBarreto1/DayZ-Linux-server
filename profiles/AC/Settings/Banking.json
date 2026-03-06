@@ -1,0 +1,44 @@
+{
+    "m_Enable": 0,
+    "m_Logging": 1,
+    "m_ATMs": [
+        {
+            "m_Name": "Green Mountain",
+            "m_Class": "AC_Banking_ATM_Red",
+            "m_Position": {
+                "m_X": 3706.575927734375,
+                "m_Y": 402.0,
+                "m_Z": 5986.47314453125
+            },
+            "m_Orientation": {
+                "m_Yaw": 100.0,
+                "m_Pitch": 0.0,
+                "m_Roll": 0.0
+            }
+        }
+    ],
+    "m_PayCheck": {
+        "m_Amount": 60.0,
+        "m_Wallet": "",
+        "m_MinPlayerCount": 10,
+        "m_Groups": [
+            {
+                "m_Description": "desc",
+                "m_Steam": [
+                    "00000000000000000"
+                ],
+                "m_Bonus": 60.0
+            }
+        ]
+    },
+    "m_Wallets": [
+        {
+            "m_Name": "ruble",
+            "m_Deposit": 1,
+            "m_Withdraw": 1,
+            "m_MaxBalance": 50000,
+            "m_StartBalance": 1000,
+            "m_Money": "ruble"
+        }
+    ]
+}

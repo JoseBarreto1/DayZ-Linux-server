@@ -1,0 +1,22 @@
+{
+    "m_Groups": [
+        {
+            "m_Name": "superadmin",
+            "m_ForceName": 0,
+            "m_Users": [
+                {
+                    "m_Name": "CALLUS",
+                    "m_Steam": "76561198120369757"
+                },
+                {
+                    "m_Name": "Barreto",
+                    "m_Steam": "76561198360290787"
+                }
+            ],
+            "m_Permissions": [
+                "root"
+            ]
+        }
+    ],
+    "m_Everyone": []
+}

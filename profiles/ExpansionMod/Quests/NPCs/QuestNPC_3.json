@@ -1,0 +1,24 @@
+{
+    "ConfigVersion": 6,
+    "ID": 3,
+    "ClassName": "ExpansionQuestBoardLarge",
+    "Position": [
+        11477.492188, 344.288330, 11331.120117
+    ],
+    "Orientation": [
+       305, 0.000000, -0.000000
+    ],
+    "NPCName": "QUADROS DE TROCAS OLX",
+    "DefaultNPCText": "Desapega desapega OLX",
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 1,
+    "Active": 1
+}

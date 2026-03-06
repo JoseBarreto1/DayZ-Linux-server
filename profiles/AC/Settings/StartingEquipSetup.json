@@ -1,0 +1,340 @@
+{
+    "m_Enable": 1,
+    "m_Health": 75,
+    "m_Groups": [
+        {
+            "m_Steam": [
+                "00000000000000000"
+            ],
+            "m_Description": "example",
+            "m_Equip": {
+                "m_Vest": [],
+                "m_Shirt": [],
+                "m_Belt": [],
+                "m_Pants": [],
+                "m_Bag": [],
+                "m_Hat": [],
+                "m_Mask": [],
+                "m_Glasses": [],
+                "m_Glove": [],
+                "m_Shoes": [],
+                "m_Armband": [],
+                "m_Presets": [
+                    {
+                        "m_Vest": "",
+                        "m_Shirt": "TShirt_Black",
+                        "m_Belt": "",
+                        "m_Pants": "Jeans_Black",
+                        "m_Bag": "",
+                        "m_Hat": "BeanieHat_Black",
+                        "m_Mask": "",
+                        "m_Glasses": "",
+                        "m_Glove": "",
+                        "m_Shoes": "AthleticShoes_Black",
+                        "m_Armband": ""
+                    },
+                    {
+                        "m_Vest": "",
+                        "m_Shirt": "TShirt_Green",
+                        "m_Belt": "",
+                        "m_Pants": "Jeans_Green",
+                        "m_Bag": "",
+                        "m_Hat": "BeanieHat_Green",
+                        "m_Mask": "",
+                        "m_Glasses": "",
+                        "m_Glove": "",
+                        "m_Shoes": "AthleticShoes_Green",
+                        "m_Armband": ""
+                    },
+                    {
+                        "m_Vest": "",
+                        "m_Shirt": "TShirt_Blue",
+                        "m_Belt": "",
+                        "m_Pants": "Jeans_Blue",
+                        "m_Bag": "",
+                        "m_Hat": "BeanieHat_Blue",
+                        "m_Mask": "",
+                        "m_Glasses": "",
+                        "m_Glove": "",
+                        "m_Shoes": "AthleticShoes_Blue",
+                        "m_Armband": ""
+                    }
+                ],
+                "m_Random": [],
+                "m_Items": [],
+                "m_Primary": [],
+                "m_Secondary": []
+            }
+        },
+        {
+            "m_Steam": [],
+            "m_Description": "weapons",
+            "m_Equip": {
+                "m_Vest": [],
+                "m_Shirt": [],
+                "m_Belt": [],
+                "m_Pants": [],
+                "m_Bag": [],
+                "m_Hat": [],
+                "m_Mask": [],
+                "m_Glasses": [],
+                "m_Glove": [],
+                "m_Shoes": [],
+                "m_Armband": [],
+                "m_Presets": [],
+                "m_Random": [],
+                "m_Items": [],
+                "m_Primary": [
+                    {
+                        "m_Item": "M4A1",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "M4_OEBttstck",
+                                "M4_MPBttstck",
+                                "M4_CQBBttstck"
+                            ],
+                            [
+                                "",
+                                "M4_PlasticHndgrd",
+                                "M4_RISHndgrd",
+                                "M4_MPHndgrd"
+                            ],
+                            [
+                                "",
+                                "ACOGOptic",
+                                "ACOGOptic_6x",
+                                "M4_T3NRDSOptic",
+                                "M68Optic",
+                                "ReflexOptic"
+                            ],
+                            [
+                                "",
+                                "M4_Suppressor",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_STANAG_30Rnd",
+                        "m_Mags": 3
+                    },
+                    {
+                        "m_Item": "AKM",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "AK_FoldingBttstck",
+                                "AK_PlasticBttstck",
+                                "AK_WoodBttstck",
+                                "AK74_WoodBttstck"
+                            ],
+                            [
+                                "",
+                                "AK_WoodHndgrd",
+                                "AK74_Hndgrd",
+                                "AK_RailHndgrd",
+                                "AK_PlasticHndgrd"
+                            ],
+                            [
+                                "",
+                                "KobraOptic"
+                            ],
+                            [
+                                "",
+                                "AK_Bayonet",
+                                "AK_Suppressor",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_AKM_30Rnd",
+                        "m_Mags": 3
+                    },
+                    {
+                        "m_Item": "FAL",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "Fal_OeBttstck",
+                                "Fal_FoldingBttstck"
+                            ],
+                            [
+                                "",
+                                "ACOGOptic",
+                                "ACOGOptic_6x",
+                                "M4_T3NRDSOptic",
+                                "M68Optic",
+                                "ReflexOptic"
+                            ],
+                            [
+                                "",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_FAL_20Rnd",
+                        "m_Mags": 3
+                    },
+                    {
+                        "m_Item": "Mosin9130",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "PUScopeOptic"
+                            ],
+                            [
+                                "",
+                                "Mosin_Bayonet",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Ammo_762x54",
+                        "m_Mags": 3
+                    },
+                    {
+                        "m_Item": "Winchester70",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "HuntingOptic"
+                            ],
+                            [
+                                "",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Ammo_308Win",
+                        "m_Mags": 3
+                    },
+                    {
+                        "m_Item": "SVD",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "PSO1Optic",
+                                "PSO11Optic"
+                            ],
+                            [
+                                "",
+                                "AK_Suppressor",
+                                "ImprovisedSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_SVD_10Rnd",
+                        "m_Mags": 3
+                    }
+                ],
+                "m_Secondary": [
+                    {
+                        "m_Item": "MakarovIJ70",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "PistolSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_IJ70_8Rnd",
+                        "m_Mags": 2
+                    },
+                    {
+                        "m_Item": "CZ75",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "FNP45_MRDSOptic"
+                            ],
+                            [
+                                "",
+                                "PistolSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_CZ75_15Rnd",
+                        "m_Mags": 2
+                    },
+                    {
+                        "m_Item": "Deagle",
+                        "m_Attachments": [
+                            [
+                                "",
+                                "FNP45_MRDSOptic"
+                            ],
+                            [
+                                "",
+                                "PistolSuppressor"
+                            ]
+                        ],
+                        "m_Mag": "Mag_Deagle_9rnd",
+                        "m_Mags": 2
+                    }
+                ]
+            }
+        }
+    ],
+    "m_Everyone": {
+        "m_Vest": [],
+        "m_Shirt": [
+            "TShirt_Beige",
+            "TShirt_Black",
+            "TShirt_Blue",
+            "TShirt_Green",
+            "TShirt_OrangeWhiteStripes",
+            "TShirt_Red",
+            "TShirt_RedBlackStripes",
+            "TShirt_White",
+            "TShirt_Grey"
+        ],
+        "m_Belt": [],
+        "m_Pants": [
+            "Jeans_Black",
+            "Jeans_Blue",
+            "Jeans_Brown",
+            "Jeans_Green",
+            "Jeans_Grey",
+            "Jeans_BlueDark"
+        ],
+        "m_Bag": [],
+        "m_Hat": [
+            "BeanieHat_Beige",
+            "BeanieHat_Black",
+            "BeanieHat_Blue",
+            "BeanieHat_Brown",
+            "BeanieHat_Green",
+            "BeanieHat_Grey",
+            "BeanieHat_Pink",
+            "BeanieHat_Red"
+        ],
+        "m_Mask": [],
+        "m_Glasses": [],
+        "m_Glove": [],
+        "m_Shoes": [
+            "AthleticShoes_Blue",
+            "AthleticShoes_Black",
+            "AthleticShoes_Brown",
+            "AthleticShoes_Green",
+            "AthleticShoes_Grey"
+        ],
+        "m_Armband": [],
+        "m_Presets": [],
+        "m_Random": [
+            [
+                "Apple",
+                "Pear",
+                "Plum"
+            ],
+            [
+                "SodaCan_Pipsi",
+                "SodaCan_Cola",
+                "SodaCan_Spite",
+                "SodaCan_Kvass"
+            ]
+        ],
+        "m_Items": [
+            {
+                "m_Item": "KitchenKnife",
+                "m_QuickBar": 1,
+                "m_Quantity": 0,
+                "m_Attachments": []
+            }
+        ],
+        "m_Primary": [],
+        "m_Secondary": []
+    },
+    "m_Battery": []
+}

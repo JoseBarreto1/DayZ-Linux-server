@@ -1,0 +1,88 @@
+{
+    "configVersion": 1,
+    "name": "EdsonFarias55",
+    "shortname": "EF55",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1754423709,
+    "creationDate": 1749999387,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 1358799427,
+            "name": "EdsonFarias_54",
+            "icon": "",
+            "position": [
+                8077.38134765625,
+                455.6212158203125,
+                9373.767578125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561199209497289",
+            "permissionGroup": 9,
+            "online": 0,
+            "health": 41.11404800415039
+        }
+    ],
+    "markers": [
+        {
+            "type": 3,
+            "uid": 1140099141,
+            "name": "Minha Casa Minha Vida",
+            "icon": "BXD_SystemParty\\gui\\icons\\home.paa",
+            "position": [
+                4549.04150390625,
+                288.3800048828125,
+                6390.72314453125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 254,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 68
+        },
+        {
+            "type": 3,
+            "uid": 1757204892,
+            "name": "",
+            "icon": "BXD_SystemParty\\gui\\icons\\marker.paa",
+            "position": [
+                9157.7119140625,
+                297.2857666015625,
+                9632.701171875
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 47
+        },
+        {
+            "type": 3,
+            "uid": 1901585092,
+            "name": "",
+            "icon": "BXD_SystemParty\\gui\\icons\\marker.paa",
+            "position": [
+                8182.06591796875,
+                474.0400085449219,
+                9116.5888671875
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 47
+        }
+    ]
+}

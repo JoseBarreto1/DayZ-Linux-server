@@ -1,0 +1,67 @@
+{
+    "m_Enable": 1,
+    "m_Logging": 0,
+    "m_TimeDelay": 0,
+    "m_WeaponPreview": 1,
+    "m_HistoricCount": 5,
+    "m_NotificationCount": 5,
+    "m_NotificationTime": 5,
+    "m_NotificationInChat": 0,
+    "m_PlayerNameLength": 20,
+    "m_WeaponNameLength": 20,
+    "m_Colors": {
+        "m_Active": {
+            "m_A": 50,
+            "m_R": 255,
+            "m_G": 0,
+            "m_B": 0
+        },
+        "m_Background": {
+            "m_A": 50,
+            "m_R": 0,
+            "m_G": 0,
+            "m_B": 0
+        },
+        "m_Default": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 255,
+            "m_B": 255
+        },
+        "m_Head": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 204,
+            "m_B": 0
+        },
+        "m_Killer": {
+            "m_A": 255,
+            "m_R": 0,
+            "m_G": 179,
+            "m_B": 0
+        },
+        "m_Victim": {
+            "m_A": 255,
+            "m_R": 255,
+            "m_G": 26,
+            "m_B": 26
+        }
+    },
+    "m_Messages": {
+        "m_Animal": "%VictimInfo% killed by %KillerInfo%.",
+        "m_Bleeding": "%VictimInfo% died bleeding.",
+        "m_Custom": "%VictimInfo% killed by %KillerInfo%.",
+        "m_Died": "%VictimInfo% died.",
+        "m_Energy": "%VictimInfo% died hunger.",
+        "m_Explosive": "%VictimInfo% killed by %KillerInfo% with %WeaponName%.",
+        "m_Melee": "%VictimInfo% killed by %KillerInfo% with %WeaponName%.",
+        "m_Player": "%VictimInfo% killed by %KillerInfo%.",
+        "m_Suicide": "%VictimInfo% killed himself.",
+        "m_Trap": "%VictimInfo% killed by %KillerInfo% with %WeaponName%.",
+        "m_Vehicle": "%VictimInfo% killed by %KillerInfo% with %WeaponName%.",
+        "m_Water": "%VictimInfo% died dehydrated.",
+        "m_Weapon": "%VictimInfo% was killed by %KillerInfo% with %WeaponName% from %KillRange% meters.",
+        "m_Zombie": "%VictimInfo% was killed by Zombie."
+    },
+    "m_Webhook": ""
+}

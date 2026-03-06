@@ -1,0 +1,27 @@
+{
+    "ConfigVersion": "3",
+    "AllowChangingFonts": 1,
+    "PenConsumeQuantity": 3,
+    "NoteDateFormat": {
+        "Format": 1,
+        "MonthName": [
+            "Janeiro",
+            "Fevereiro",
+            "Marco",
+            "Abril",
+            "Maio",
+            "Junho",
+            "Julho",
+            "Agosto",
+            "Setembro",
+            "Outubro",
+            "Novembro",
+            "Dezembro"
+        ]
+    },
+    "WordBlacklist": [
+        "PALAVRAS_REALMENTE_RUINS_QUE",
+        "VOCE_NAO_QUER_QUE_SEJA_ESCRITO"
+    ],
+    "SendPlayerWarning": "Não toleramos esse tipo de linguagem em nosso servidor. Sua mensagem foi registrada e qualquer reincidência poderá resultar em banimento permanente."
+}

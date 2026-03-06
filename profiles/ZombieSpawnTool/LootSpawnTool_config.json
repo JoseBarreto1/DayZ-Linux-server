@@ -1,0 +1,201 @@
+{
+    "ModVersion": "1.0",
+    "ConfigVersion": 1,
+    "LootSpawnLocationData": [
+        {
+            "Label": "Sala 2 bunker ilha",
+            "SpawnOnZombieKill": "",
+            "MaxSpawnAmount": 1,
+            "MinSpawnAmount": 1,
+            "SpawnMaxRadius": 0.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 3000,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 500.0,
+            "SpawnLocation": [
+                5098.674316, 1.927677, 611.423767
+            ],
+            "LootToSpawn": [
+                {
+                    "LootContainerClassName": "CBD_LootCrates_Large_Olive",
+                    "LootContainerInventory": [
+                        {
+                            "InventoryItemClassName": "AK74",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": [
+                                "AK74_Hndgrd",
+                                "AK74_WoodBttstck"
+                            ]
+                        },
+                        {
+                            "InventoryItemClassName": "Mag_AK74_30Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "SVD_Wooden",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "Mag_SVD_10Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AKM",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": [
+                                "AK74_Hndgrd",
+                                "AK74_WoodBttstck"
+                            ]
+                        },
+                        {
+                            "InventoryItemClassName": "Mag_AKM_30Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Label": "Sala 3 bunker ilha",
+            "SpawnOnZombieKill": "",
+            "MaxSpawnAmount": 1,
+            "MinSpawnAmount": 1,
+            "SpawnMaxRadius": 0.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 3000,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 500.0,
+            "SpawnLocation": [
+                5105.100098, 1.927677, 611.748047
+            ],
+            "LootToSpawn": [
+                {
+                    "LootContainerClassName": "CBD_LootCrates_Large_Olive",
+                    "LootContainerInventory": [
+                        {
+                            "InventoryItemClassName": "AmmoBox_308Win_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_308WinTracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_556x45Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_762x39Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_762x54Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_308Win_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_308WinTracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_556x45Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_762x39Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "AmmoBox_762x54Tracer_20Rnd",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Label": "Sala 4 bunker ilha",
+            "SpawnOnZombieKill": "",
+            "MaxSpawnAmount": 1,
+            "MinSpawnAmount": 1,
+            "SpawnMaxRadius": 0.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 3000,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 500.0,
+            "SpawnLocation": [
+                5112.335938, 1.927705, 609.949402
+            ],
+            "LootToSpawn": [
+                {
+                    "LootContainerClassName": "CBD_LootCrates_Large_Olive",
+                    "LootContainerInventory": [
+                        {
+                            "InventoryItemClassName": "GasMask_Filter",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "GasMask_Filter",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "GasMask_Filter",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "Grenade_ChemGas",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        },
+                        {
+                            "InventoryItemClassName": "Grenade_ChemGas",
+                            "InventoryItemQuantityMin": 100,
+                            "InventoryItemQuantityMax": 100,
+                            "InventoryItemAttachments": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

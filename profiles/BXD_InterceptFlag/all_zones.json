@@ -1,0 +1,47 @@
+{
+    "zoneId": "ctf-zone-c7f4e827-3075-44fe-bae1-619060af1017",
+    "zoneName": "BXD Zona",
+    "zone": {
+        "flagClassName": "",
+        "returnRadius": 0.0,
+        "captureTime": 0,
+        "captureRadius": 0,
+        "recaptureRadius": 0,
+        "recaptureTime": 0,
+        "broadCastRadius": 0,
+        "beepSoundName": "",
+        "beepInterval": 0,
+        "timeToReturnFlag": 0,
+        "zombieConfig": {
+            "numWaves": 0,
+            "min": 0,
+            "max": 0,
+            "zombieTypes": []
+        },
+        "disableBoundaryEffect": 0
+    },
+    "initialSpawnPoints": [
+        {
+            "pos": "random",
+            "editorFileName": "",
+            "disableBoundaryEffect": 0
+        }
+    ],
+    "returnPoints": [
+        {
+            "pos": "random",
+            "editorFileName": "",
+            "disableBoundaryEffect": 0,
+            "crates": [
+                {
+                    "crateName": "SeaChest",
+                    "cratePos": "random",
+                    "crateDir": "0 0 0",
+                    "lootPool": [
+                        "Default"
+                    ]
+                }
+            ]
+        }
+    ]
+}

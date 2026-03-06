@@ -1,0 +1,42 @@
+{
+    "minPlayersRequired": 1,
+    "startupWaitTime": 120,
+    "nextEventWaitTime": 1200,
+    "preSpawnWarningTime": 60,
+    "eventWebhook": "",
+    "aiFaction": "Vasco",
+    "aiLoadout": "VascoLoadout",
+    "maxAmountAI": 1,
+    "minAmountAI": 1,
+    "zone": {
+        "flagClassName": "BXD_InterceptFlagV2",
+        "returnRadius": 5.0,
+        "captureTime": 480,
+        "captureRadius": 30,
+        "recaptureRadius": 30,
+        "recaptureTime": 240,
+        "broadCastRadius": 60,
+        "beepSoundName": "BXDFlagBeepSound",
+        "beepInterval": 5,
+        "timeToReturnFlag": 3600,
+        "zombieConfig": {
+            "numWaves": 1,
+            "min": 5,
+            "max": 10,
+            "zombieTypes": [
+                "ZmbM_NBC_Grey",
+                "BXD_zmb_explosive_yellow",
+                "BXD_zmb_explosive_grey",
+                "BXD_zmb_wild",
+                "BXD_zmb_Crooked",
+                "ZmbM_kid",
+                "ZmbF_kid3",
+                "ZmbM_kid2",
+                "BXD_zmb_Naked",
+                "BXD_zmb_fastlurk",
+                "Animal_Demongoat"
+            ]
+        },
+        "disableBoundaryEffect": 0
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "configVersion": 1,
+    "serverLogoPath": "",
+    "canSeeOwnPlayerOnMap": 1,
+    "enableKOTHMarkers": 1,
+    "ownPlayerIconPath": "BXD_SystemParty\\gui\\icons\\player.paa",
+    "otherPlayerIconsPath": "BXD_SystemParty\\gui\\icons\\player.paa",
+    "inactiveGroupLifetimeDays": 30,
+    "tacticalPingLifetimeSeconds": 8,
+    "inviteCooldownSeconds": 120,
+    "inviteMaxDistance": -1.0,
+    "inviteActionEnabled": 0,
+    "inviteActionShowName": 0,
+    "markerConfig": [
+        {
+            "type": 0,
+            "typeString": "SERVER_STATIC",
+            "maxDistance": -1,
+            "display3d": 1,
+            "displayDistance": 1,
+            "displayMap": 1,
+            "displayCompass": 0
+        },
+        {
+            "type": 1,
+            "typeString": "SERVER_DYNAMIC",
+            "maxDistance": -1,
+            "display3d": 1,
+            "displayDistance": 1,
+            "displayMap": 1,
+            "displayCompass": 0
+        },
+        {
+            "type": 2,
+            "typeString": "GROUP_PING",
+            "maxDistance": -1,
+            "display3d": 1,
+            "displayDistance": 0,
+            "displayMap": 0,
+            "displayCompass": 1
+        },
+        {
+            "type": 3,
+            "typeString": "GROUP_MARKER",
+            "maxDistance": -1,
+            "display3d": 1,
+            "displayDistance": 1,
+            "displayMap": 1,
+            "displayCompass": 0
+        },
+        {
+            "type": 5,
+            "typeString": "PRIVATE_MARKER",
+            "maxDistance": -1,
+            "display3d": 1,
+            "displayDistance": 1,
+            "displayMap": 1,
+            "displayCompass": 0
+        },
+        {
+            "type": 4,
+            "typeString": "GROUP_PLAYER_MARKER",
+            "maxDistance": 2000,
+            "display3d": 1,
+            "displayDistance": 0,
+            "displayMap": 1,
+            "displayCompass": 1
+        }
+    ],
+    "availableIcons": [
+        "BXD_SystemParty\\gui\\icons\\marker.paa",
+        "BXD_SystemParty\\gui\\icons\\marker-stroked.paa",
+        "BXD_SystemParty\\gui\\icons\\cross.paa",
+        "BXD_SystemParty\\gui\\icons\\home.paa",
+        "BXD_SystemParty\\gui\\icons\\camp.paa",
+        "BXD_SystemParty\\gui\\icons\\hospital.paa",
+        "BXD_SystemParty\\gui\\icons\\flag.paa",
+        "BXD_SystemParty\\gui\\icons\\star.paa",
+        "BXD_SystemParty\\gui\\icons\\car.paa",
+        "BXD_SystemParty\\gui\\icons\\parking.paa",
+        "BXD_SystemParty\\gui\\icons\\heli.paa",
+        "BXD_SystemParty\\gui\\icons\\rail.paa",
+        "BXD_SystemParty\\gui\\icons\\ship.paa",
+        "BXD_SystemParty\\gui\\icons\\scooter.paa",
+        "BXD_SystemParty\\gui\\icons\\bank.paa",
+        "BXD_SystemParty\\gui\\icons\\restaurant.paa",
+        "BXD_SystemParty\\gui\\icons\\post.paa",
+        "BXD_SystemParty\\gui\\icons\\castle.paa",
+        "BXD_SystemParty\\gui\\icons\\ranger-station.paa",
+        "BXD_SystemParty\\gui\\icons\\water.paa",
+        "BXD_SystemParty\\gui\\icons\\triangle.paa",
+        "BXD_SystemParty\\gui\\icons\\cow.paa",
+        "BXD_SystemParty\\gui\\icons\\bear.paa",
+        "BXD_SystemParty\\gui\\icons\\car-repair.paa",
+        "BXD_SystemParty\\gui\\icons\\communications.paa",
+        "BXD_SystemParty\\gui\\icons\\roadblock.paa",
+        "BXD_SystemParty\\gui\\icons\\stadium.paa",
+        "BXD_SystemParty\\gui\\icons\\skull.paa",
+        "BXD_SystemParty\\gui\\icons\\rocket.paa",
+        "BXD_SystemParty\\gui\\icons\\bbq.paa",
+        "BXD_SystemParty\\gui\\icons\\ping.paa",
+        "BXD_SystemParty\\gui\\icons\\player.paa"
+    ],
+    "customMapLayoutFolder": "",
+    "customPlayerlistLayoutFolder": "",
+    "customCompassLayoutFolder": "",
+    "layoutStyles": [
+        {
+            "entryName": "Map Layout",
+            "styles": [
+                "default"
+            ]
+        },
+        {
+            "entryName": "Compass Layout",
+            "styles": [
+                "default"
+            ]
+        },
+        {
+            "entryName": "Player List",
+            "styles": [
+                "default",
+                "small",
+                "tiny"
+            ]
+        }
+    ],
+    "enableCompassHud": 1,
+    "enablePlayerList": 1,
+    "enablePlayerListDistance": 1,
+    "enableSubGroups": 1,
+    "enableSubGroupSharedPlayerMapMarker": 0,
+    "enableSubGroupSharedPingMapMarker": 0,
+    "enableInfoPanelSurvivorCount": 1,
+    "enableInfoPanelCursorCoordinates": 1,
+    "enableInfoPanelIngameTime": 1,
+    "enableInfoPanelRealTime": 1,
+    "disableInfoPanelModCreatorMention": 0,
+    "disableLoggerDebug": 0,
+    "groupMarkerLimit": 20,
+    "adminSteamids": [
+        "76561198120369757",
+        "76561198360290787"
+    ],
+    "offlinePlayer3dMarkerDistance": 20.0,
+    "subGroupNames": [
+        "Grupo 1",
+        "Grupo 2",
+        "Grupo 3",
+        "Grupo 4",
+        "Grupo 5",
+        "Foxtrot",
+        "Golf",
+        "Hotel",
+        "India",
+        "Juliett"
+    ],
+    "buttonConfig": [
+        {
+            "buttonName": "Discord",
+            "subtext": "Meu discord",
+            "link": "https://discord.gg/WmtPytQ5NZ"
+        },
+        {
+            "buttonName": "Doações",
+            "subtext": "Compras via discord",
+            "link": "https://discord.com/channels/1365066913033490603/1370869169813459024"
+        }
+    ]
+}

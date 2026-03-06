@@ -1,0 +1,332 @@
+[
+    {
+        "LootRoomName": "Bunker - Nivel 3",
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootRoomKey_Red"
+        ],
+        "LootRoomPosition": [13476, 29.7292, 3016.82],
+        "LootRoomDoorIndex": 1,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 300,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "LootRoomDoorsToLock": [
+            {
+                "LootRoomPosition": [13476, 29.7292, 3016.82],
+                "LootRoomDoorIndex": 0
+            }
+        ],
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [ 13475.81, 28.65, 3017.78 ],
+                "LootBoxOrientation": [
+                    -193, -0.000000, -0.000000
+                ],
+                "MinLootRewards": 12,
+                "MaxLootRewards": 20,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Vermelho"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [
+            "BXD_zmb_Babdook",
+            "BXD_zmb_Crooked",
+            "BXD_zmb_ghost_girl",
+            "BXD_zmb_gromble",
+            "ZmbM_kid2",
+            "ZmbM_kid1",
+            "ZmbM_kid3",
+            "BXD_zmb_Babdook",
+            "BXD_zmb_Crooked",
+            "BXD_zmb_ghost_girl",
+            "ZmbM_kid3",
+            "ZmbM_kid2",
+            "Animal_ZombyDogA",
+            "ZmbM_kid3",
+            "ZmbM_kid2",
+            "ZmbM_kid1"
+        ],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 8
+    },
+    {
+        "LootRoomName": "Bunker - Nivel 2",
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootRoomKey_Green"
+        ],
+        "LootRoomPosition": [13471.2, 19.7454, 3086.02],
+        "LootRoomDoorIndex": 1,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 300,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "LootRoomDoorsToLock": [
+            {
+                "LootRoomPosition": [13471.2, 19.7454, 3086.02],
+                "LootRoomDoorIndex": 0
+            }
+        ],
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [ 13471.11, 18.67, 3085.52 ],
+                "LootBoxOrientation": [
+                    341, 0.001497, 0.000903
+                ],
+                "MinLootRewards": 8,
+                "MaxLootRewards": 11,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Verde"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [
+            "BXD_zmb_Orc",
+            "BXD_zmb_Samara",
+            "BXD_zmb_skeleton",
+            "ZmbM_kid1",
+            "ZmbM_kid3",
+            "ZmbM_kid2",
+            "Animal_ZombyDogB",
+            "ZmbM_kid3",
+            "BXD_zmb_Samara",
+            "BXD_zmb_skeleton"
+        ],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 8
+    },
+    {
+        "LootRoomName": "Pré-Sal - Base da Marinha",
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_UnlockingSledge"
+        ],
+        "LootRoomPosition": [7913.03, 30.3892, 1995.52],
+        "LootRoomDoorIndex": 0,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 120,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "LootRoomDoorsToLock": [],    
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [ 7911.3598, 29.7078, 1996.7692 ],
+                "LootBoxOrientation": [
+                    74, -0.0, -0.0
+                ],
+                "MinLootRewards": 45,
+                "MaxLootRewards": 55,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Amarelo"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 10
+    },
+    {
+        "LootRoomName": "Labirinto do Fauno", 
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootRoomKey_Blue"
+        ],
+        "LootRoomPosition": [5651.98, 320.067, 7833.91],
+        "LootRoomDoorIndex": 1,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 300,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "LootRoomDoorsToLock": [
+            {
+                "LootRoomPosition": [5651.98, 320.067, 7833.91],
+                "LootRoomDoorIndex": 0
+            }
+        ],
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [5652.52, 318.99, 7834.83],
+                "LootBoxOrientation": [
+                    194, 0.000000, -0.000000
+                ],
+                "MinLootRewards": 16,
+                "MaxLootRewards": 30,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Azul"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [
+            "BXD_zmb_gromble",
+            "ZmbM_kid1",
+            "BXD_zmb_skeleton",
+            "BXD_zmb_SugarPlumFairy",
+            "BXD_zmb_Valak",
+            "ZmbM_kid2",
+            "Animal_ZombyDogC",
+            "BXD_zmb_gromble",
+            "BXD_zmb_Crooked",
+            "BXD_zmb_ghost_girl",
+            "BXD_zmb_gromble",
+            "BXD_zmb_Bride",
+            "ZmbM_kid1"
+        ],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 12
+    },
+    {
+        "LootRoomName": "Ilha de gelo", 
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootRoomKey_Blue"
+        ],
+        "LootRoomPosition": [5092.02, 2.8515, 607.151],
+        "LootRoomDoorIndex": 0,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 300,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [5091.913086, 2.014001, 606.044128],
+                "LootBoxOrientation": [
+                    76, 0.000000, -0.000000
+                ],
+                "MinLootRewards": 16,
+                "MaxLootRewards": 30,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Azul"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 12
+    },
+    {
+        "LootRoomName": "Bunker continente noroeste", 
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootroomC4"
+        ],
+        "LootRoomPosition": [1225.9, 386.983, 12396.2],
+        "LootRoomDoorIndex": 0,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 200,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "CBD_LootCrates_Large_Brown", 
+                "LootBoxPosition": [1225.213623, 386.016907, 12396.168945],
+                "LootBoxOrientation": [
+                    46, 0.000000, -0.000000
+                ],
+                "MinLootRewards": 10,
+                "MaxLootRewards": 13,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Build"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [
+            "BXD_zmb_gromble",
+            "ZmbM_kid1",
+            "BXD_zmb_skeleton",
+            "BXD_zmb_SugarPlumFairy",
+            "BXD_zmb_Valak",
+            "ZmbM_kid2",
+            "Animal_ZombyDogC",
+            "BXD_zmb_gromble",
+            "BXD_zmb_Crooked",
+            "BXD_zmb_ghost_girl",
+            "BXD_zmb_gromble",
+            "BXD_zmb_Bride",
+            "ZmbM_kid1"
+        ],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 12
+    },
+    {
+        "LootRoomName": "Sala Secreta Preta - Escritório da Prisão",
+        "LootRoomSound": 6,
+        "LootRoomSoundActiveTime": 300,
+        "DestroyEntryItem": 1,  
+        "ServerMessageType": 1,
+        "RequiredEntryItem": [
+            "CBD_LootRoomKey_Black"
+        ],
+        "LootRoomPosition": [2780.14, 29.3082, 1232.67],
+        "LootRoomDoorIndex": 3,
+        "LootRoomCooldownTime": 10800,
+        "LootRoomDoorOpenTime": 120.0,
+        "LootRoomDoorCloseTime": 300,
+        "LootRoomDoorCloseWarningFrom": 30,
+        "LootRoomDoorsToLock": [],
+        "RewardBoxes": [
+            {
+                "LootBoxClassName": "BXD_Kingchest_SupplyBox2", 
+                "LootBoxPosition": [
+                    2780.223633, 29.256813, 1232.473511
+                ],
+                "LootBoxOrientation": [
+                    -11.559089, 0.010491, 0.051392
+                ],
+                "MinLootRewards": 30,
+                "MaxLootRewards": 60,
+                "UseLootTableFileForLootRewards": 1,
+                "LootTableName": ["Preto"],
+                "LootRewards": []
+            }
+        ],
+        "Defenders": [
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild",
+            "BXD_zmb_wild"
+        ],
+        "DefendersToSpawnAmount": 10,
+        "DefendersSpawnRadius": 10
+    } 
+]

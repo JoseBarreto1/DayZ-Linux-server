@@ -1,0 +1,39 @@
+{
+    "configVersion": 1,
+    "name": "jamming",
+    "shortname": "jah",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1752146600,
+    "creationDate": 1752143721,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 1634648843,
+            "name": "Jamez",
+            "icon": "",
+            "position": [
+                1648.990478515625,
+                17.999774932861329,
+                2379.582275390625
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561198376284493",
+            "permissionGroup": 9,
+            "online": 0,
+            "health": 100.0
+        }
+    ],
+    "markers": []
+}

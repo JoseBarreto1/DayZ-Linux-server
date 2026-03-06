@@ -1,0 +1,276 @@
+{
+    "m_Enable": 0,
+    "m_PlayerMarker": 0,
+    "m_Player3DMarkers": 0,
+    "m_PlayerPosition": 0,
+    "m_RequiredMapItem": 0,
+    "m_BackgroundMarker": {
+        "m_A": 70,
+        "m_R": 0,
+        "m_G": 0,
+        "m_B": 0
+    },
+    "m_ServerMarkers": [],
+    "m_ServerZones": [
+        {
+            "m_Name": "Zelenogorsk Military",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 2562.699951171875,
+                    "m_Y": 193.17999267578126,
+                    "m_Z": 5117.33984375,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Elektro Police Station",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 10461.1396484375,
+                    "m_Y": 5.960000038146973,
+                    "m_Z": 2258.449951171875,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Berezino",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 12783.599609375,
+                    "m_Y": 6.010000228881836,
+                    "m_Z": 9656.5302734375,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Svetloyarsk",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 13934.5,
+                    "m_Y": 19.18000030517578,
+                    "m_Z": 13228.7001953125,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Krasnostav",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 11887.5,
+                    "m_Y": 140.00999450683595,
+                    "m_Z": 12481.0,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Airfield",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 4547.6298828125,
+                    "m_Y": 339.010009765625,
+                    "m_Z": 10694.900390625,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Bashnya Military",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 4032.409912109375,
+                    "m_Y": 375.9800109863281,
+                    "m_Z": 11715.0,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "NovayaPetrovka",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 3432.0,
+                    "m_Y": 192.74000549316407,
+                    "m_Z": 13025.5,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Troitskoe",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 8010.43994140625,
+                    "m_Y": 339.82000732421877,
+                    "m_Z": 14634.5,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Balota",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 4961.580078125,
+                    "m_Y": 9.510000228881836,
+                    "m_Z": 2455.340087890625,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Stary Sobor",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 6037.72998046875,
+                    "m_Y": 300.7699890136719,
+                    "m_Z": 7835.43994140625,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "VMC Military",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 4522.7900390625,
+                    "m_Y": 316.19000244140627,
+                    "m_Z": 8278.740234375,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        },
+        {
+            "m_Name": "Myshkino Madeireira",
+            "m_Icon": "flag",
+            "m_Color": {
+                "m_A": 255,
+                "m_R": 255,
+                "m_G": 0,
+                "m_B": 0
+            },
+            "m_Positions": [
+                {
+                    "m_X": 930.7899780273438,
+                    "m_Y": 181.1199951171875,
+                    "m_Z": 7657.41015625,
+                    "m_R": 200.0
+                }
+            ],
+            "m_IsActive": 1,
+            "m_3DMarker": 0
+        }
+    ]
+}

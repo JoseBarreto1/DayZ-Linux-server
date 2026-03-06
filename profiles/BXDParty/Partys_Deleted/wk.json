@@ -1,0 +1,39 @@
+{
+    "configVersion": 1,
+    "name": "walf kill",
+    "shortname": "wk",
+    "level": 0,
+    "maxPlayers": 20,
+    "subGroupSize": 10,
+    "subGroupCount": 5,
+    "lastActivity": 1752882656,
+    "creationDate": 1751212850,
+    "markerLimit": 50,
+    "plotpoleLimit": 2,
+    "hasATMAccount": 0,
+    "showTagInChat": 1,
+    "ATMBalance": 0,
+    "members": [
+        {
+            "type": 4,
+            "uid": 1420601755,
+            "name": "Digao",
+            "icon": "",
+            "position": [
+                8354.9052734375,
+                230.4638214111328,
+                4058.563720703125
+            ],
+            "currentSubgroup": 0,
+            "colorA": 255,
+            "colorR": 255,
+            "colorG": 255,
+            "colorB": 255,
+            "steamid": "76561199196195593",
+            "permissionGroup": 9,
+            "online": 0,
+            "health": 100.0
+        }
+    ],
+    "markers": []
+}

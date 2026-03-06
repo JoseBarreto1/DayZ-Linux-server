@@ -1,0 +1,240 @@
+{
+    "typeName": "BXD_Mannequin_Female",
+    "worldPosition": [
+        13344.9189453125,
+        68.73954010009766,
+        11950.205078125
+    ],
+    "index": 0,
+    "health": 0.0,
+    "row": 0,
+    "col": 0,
+    "flipped": 0,
+    "agents": 0,
+    "itemType": 0,
+    "wpnState": {},
+    "magState": {},
+    "energyState": {},
+    "foodState": {},
+    "attachments": [
+        {
+            "typeName": "M14",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 1897070500,
+            "health": 132.7191619873047,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 3,
+            "wpnState": {
+                "chamberIsFull": 1,
+                "current_muzzle": 0,
+                "mode_count": 1,
+                "muzzle": [
+                    0
+                ],
+                "isJammed": 0,
+                "chamberCartridgeInfo": {
+                    "0": {
+                        "infoIndex": 0,
+                        "className": "Bullet_308Win",
+                        "damage": 0.0
+                    }
+                },
+                "intMagCrtrdgInfo": {}
+            },
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [
+                {
+                    "typeName": "Mag_M14_20Rnd",
+                    "worldPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "index": -493635884,
+                    "health": 100.0,
+                    "row": 0,
+                    "col": 0,
+                    "flipped": 0,
+                    "agents": 0,
+                    "itemType": 1,
+                    "wpnState": {},
+                    "magState": {
+                        "ammoCount": 17,
+                        "magCrtrdgInfo": [
+                            {
+                                "infoIndex": 0,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 1,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 2,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 3,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 4,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 5,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 6,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 7,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0009918364230543376
+                            },
+                            {
+                                "infoIndex": 8,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 9,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 10,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 11,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 12,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 13,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 14,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 15,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            },
+                            {
+                                "infoIndex": 16,
+                                "className": "Bullet_308Win",
+                                "damage": 0.0
+                            }
+                        ]
+                    },
+                    "energyState": {},
+                    "foodState": {},
+                    "attachments": [],
+                    "cargo": [],
+                    "damageZones": {},
+                    "itemBaseVariables": [
+                        0.0
+                    ],
+                    "customVariables": {},
+                    "locationType": 2
+                }
+            ],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "PlateCarrierVest_Black",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 6119694,
+            "health": 225.0,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        },
+        {
+            "typeName": "TacticalShirt_Black",
+            "worldPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "index": 5119774,
+            "health": 90.0,
+            "row": 0,
+            "col": 0,
+            "flipped": 0,
+            "agents": 0,
+            "itemType": 0,
+            "wpnState": {},
+            "magState": {},
+            "energyState": {},
+            "foodState": {},
+            "attachments": [],
+            "cargo": [],
+            "damageZones": {},
+            "itemBaseVariables": [
+                0.0
+            ],
+            "customVariables": {},
+            "locationType": 2
+        }
+    ],
+    "cargo": [],
+    "damageZones": {},
+    "itemBaseVariables": [],
+    "customVariables": {},
+    "locationType": -1
+}

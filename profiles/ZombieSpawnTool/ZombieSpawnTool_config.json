@@ -1,0 +1,470 @@
+{
+    "ModVersion": "1.2",
+    "ConfigVersion": 3,
+    "ZombieSpawnLocationData": [
+        {
+            "Label": "Labirinto pt1",
+            "MinSpawnAmount": 8,
+            "MaxSpawnAmount": 8,
+            "SpawnMaxRadius": 4.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 900,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        5762.056641, 320.075592, 7856.698730
+                    ],
+                    "TriggerRadius": 100
+                }
+            ],
+            "SpawnLocation": [
+                5762.056641, 320.075592, 7856.698730
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "BXD_zmb_Valak",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_SugarPlumFairy",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                }
+            ],
+            "AnimalsToSpawn": []
+        },
+        {
+            "Label": "Labirinto pt2",
+            "MinSpawnAmount": 8,
+            "MaxSpawnAmount": 8,
+            "SpawnMaxRadius": 4.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 600,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        5716.575195, 319.509796, 7874.129395
+                    ],
+                    "TriggerRadius": 50
+                }
+            ],
+            "SpawnLocation": [
+                5716.575195, 319.509796, 7874.129395
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "BXD_zmb_Valak",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_SugarPlumFairy",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                }
+            ],
+            "AnimalsToSpawn": []
+        },
+        {
+            "Label": "Labirinto pt3",
+            "MinSpawnAmount": 8,
+            "MaxSpawnAmount": 8,
+            "SpawnMaxRadius": 4.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 500,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        5674.587891, 318.919342, 7825.220703
+                    ],
+                    "TriggerRadius": 40
+                }
+            ],
+            "SpawnLocation": [
+                5674.587891, 318.919342, 7825.220703
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "BXD_zmb_Valak",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_SugarPlumFairy",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                }
+            ],
+            "AnimalsToSpawn": []
+        },
+        {
+            "Label": "Bunker continente pt1",
+            "MinSpawnAmount": 12,
+            "MaxSpawnAmount": 12,
+            "SpawnMaxRadius": 4.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 900,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        1218.857178, 385.820099, 12397.331055
+                    ],
+                    "TriggerRadius": 100
+                }
+            ],
+            "SpawnLocation": [
+                1218.857178, 385.820099, 12397.331055
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "BXD_zmb_Valak",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_SugarPlumFairy",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                }
+            ],
+            "AnimalsToSpawn": []
+        },
+        {
+            "Label": "Bunker continente pt2",
+            "MinSpawnAmount": 8,
+            "MaxSpawnAmount": 8,
+            "SpawnMaxRadius": 4.0,
+            "SpawnToSurface": 0,
+            "SpawnDelaySeconds": 500,
+            "FirstSpawnDelaySeconds": 10,
+            "PlayerSafeDistance": 0,
+            "PlayerTriggerArea": [
+                {
+                    "TriggerLocation": [
+                        1211.611450, 395.884552, 12390.808594
+                    ],
+                    "TriggerRadius": 100
+                }
+            ],
+            "SpawnLocation": [
+                1211.611450, 395.884552, 12390.808594
+            ],
+            "ZombiesToSpawn": [
+                {
+                    "SpawnClassName": "BXD_zmb_Valak",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_SugarPlumFairy",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_skeleton",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Samara",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Orc_Base",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Crooked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_fastlurk",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_Naked",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_gromble",
+                    "SpawnAttachments": []
+                },
+                {
+                    "SpawnClassName": "BXD_zmb_ghost_girl",
+                    "SpawnAttachments": []
+                }
+            ],
+            "AnimalsToSpawn": []
+        }
+    ]
+}
