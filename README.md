@@ -1,6 +1,186 @@
-pt_BR
+# 🧟 DayZ Linux Server — Automatic Setup
 
-# 🧟 DayZ Linux Server — Setup Automático
+> Automatic configuration scripts for **DayZ servers on Linux**, designed to simplify the creation and maintenance of your own server.
+
+This project is based on a **real server used daily**, already containing several ready-to-use configurations. This allows you to spin up a fully functional server with just a few commands.
+
+---
+
+## 📑 Table of Contents
+
+- [How it works](#%EF%B8%8F-how-it-works)
+- [Requirements](#-requirements)
+- [Configuration variables](#-configuration-variables)
+- [Step-by-step installation](#-step-by-step-installation)
+- [Required ports](#-required-ports)
+- [Project structure](#-project-structure)
+- [Notes](#-notes)
+- [Contributing](#-contributing)
+
+---
+
+## ⚙️ How it works
+
+Inside the `scripts_server` folder there is a single script:
+
+### 🚀 `start_server.sh`
+
+Responsible for installing, configuring, and keeping the server running, as well as checking and notifying updates for both the server and the installed mods.
+
+| Feature | Description |
+|---|---|
+| 📦 Auto install | Installs the server if it doesn't exist yet |
+| 🔽 Mod download | Downloads and prepares the configured mods |
+| ▶️ Startup | Starts the server automatically |
+| 🔍 Monitoring | Monitors the process in real time |
+| 🔄 Timed restart | Automatically restarts every **6 hours** |
+| 💥 Crash restart | Automatically restarts on **crash** |
+| 🔍 Update check | Checks for updates on the server and installed mods |
+| 🔔 Notification | Notifies when updates are available |
+| 💬 Discord Webhook | Optional support for Discord notifications |
+
+---
+
+## 📋 Requirements
+
+Before getting started, make sure you have:
+
+- **OS:** Linux (tested on Ubuntu 24.04)
+- **Git** installed
+- An active **Steam account** with **DayZ** in your Steam library
+
+> ⚠️ **Important:** To download Workshop mods, the Steam account used **must own DayZ**.
+
+---
+
+## 🔐 Configuration variables
+
+During script execution, your credentials will be requested and used by **SteamCMD** to download the server and Workshop mods.
+
+---
+
+### Optional — Discord Notifications
+
+```bash
+WEBHOOK_URL_SERVER=""   # Server restart notifications
+WEBHOOK_URL_MOD=""      # Mod update notifications
+```
+
+You will then receive notifications when:
+
+- 🔄 The server **restarts** or **updates**
+- ⬇️ A mod is **updated**
+
+---
+
+## 🚀 Step-by-step installation
+
+**1. Create the server folder:**
+
+```bash
+mkdir $HOME/steamcmd/dayzserver
+cd $HOME/steamcmd/dayzserver
+```
+
+**2. Clone the project:**
+
+```bash
+git clone https://github.com/JoseBarreto1/DayZ-Linux-server.git .
+```
+
+**3. Start the server:**
+
+```bash
+./scripts_server/start_server.sh
+```
+
+**4. (Optional) Set the Discord Webhook:**
+
+```bash
+sed -i 's/^WEBHOOK_URL_MOD=.*/WEBHOOK_URL_MOD="your_discord_webhook_url"/' scripts_server/start_server.sh
+sed -i 's/^WEBHOOK_URL_SERVER=.*/WEBHOOK_URL_SERVER="your_discord_webhook_url"/' scripts_server/start_server.sh
+```
+
+On the first run, the script will automatically:
+
+1. Install **SteamCMD**
+2. Download the **DayZ Server**
+3. Download the **configured mods**
+4. **Start** the server
+
+---
+
+## 🌐 Required ports
+
+For your server to appear in the DayZ Launcher, open the following ports:
+
+| Port | Protocol | Usage |
+|---|---|---|
+| `2302 - 2305` | UDP | DayZ Server |
+| `27016` | UDP | Steam Query |
+
+> ⚠️ These ports must be open on your **system firewall**, **server/VPS**, and **router** (if hosting at home).
+
+---
+
+## 📂 Project structure
+
+```
+DayZ-Linux-server/
+│
+├── scripts_server/
+│   ├── logs/                # Folder to assist with mod update tracking
+│   ├── mod_ids.txt          # List of mod IDs to be used on the server
+│   └── start_server.sh      # Main startup and update checker script
+│
+├── serverDZ.cfg.example     # Server configuration file
+├── profiles/                # Server profiles
+├── keys/                    # Mod keys
+├── servermod/               # Folder for mods loaded on the server side only
+├── mpmissions/              # Server mission folder (init.c, types.xml, events.xml)
+└── README.md
+```
+
+---
+
+## ⚠️ Notes
+
+- Tested on **Ubuntu 24.04**
+- May not work out of the box on other Linux distributions
+- Depending on your system's directory structure, adjustments may be required
+
+---
+
+## 💡 Project goals
+
+This project was created to:
+
+- ✅ Simplify DayZ server setup on Linux
+- ✅ Automate mod updates
+- ✅ Reduce manual maintenance
+- ✅ Serve as a base for server administrators
+
+---
+
+## 🤝 Contributing
+
+Suggestions, improvements, and bug fixes are welcome!
+
+1. **Fork** the project
+2. Create a **branch** for your feature (`git checkout -b feature/my-feature`)
+3. **Commit** your changes (`git commit -m 'feat: my feature'`)
+4. **Push** to the branch (`git push origin feature/my-feature`)
+5. Open a **Pull Request**
+
+---
+
+## 🧟 Have fun!
+
+Now just start the server and survive in Chernarus. Good luck, survivor!
+
+---
+
+# 🧟 DayZ Linux Server — Setup Automático (pt_BR)
 
 > Scripts de configuração automática para servidores do **DayZ em Linux**, com o objetivo de facilitar a criação e manutenção do seu próprio servidor.
 
@@ -131,12 +311,15 @@ Para que o servidor apareça no Launcher do DayZ, libere as seguintes portas:
 DayZ-Linux-server/
 │
 ├── scripts_server/
-│   └── start_server.sh          # Script principal de inicialização e verificação de atualizações
+│   ├── logs/                # Pasta para auxiliar na atualização dos mods
+│   ├── mod_ids.txt          # Lista com ids dos mods que serão utilizados no servidor
+│   └── start_server.sh      # Script principal de inicialização e verificação de atualizações
 │
-├── serverDZ.cfg                 # Configurações do servidor
-├── profiles/                    # Perfis do servidor
-├── keys/                        # Chaves dos mods
-├── mpmissions/                  # Arquivos de configuração do mapa
+├── serverDZ.cfg.example     # Configurações do servidor
+├── profiles/                # Perfis do servidor
+├── keys/                    # Chaves dos mods
+├── servermod/               # Pasta dos mods que são carregados apenas do lado servidor.
+├── mpmissions/              # Pasta da missão do servidor (init.c, types.xml, events.xml)
 └── README.md
 ```
 

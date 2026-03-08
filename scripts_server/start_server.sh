@@ -6,6 +6,7 @@ SERVER_DIR="$HOME/steamcmd/$PROJECT"
 PROTON_RUN="$SERVER_DIR/proton"
 SERVER_EXE="DayZServer_x64.exe"
 SCRIPT_DIR="$SERVER_DIR/scripts_server"
+GAME_ID="223350" #Stable branch #GAME_ID="1042420" #Experimental branch
 
 MOD_ID_FILE="mod_ids.txt"
 MOD_SERVER_DIR="$SERVER_DIR/md"
@@ -21,7 +22,7 @@ LOG_FILE="$LOG_DIR/changes"
 
 SERVER_RESTART_TIME_IN_MIN=360 #(6 horas = 360 minutos)
 TIME_CHECK_MOD_UPDATES_IN_SEC=600 #(10 minutos = 600 segundos)
-TIME_CHECK_SERVER_CRASHED_IN_SEC=300 #(5 minutos = 300 segundos)
+TIME_CHECK_SERVER_CRASHED_IN_SEC=120 #(2 minutos = 120 segundos)
 
 SERVER_MODS='-serverMod=servermod'
 SERVER_PORT='-port=2302'
@@ -35,7 +36,7 @@ PROFILES="-profiles=profiles"
 MODS_SUBDIR="md/"
 
 if [ ! -f "$SCRIPT_DIR/$MOD_ID_FILE" ]; then
-    echo "❌ Arquivo mod_ids.txt não encontrado!"
+    echo "❌ File mod_ids.txt not found!"
     exit 1
 fi
 
@@ -52,7 +53,7 @@ for id in "${IDS[@]}"; do
 done
 
 if [[ -z "$MODS_PARAM_TEMP" ]]; then
-    echo "⚠️ Nenhum mod foi carregado, verifique o arquivo mod_ids.txt"
+    echo "⚠️ No mods were loaded, check the mod_ids.txt file."
     exit 1
 fi
 
@@ -63,42 +64,42 @@ MODS="-mod=${MODS_PARAM_TEMP}"
 
 DOWNLOAD_COMMANDS=""
 
-# ===== PREFIXO E VARIÁVEIS NECESSÁRIAS =====
+# ===== PREFIX AND NECESSARY VARIABLES =====
 STEAM_COMPAT_DATA_PATH=$HOME/steamcmd/compatdata/dayzserver
 STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.steam/steamcmd"
 
 load_credentials() {
     if [ ! -f "$ENV_CONFIG" ]; then
         echo
-        echo "📝 Configuração inicial..."
+        echo "📝 Initial setup..."
 
         echo
-        echo "🆔 Digite seu usuário Steam:"
+        echo "🆔 Enter your Steam username:"
         read USER_STEAM
 
-        echo "Confirmar valor digitado: $USER_STEAM. Digite: y/n?"
+        echo "Confirm the entered value.: $USER_STEAM. Digite: y/n?"
         read CONFIRM_USER
 
         if [ "$CONFIRM_USER" == "n" ]; then
             echo
-            echo "🆔 Digite seu usuário Steam novamente:"
+            echo "🆔 Enter your Steam username again:"
             read USER_STEAM
         fi
 
         echo
-        echo "🔐 Digite sua senha Steam:"
+        echo "🔐 Enter your Steam password:"
         read PASSWORD_STEAM        
 
         echo "Confirmar valor digitado: $PASSWORD_STEAM. Digite: y/n?"
         read CONFIRM_PASSWORD
 
         if [ "$CONFIRM_PASSWORD" == "n" ]; then
-            echo "🔐 Digite sua senha Steam novamente:"
+            echo "🔐 Enter your Steam password again:"
             read PASSWORD_STEAM
         fi
 
         echo
-        echo "✅ Salvando configuração..."
+        echo "✅ Saving configuration..."
 
         echo "USER_STEAM=\"$USER_STEAM\"" > $ENV_CONFIG
         echo "PASSWORD_STEAM=\"$PASSWORD_STEAM\"" >> $ENV_CONFIG
@@ -120,29 +121,28 @@ validate_dayz_server() {
 
     mkdir -p $HOME/steamcmd/compatdata/dayzserver
 
-    # Não existe em lugar nenhum → baixar
     ensure_steamcmd
 
-    echo "⬇️ Instalando dayzserver..."
+    echo "⬇️ Installing DayZ Server..."
     
     "$STEAMCMD" \
         +force_install_dir "$SERVER_DIR" \
         +login $USER_STEAM $PASSWORD_STEAM \
-        +app_update 223350 validate \
+        +app_update $GAME_ID validate \
         +quit
 
     cp -f "$SERVER_DIR/serverDZ.cfg.example" "$SERVER_DIR/serverDZ.cfg"
     
-    echo "✅ Dayzserver está pronto!"
+    echo "✅ DayZ Server is ready!"
 }
 
 ensure_steamcmd() {
     if [ -x "$HOME/.steam/steamcmd/steamcmd.sh" ]; then
-        echo "✅ steamcmd já instalado"
+        echo "✅ steamcmd already installed"
         return
     fi
 
-    echo "⬇️ Instalando steamcmd..."
+    echo "⬇️ Installing steamcmd..."
     mkdir -p "$HOME/.steam/steamcmd"
     cd "$HOME/.steam/steamcmd" || exit 1
 
@@ -157,11 +157,10 @@ ensure_mod() {
 
     # Já existe no servidor
     if [ -d "$SERVER_MOD_DIR" ]; then
-        echo "✅ Mod $MOD_ID já existe no servidor"
         return
     fi
 
-    echo "📦 Mod $MOD_ID precisa ser baixado"
+    echo "📦 The mod $MOD_ID needs to be downloaded."
 
     # adiciona comando na lista
     DOWNLOAD_COMMANDS="$DOWNLOAD_COMMANDS+workshop_download_item 221100 $MOD_ID "
@@ -169,7 +168,6 @@ ensure_mod() {
 
 download_mods() {
     if [[ -z "$DOWNLOAD_COMMANDS" ]]; then
-        echo "✅ Nenhum mod precisa ser baixado"
         return
     fi
 
@@ -177,7 +175,7 @@ download_mods() {
 
     local STEAMCMD="$HOME/.steam/steamcmd/steamcmd.sh"
 
-    echo "⬇️ Baixando mods necessários..."
+    echo "⬇️ Downloading necessary mods..."
 
     if [ ! -d "$HOME/steamcmd/mods" ]; then
         mkdir -p "$HOME/steamcmd/mods"
@@ -194,7 +192,7 @@ copy_mods() {
         local CLIENT_MOD_DIR="$HOME/steamcmd/mods/steamapps/workshop/content/221100/$MOD_ID"
 
         if [ -d "$CLIENT_MOD_DIR" ] && [ ! -d "$SERVER_MOD_DIR" ]; then
-            echo "📂 Copiando mod $MOD_ID para servidor"
+            echo "📂 Copying mod $MOD_ID to server"
             cp -r "$CLIENT_MOD_DIR" "$MOD_SERVER_DIR/"
             rm -rf "$CLIENT_MOD_DIR"
         fi
@@ -202,23 +200,19 @@ copy_mods() {
 }
 
 cleanup_removed_mods() {
-    echo "🧹 Verificando mods removidos..."
-
     for dir in "$MOD_SERVER_DIR/"*; do
         [ -d "$dir" ] || continue
 
         MOD_FOLDER=$(basename "$dir")
 
         if [[ ";$MODS_ID;" != *";$MOD_FOLDER;"* ]]; then
-            echo "🗑️ Removendo mod antigo: $MOD_FOLDER"
+            echo "🗑️ Removing old mod: $MOD_FOLDER"
             rm -rf "$dir"
         fi
     done
 }
 
 prepare_mods() {
-    echo "🔍 Verificando status dos mods..."
-
     if [ ! -d "$MOD_SERVER_DIR" ]; then
         mkdir -p "$MOD_SERVER_DIR"
     fi
@@ -235,17 +229,17 @@ prepare_mods() {
 
     DOWNLOAD_COMMANDS=""
 
-    echo "✅ Todos os mods estão prontos"
+    echo "✅ All mods are ready."
 }
 
 check_dayz_update() {
-    LOCAL_BUILD=$(grep -oP '"buildid"\s+"\K[^"]+' "$SERVER_DIR/steamapps/appmanifest_223350.acf")
+    LOCAL_BUILD=$(grep -oP '"buildid"\s+"\K[^"]+' "$SERVER_DIR/steamapps/appmanifest_$GAME_ID.acf")
 
-    REMOTE_BUILD=$(curl -s https://api.steamcmd.net/v1/info/223350 \
-| jq -r '.data."223350".depots.branches.public.buildid')
+    REMOTE_BUILD=$(curl -s "https://api.steamcmd.net/v1/info/$GAME_ID" \
+| jq -r ".data.\"$GAME_ID\".depots.branches.public.buildid")
 
     if [[ -z "$REMOTE_BUILD" || ! "$REMOTE_BUILD" =~ ^[0-9]+$ ]]; then
-        echo "Erro: não foi possível obter o build remoto."
+        echo "Error: Could not retrieve the remote build."
         return 0
     fi
 
@@ -261,7 +255,7 @@ check_mod_update() {
     touch "$LOG_FILE"
 
     while true; do
-        echo "🔄 Verificando atualizações dos mods... ($(date))"
+        echo "🔄 Checking for mod updates... ($(date))"
 
         check_dayz_update
         VALOR_UPDATE=$?
@@ -270,7 +264,7 @@ check_mod_update() {
             SERVER_PIDS=$(pgrep -u "$USER" -f "$SERVER_EXE")
             # Verifica se o PID foi capturado com sucesso
             if [[ -n "$SERVER_PIDS" ]]; then
-                echo "🛑 Encerrando os seguintes PIDs: $SERVER_PIDS"
+                echo "🛑 Closing the following PIDs: $SERVER_PIDS"
                 kill $SERVER_PIDS
                 sleep 2
                 for pid in $SERVER_PIDS; do
@@ -321,7 +315,7 @@ check_mod_update() {
             
             # Verifica se a conversão foi bem-sucedida
             if [[ -z "$MOD_TIMESTAMP" ]]; then
-                echo "⚠️ [$id] $MOD_NAME — Erro ao converter a data: '$UPDATED_DATE' (tratada: '$DATE_TO_PARSE')"
+                echo "⚠️ [$id] $MOD_NAME — Error converting date.: '$UPDATED_DATE' (tratada: '$DATE_TO_PARSE')"
             fi
 
             # Carrega timestamp salvo
@@ -329,12 +323,11 @@ check_mod_update() {
 
             # Verificação de atualização
             if [[ -z "$LAST_TIMESTAMP" ]]; then
-                echo "📌 [$id] $MOD_NAME — Primeira verificação, atualizado em: $UPDATED_DATE"
                 if [[ "$MOD_TIMESTAMP" -gt 0 ]]; then
                 echo "$id:$MOD_TIMESTAMP" >> "$CACHE_FILE"
             fi
             elif [[ "$MOD_TIMESTAMP" -gt "$LAST_TIMESTAMP" ]]; then
-                echo "✅ [$id] $MOD_NAME — FOI ATUALIZADO! Nova data: $UPDATED_DATE"
+                echo "✅ [$id] $MOD_NAME — UPDATED! New date: $UPDATED_DATE"
                 sed -i "s/^$id:.*/$id:$MOD_TIMESTAMP/" "$CACHE_FILE"
                 
                 # Prepara mensagem
@@ -342,7 +335,7 @@ check_mod_update() {
                 ORIGINAL_DATE=$(date -d "@$MOD_TIMESTAMP_LOCAL" "+%d/%m/%Y %H:%M:%S")
                 
                 # Salva informações no log para registro de histórico e auditoria
-                echo "Mod atualizado: $MOD_NAME - ID: $id - Data: $ORIGINAL_DATE" >> "$LOG_FILE"
+                echo "Updated mod: $MOD_NAME - ID: $id - Data: $ORIGINAL_DATE" >> "$LOG_FILE"
                 echo "------------------------------" >> "$LOG_FILE"
 
                 # Captura todos os PIDs do processo real (filhos do Proton)
@@ -350,7 +343,7 @@ check_mod_update() {
 
                 # Verifica se o PID foi capturado com sucesso
                 if [[ -n "$SERVER_PIDS" ]]; then
-                    echo "🛑 Encerrando os seguintes PIDs: $SERVER_PIDS"
+                    echo "🛑 Closing the following PIDs: $SERVER_PIDS"
                     kill $SERVER_PIDS
                     sleep 2
                     for pid in $SERVER_PIDS; do
@@ -370,7 +363,7 @@ check_mod_update() {
                     -d @- <<EOF
 {
 "username": "DayZ Mod Watcher",
-"content": "🧩 **Mod atualizado!**\n📌 Nome: **$MOD_NAME**\n🆔 ID: \`$id\`\n📅 Atualizado em: $ORIGINAL_DATE\n🔗 $MOD_URL\n@everyone"
+"content": "🧩 **Updated mod!**\n📌 Nome: **$MOD_NAME**\n🆔 ID: \`$id\`\n📅 Updated on: $ORIGINAL_DATE\n🔗 $MOD_URL\n@everyone"
 }
 EOF
             fi
@@ -406,18 +399,19 @@ main() {
     while true; do
         # ===== CÁLCULO DO TEMPO ATÉ O PRÓXIMO REINÍCIO =====
         TIME_RESTART=$(calc_restart_time | tail -n1)
-        echo "⏱️ Tempo para o próximo restart: $TIME_RESTART segundos"
+        echo "⏱️ Time until next restart: $TIME_RESTART seconds"
 
         # Captura todos os PIDs do processo real (filhos do Proton)
         SERVER_PIDS=$(pgrep -u "$USER" -f "$SERVER_EXE")
 
-        if [[ $TIME_RESTART -lt 180 || -z $SERVER_PIDS ]]; then
+        WAITING_TIME=$((TIME_CHECK_SERVER_CRASHED_IN_SEC + 30))
+
+        if [[ $TIME_RESTART -lt $WAITING_TIME || -z $SERVER_PIDS ]]; then
             # ===== LIMPEZA DE LOGS =====
-            echo "🧹 Apagando arquivos .RPT, .log e .mdmp em: $SERVER_DIR/profiles"
+            echo "🧹 Deleting files .RPT, .log e .mdmp em: $SERVER_DIR/profiles"
             rm -f "$SERVER_DIR"/profiles/*.RPT "$SERVER_DIR"/profiles/*.ADM "$SERVER_DIR"/profiles/*.log "$SERVER_DIR"/profiles/*.mdmp
             rm -f "$SERVER_DIR"/profiles/WebApiLog/*.log "$SERVER_DIR"/profiles/LBmaster/Data/Core/Players/*.json "$SERVER_DIR"/profiles/ExpansionMod/Logs/*.log "$SERVER_DIR"/profiles/EventManagerLog/*.log "$SERVER_DIR"/profiles/CBD_LootSystem/Logging/Logs/*.log "$SERVER_DIR"/profiles/BXDCarLock/CarLockLogging/Logs/*.log
             rm -rf "$SERVER_DIR"/profiles/CodeLock/Logs
-            echo "✅ Limpeza concluída."
 
             if [[ -z $SERVER_PIDS ]]; then
                 prepare_mods
@@ -425,24 +419,24 @@ main() {
                 check_dayz_update
                 VALOR_UPDATE=$?
                 if [ "$VALOR_UPDATE" -eq 1 ]; then
-                    echo "⬇️ Update disponível"
+                    echo "⬇️ Update available"
                     validate_dayz_server
                     curl -s -X POST "$WEBHOOK_URL_SERVER" \
                         -H "Content-Type: application/json" \
                         -d @- <<EOF
 {
 "username": "DayZ Server",
-"content": "⬇️ Servidor foi atualizado!\n@everyone"
+"content": "⬇️ The server has been updated!\n@everyone"
 }
 EOF
                 fi
             fi
 
             # ===== EXECUÇÃO =====
-            cd "$SERVER_DIR" || { echo "❌ Não foi possível entrar no diretório do servidor."; exit 1; }
+            cd "$SERVER_DIR" || { echo "❌ Unable to access the server directory.."; exit 1; }
 
             if [[ -n "$SERVER_PIDS" ]]; then
-                echo "🛑 Encerrando processos em execução"
+                echo "🛑 Closing ongoing processes"
                 kill $SERVER_PIDS
                 sleep 2
                 for pid in $SERVER_PIDS; do
@@ -452,13 +446,13 @@ EOF
                 done
             fi
 
-            echo "🚀 Iniciando servidor DayZ com Proton..."
+            echo "🚀 Starting a DayZ server..."
             "$PROTON_RUN" run "./$SERVER_EXE" $CONFIG $PROFILES "$MODS" "$SERVER_MODS" "$SERVER_PORT" "$SERVER_CPU" "$SERVER_OTHERS" &
 
             SERVER_LAUNCH_PID=$!
 
             if ! kill -0 "$SERVER_LAUNCH_PID" 2>/dev/null; then
-                echo "❌ Falha ao iniciar o servidor com Proton."
+                echo "❌ Failed to start the server."
                 exit 1
             fi
 
@@ -470,7 +464,7 @@ EOF
 
             # Verifica se o PID foi capturado com sucesso
             if [[ -n "$SERVER_PIDS" ]]; then
-                echo "✅ Servidor iniciado com os PIDs: $SERVER_PIDS"
+                echo "✅ Server started with PIDs: $SERVER_PIDS"
                 
                 # Envia notificação ao Discord
                 curl -s -X POST "$WEBHOOK_URL_SERVER" \
@@ -478,11 +472,11 @@ EOF
                     -d @- <<EOF
 {
 "username": "DayZ Server",
-"content": "✅ Servidor iniciado com sucesso!\n@everyone"
+"content": "✅ Server started successfully!\n@everyone"
 }
 EOF
             else
-                echo "❌ Não foi possível capturar o PID do servidor."
+                echo "❌ Unable to capture the server's PID."
             fi
         fi
         sleep "$TIME_CHECK_SERVER_CRASHED_IN_SEC"
