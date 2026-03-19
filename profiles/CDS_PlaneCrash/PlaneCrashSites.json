@@ -1,0 +1,196 @@
+{
+    "CustomCrashSites": [
+        {
+            "Position": [
+                14040.0,
+                0.0,
+                2791.0
+            ],
+            "NotificationMessage": "Plane crash reported near Skalisty Island.",
+            "Tier": 1,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        },
+        {
+            "Position": [
+                1328.0,
+                0.0,
+                7436.0
+            ],
+            "NotificationMessage": "Plane crash reported near Myshkino Military Base.",
+            "Tier": 2,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        },
+        {
+            "Position": [
+                7158.0,
+                0.0,
+                8868.0
+            ],
+            "NotificationMessage": "Plane crash reported near Devil's Castle.",
+            "Tier": 2,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        },
+        {
+            "Position": [
+                3507.0,
+                0.0,
+                10718.0
+            ],
+            "NotificationMessage": "Plane crash reported near Dubnik - Northwest Airfield.",
+            "Tier": 3,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        },
+        {
+            "Position": [
+                7154.0,
+                0.0,
+                12477.0
+            ],
+            "NotificationMessage": "Plane crash reported near Severograd.",
+            "Tier": 1,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        },
+        {
+            "Position": [
+                2847.0,
+                0.0,
+                13264.0
+            ],
+            "NotificationMessage": "",
+            "Tier": 0,
+            "ZombieTypes": [],
+            "WolfSpawn": {
+                "Enabled": 1,
+                "Count": 3,
+                "Radius": 70.0,
+                "Types": [
+                    "Animal_CanisLupus_Grey",
+                    "Animal_CanisLupus_White"
+                ]
+            },
+            "BearSpawn": {
+                "Enabled": 1,
+                "Count": 2,
+                "Radius": 75.0,
+                "Types": [
+                    "Animal_UrsusArctos"
+                ]
+            },
+            "GasZone": {
+                "Enabled": 0,
+                "Radius": 20.0,
+                "DurationSeconds": 300.0
+            }
+        }
+    ]
+}

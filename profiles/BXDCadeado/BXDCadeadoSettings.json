@@ -3,9 +3,8 @@
     "lockPickClassName": "lockpick",
     "lockPickChance": 0.33000001311302187,
     "carLockDetachClassName": "Pliers",
-    "carLockClassName": "DriveLock",
+    "carLockClassName": "Cadeado",
     "admins": [
-        "76561198120369757",
-        "76561198360290787"
+        ""
     ]
 }

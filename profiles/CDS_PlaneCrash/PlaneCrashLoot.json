@@ -1,0 +1,241 @@
+{
+    "Tier1_MainLoot": [
+        {
+            "Item": "SKS",
+            "Weight": 8.0
+        },
+        {
+            "Item": "Mosin9130",
+            "Weight": 6.0
+        },
+        {
+            "Item": "AKS74U",
+            "Weight": 4.0
+        },
+        {
+            "Item": "PlateCarrierVest",
+            "Weight": 3.0
+        },
+        {
+            "Item": "NVGHeadstrap",
+            "Weight": 1.0
+        }
+    ],
+    "Tier2_MainLoot": [
+        {
+            "Item": "AKM",
+            "Weight": 8.0
+        },
+        {
+            "Item": "M4A1",
+            "Weight": 5.0
+        },
+        {
+            "Item": "SVD",
+            "Weight": 3.0
+        },
+        {
+            "Item": "PlateCarrierVest_Black",
+            "Weight": 4.0
+        },
+        {
+            "Item": "NVGoggles",
+            "Weight": 2.0
+        }
+    ],
+    "Tier3_MainLoot": [
+        {
+            "Item": "VSS",
+            "Weight": 4.0
+        },
+        {
+            "Item": "ASVAL",
+            "Weight": 4.0
+        },
+        {
+            "Item": "SV98",
+            "Weight": 3.0
+        },
+        {
+            "Item": "NVGoggles",
+            "Weight": 2.0
+        },
+        {
+            "Item": "Plastic_Explosive",
+            "Weight": 1.0
+        }
+    ],
+    "Tier1_AmmoBoxLoot": [
+        {
+            "Item": "AmmoBox_762x39_20Rnd",
+            "Weight": 10.0
+        },
+        {
+            "Item": "AmmoBox_545x39_20Rnd",
+            "Weight": 8.0
+        },
+        {
+            "Item": "Ammo_12gaPellets",
+            "Weight": 6.0
+        }
+    ],
+    "Tier2_AmmoBoxLoot": [
+        {
+            "Item": "AmmoBox_556x45_20Rnd",
+            "Weight": 10.0
+        },
+        {
+            "Item": "AmmoBox_308Win_20Rnd",
+            "Weight": 6.0
+        },
+        {
+            "Item": "M67Grenade",
+            "Weight": 2.0
+        }
+    ],
+    "Tier3_AmmoBoxLoot": [
+        {
+            "Item": "AmmoBox_9x39AP_20Rnd",
+            "Weight": 6.0
+        },
+        {
+            "Item": "Ammo_40mm_Explosive",
+            "Weight": 2.0
+        },
+        {
+            "Item": "ClaymoreMine",
+            "Weight": 1.0
+        }
+    ],
+    "Tier1_ToolBoxLoot": [
+        {
+            "Item": "Pliers",
+            "Weight": 8.0
+        },
+        {
+            "Item": "DuctTape",
+            "Weight": 7.0
+        },
+        {
+            "Item": "Shovel",
+            "Weight": 4.0
+        }
+    ],
+    "Tier2_ToolBoxLoot": [
+        {
+            "Item": "SeaChest",
+            "Weight": 3.0
+        },
+        {
+            "Item": "PowerGenerator",
+            "Weight": 2.0
+        },
+        {
+            "Item": "WeaponCleaningKit",
+            "Weight": 6.0
+        }
+    ],
+    "Tier3_ToolBoxLoot": [
+        {
+            "Item": "LargeTent",
+            "Weight": 2.0
+        },
+        {
+            "Item": "CarTent",
+            "Weight": 1.0
+        },
+        {
+            "Item": "BarbedWire",
+            "Weight": 5.0
+        }
+    ],
+    "DefaultLootItems": [
+        "M4A1",
+        "PlateCarrierVest",
+        "NVGoggles"
+    ],
+    "DefaultAmmoBoxLoot": [
+        "AmmoBox",
+        "Ammo_45ACP",
+        "Ammo_308Win",
+        "Ammo_9x19",
+        "Ammo_380",
+        "Ammo_556x45",
+        "Ammo_762x54",
+        "Ammo_762x54Tracer",
+        "Ammo_762x39",
+        "Ammo_9x39",
+        "Ammo_22",
+        "Ammo_12gaPellets",
+        "Ammo_12gaSlug",
+        "Ammo_357",
+        "Ammo_545x39",
+        "Ammo_40mm_ChemGas",
+        "Ammo_40mm_Explosive",
+        "Ammo_40mm_Smoke_Black",
+        "Ammo_40mm_Smoke_Green",
+        "Ammo_40mm_Smoke_Red",
+        "Ammo_40mm_Smoke_White",
+        "AmmoBox_556x45_20Rnd",
+        "AmmoBox_308Win_20Rnd",
+        "AmmoBox_762x54_20Rnd",
+        "AmmoBox_762x39_20Rnd",
+        "AmmoBox_22_50Rnd",
+        "AmmoBox_357_20Rnd",
+        "AmmoBox_45ACP_25rnd",
+        "AmmoBox_9x19_25rnd",
+        "AmmoBox_380_35rnd",
+        "AmmoBox_00buck_10rnd",
+        "AmmoBox_545x39_20Rnd",
+        "AmmoBox_9x39_20Rnd",
+        "RGD5Grenade",
+        "M67Grenade",
+        "M18SmokeGrenade_Red",
+        "M18SmokeGrenade_Green",
+        "M18SmokeGrenade_Yellow",
+        "M18SmokeGrenade_Purple",
+        "M18SmokeGrenade_White",
+        "RDG2SmokeGrenade_Black",
+        "RDG2SmokeGrenade_White",
+        "FlashGrenade",
+        "LandMineTrap",
+        "ClaymoreMine",
+        "Plastic_Explosive",
+        "RemoteDetonator"
+    ],
+    "DefaultToolBoxLoot": [
+        "Barrel_Green",
+        "Barrel_Blue",
+        "Barrel_Red",
+        "Barrel_Yellow",
+        "MediumTent",
+        "LargeTent",
+        "CarTent",
+        "PartyTent",
+        "BarbedWire",
+        "CamoNet",
+        "SeaChest",
+        "PowerGenerator",
+        "CableReel",
+        "DuctTape",
+        "Battery9V",
+        "NailBox",
+        "WoodenPlank",
+        "MetalPlate",
+        "PersonalRadio",
+        "Pliers",
+        "Lockpick",
+        "WeaponCleaningKit",
+        "SewingKit",
+        "LeatherSewingKit",
+        "Shovel",
+        "FieldShovel",
+        "Crowbar",
+        "Hammer",
+        "Screwdriver",
+        "Hacksaw",
+        "FishingRod",
+        "SledgeHammer",
+        "Iceaxe"
+    ]
+}

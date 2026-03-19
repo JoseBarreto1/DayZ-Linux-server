@@ -1,0 +1,225 @@
+{
+    "CrashIntervalMin": 90,
+    "CrashIntervalMax": 150,
+    "MaxActivePlaneEvents": 2,
+    "AvoidBuildings": 1,
+    "BuildingClearRadius": 25.0,
+    "EnableCrashNotification": 1,
+    "EnableExpansionMarkers": 0,
+    "EnableBasicMapMarkers": 0,
+    "EnableLBMasterMarkers": 1,
+    "EnableZenMarkers": 0,
+    "EnableFileLogging": 1,
+    "EnableDebugLogging": 0,
+    "AlsoLogToRPT": 0,
+    "EnableWreckPathgraphUpdate": 1,
+    "EnableContainerPathgraphUpdate": 0,
+    "EnableDetailAssetPathgraphUpdate": 0,
+    "EnableZombiePathgraphUpdate": 0,
+    "EnableContainerBlue": 1,
+    "EnableContainerRed": 1,
+    "EnableContainerYellow": 1,
+    "EnableContainerOrange": 1,
+    "PreferredContainer": "",
+    "EnableCustomZombieOverride": 0,
+    "ZombieCount": 15,
+    "MinLootItems": 5,
+    "MaxLootItems": 15,
+    "MinAmmoBoxItems": 5,
+    "MaxAmmoBoxItems": 10,
+    "MinToolBoxItems": 5,
+    "MaxToolBoxItems": 10,
+    "PristineLoot": 0,
+    "EnableDefaultLootItems": 1,
+    "EnableDefaultAmmoBoxLoot": 1,
+    "EnableDefaultToolBoxLoot": 0,
+    "EnableDetailAssets": 1,
+    "EnablePlaneCrashCustomSite": 0,
+    "OverrideZombieTypes": [
+        "ZmbM_SoldierNormal",
+        "ZmbM_usSoldier_Heavy_Woodland",
+        "ZmbM_PatrolNormal_Summer",
+        "ZmbM_PatrolNormal_Autumn",
+        "ZmbM_eastSoldier_normal_Navy",
+        "ZmbM_usSoldier_Heavy_Woodland",
+        "ZmbM_usSoldier_Officer_Desert",
+        "ZmbM_NBC_Yellow",
+        "ZmbM_NBC_Grey",
+        "ZmbM_NBC_White"
+    ],
+    "WolfSpawn": {
+        "Enabled": 1,
+        "Count": 3,
+        "Radius": 70.0,
+        "Types": [
+            "Animal_CanisLupus_Grey",
+            "Animal_CanisLupus_White"
+        ]
+    },
+    "BearSpawn": {
+        "Enabled": 1,
+        "Count": 2,
+        "Radius": 75.0,
+        "Types": [
+            "Animal_UrsusArctos"
+        ]
+    },
+    "GasZone": {
+        "Enabled": 0,
+        "Radius": 20.0,
+        "DurationSeconds": 300.0
+    },
+    "GasZoneChancePercent": 100,
+    "DetailAssets": [
+        {
+            "AssetType": "CraterLong",
+            "LocalOffset": [
+                -0.5940539836883545,
+                -4.245966911315918,
+                10.352170944213868
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CraterLong",
+            "LocalOffset": [
+                -0.48886001110076907,
+                -4.21373987197876,
+                15.957640647888184
+            ],
+            "Orientation": [
+                0.35199999809265139,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "StaticObj_ammoboxes_big",
+            "LocalOffset": [
+                4.570658206939697,
+                0.41999998688697817,
+                13.319387435913086
+            ],
+            "Orientation": [
+                12.247900009155274,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CDSCrashStorage_AmmoBox",
+            "LocalOffset": [
+                -3.5999999046325685,
+                0.5,
+                12.989583969116211
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CDSCrashStorage_AmmoBox",
+            "LocalOffset": [
+                -3.5,
+                0.3499999940395355,
+                15.989583969116211
+            ],
+            "Orientation": [
+                138.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CDSCrashStorage_AmmoBox",
+            "LocalOffset": [
+                -5.0,
+                0.3499999940395355,
+                18.48958396911621
+            ],
+            "Orientation": [
+                127.5999984741211,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CDSCrashStorage_ToolBox",
+            "LocalOffset": [
+                4.060219764709473,
+                0.3499999940395355,
+                20.550506591796876
+            ],
+            "Orientation": [
+                12.247900009155274,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "CDSCrashStorage_ToolBox",
+            "LocalOffset": [
+                4.525253772735596,
+                0.3499999940395355,
+                17.980886459350587
+            ],
+            "Orientation": [
+                129.24789428710938,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "StaticObj_Misc_Gunrack",
+            "LocalOffset": [
+                3.3451359272003176,
+                0.36000001430511477,
+                16.167646408081056
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        },
+        {
+            "AssetType": "Land_Roadblock_WoodenCrate",
+            "LocalOffset": [
+                -2.919419050216675,
+                0.3199999928474426,
+                20.710844039916993
+            ],
+            "Orientation": [
+                -48.24790954589844,
+                0.0,
+                0.0
+            ],
+            "Scale": 1.0,
+            "AlignToTerrain": 1
+        }
+    ]
+}
