@@ -410,7 +410,7 @@ main() {
             # ===== LIMPEZA DE LOGS =====
             echo "🧹 Deleting files .RPT, .log e .mdmp em: $SERVER_DIR/profiles"
             rm -f "$SERVER_DIR"/profiles/*.RPT "$SERVER_DIR"/profiles/*.ADM "$SERVER_DIR"/profiles/*.log "$SERVER_DIR"/profiles/*.mdmp
-            rm -f "$SERVER_DIR"/profiles/WebApiLog/*.log "$SERVER_DIR"/profiles/LBmaster/Data/Core/Players/*.json "$SERVER_DIR"/profiles/ExpansionMod/Logs/*.log "$SERVER_DIR"/profiles/EventManagerLog/*.log "$SERVER_DIR"/profiles/CBD_LootSystem/Logging/Logs/*.log "$SERVER_DIR"/profiles/BXDCarLock/CarLockLogging/Logs/*.log
+            rm -f "$SERVER_DIR"/profiles/WebApiLog/*.log "$SERVER_DIR"/profiles/LBmaster/Data/Core/Players/*.json "$SERVER_DIR"/profiles/ExpansionMod/Logs/*.log "$SERVER_DIR"/profiles/EventManagerLog/*.log "$SERVER_DIR"/profiles/CBD_LootSystem/Logging/Logs/*.log "$SERVER_DIR"/profiles/Bastardo_HC/logs/*.log
             rm -rf "$SERVER_DIR"/profiles/CodeLock/Logs
 
             if [[ -z $SERVER_PIDS ]]; then
