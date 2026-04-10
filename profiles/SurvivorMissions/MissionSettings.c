@@ -10,7 +10,7 @@ class MissionSettings
 	
 	//DebugMode ( Useful for creating your own missions )
 	const bool DebugMode = false;				//1 = Enables debug functions and advanced script logging
-	const bool DebugShowInfo = true;			//1 = Displays additional information on the client in debug mode
+	const bool DebugShowInfo = false;			//1 = Displays additional information on the client in debug mode
 	const bool DebugRCbuild = false;			//1 = Raycast map after server start for desired building type, prints all found buildings to script log	
 	const string RCbuildType = "Land_City_School";					//Building type for map wide raycast
 	const bool CheckEWD = false;				//1 = Performs a check on MissionBuildings of events data at server start. Disable when check ran once successfully
@@ -22,8 +22,8 @@ class MissionSettings
 	static bool Opt_BuildStatics = false;		//1 = Spawn additional static buildings on startup(check EventsWorldData file), 0 = deploy only missions 
 	static bool Opt_SendStoryOnDisconn = true;	//1 = Player gets SurvivorStories displayed in main menu after disconnecting, 0 = deactivate SurvivorStories 
 	static bool Opt_DenyObjTakeaway = true;		//1 = mission object container gets deleted if manipulated, 0 = allow takeaway
-	static bool Opt_MsgTypeRadio = true; 		//1 = messages on radio for listeners only, 0 = server message broadcast to all clients
-	static bool Opt_ServerMsgFreq = true;		//1 = server informs all players of radio frequency, 0 = deactivate radio frequency information
+	static bool Opt_MsgTypeRadio = false; 		//1 = messages on radio for listeners only, 0 = server message broadcast to all clients
+	static bool Opt_ServerMsgFreq = false;		//1 = server informs all players of radio frequency, 0 = deactivate radio frequency information
 												// ( You can also use server MOTD instead! )  
 	static bool Opt_RPmode = false;				//1 = chronological mission selection for role play purposes, 0 = random mission selection 
 	static ref TIntArray Opt_RPlist = {0,130};
@@ -47,9 +47,9 @@ class MissionSettings
 	static int MsgWaitTime = 300;				//seconds (!Do not set lower than 300 seconds), message interval, cycle duration time
 	static int MsgCutoffTime = 2;				//minutes, time of messaging cutoff before mission ends 	
 	
-	static string GetStoriesFilePath() return StoriesFilePath;
+	static string GetStoriesFilePath() { return StoriesFilePath; }
 	
-	static float GetRadioFrequency() return RadioFrequency;	
+	static float GetRadioFrequency() { return RadioFrequency; }
 	//This function can be changed, if you want maybe a random frequency at server start...
 /*
 	static float GetRadioFrequency()

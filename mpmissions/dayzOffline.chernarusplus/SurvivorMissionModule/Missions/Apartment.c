@@ -15,7 +15,7 @@ class ApartmentMission extends BXD_Missions
 	//Mission variables 
 	string SurvivorName;	
 	
-	bool IsExtended() return false;
+	override bool IsExtended() { return false; }
 	
 	void ApartmentMission()
 	{
@@ -447,7 +447,7 @@ class ApartmentMission extends BXD_Missions
 			
 	}
 			
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{
 		//Despawn all mission objects at mission timeout except those retains until next mission
 		for (int i = 0; i < m_MissionObjects.Count(); i++ )
@@ -465,7 +465,7 @@ class ApartmentMission extends BXD_Missions
 		}
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone
 		//Open all doors of mission building
 		Building Tenement = Building.Cast( MissionBuilding );
@@ -492,7 +492,7 @@ class ApartmentMission extends BXD_Missions
 		m_MsgChkTime = m_MissionTime + MsgDlyFinish;
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//Check if container gets taken from player
 		if ( MissionSettings.Opt_DenyObjTakeaway )
@@ -514,7 +514,7 @@ class ApartmentMission extends BXD_Missions
 		//No bots involved in this mission		
 	}
 			
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		//Search for mission building at mission position	
 		GetGame().GetObjectsAtPosition( m_MissionPosition , 1.0 , m_ObjectList , m_ObjectCargoList );

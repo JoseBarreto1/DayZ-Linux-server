@@ -17,8 +17,8 @@ class CampMission extends BXD_Missions
 	//Mission variables 
 	string SurvivorName;		
 	
-	bool IsExtended() return false;
-	
+	override bool IsExtended() { return false; }
+
 	void CampMission()
 	{
 		//Mission mission timeout
@@ -420,7 +420,7 @@ class CampMission extends BXD_Missions
 		}	
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//Despawn all mission objects at mission timeout except those retains until next mission
 		for ( int i = 0; i < m_MissionObjects.Count(); i++ )
@@ -440,7 +440,7 @@ class CampMission extends BXD_Missions
 		}
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone	
 		//Respawn some infected 
 		for ( int j = 0 ; j < 2 ; j++ )
@@ -456,7 +456,7 @@ class CampMission extends BXD_Missions
 		m_MsgChkTime = m_MissionTime + MsgDlyFinish;			
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//Check if container gets taken from player
 		if ( MissionSettings.Opt_DenyObjTakeaway )
@@ -478,7 +478,7 @@ class CampMission extends BXD_Missions
 		//Test1.OnUpdate(dt);		
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		if ( m_MissionPosition && m_MissionPosition != "0 0 0" )
 		{

@@ -1103,12 +1103,12 @@ class EventsWorldData extends BXD_Missions
 		for ( int i=0; i < BuildingSpawns.Count(); i++ )
 		{
 			Param3<string,vector,vector> BuildingDef = BuildingSpawns.Get(i);
-			string BuildingType = BuildingDef.param1;
+			string buildingTypeName = BuildingDef.param1;
 			vector BuildingPos = MainBuildingHQ.ModelToWorld( BuildingDef.param2 );
 			vector BuildingOri = BuildingDef.param3;
 			vector BuildingDir = MainBuildingHQ.GetDirection();
 			
-			Object HQextra = GetGame().CreateObject( BuildingType, BuildingPos );
+			Object HQextra = GetGame().CreateObject( buildingTypeName, BuildingPos );
 			HQextra.SetPosition( BuildingPos );
 			HQextra.SetDirection( BuildingDir );
 			HQextra.SetOrientation( HQextra.GetOrientation() + BuildingOri );

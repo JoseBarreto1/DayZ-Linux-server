@@ -19,7 +19,7 @@ class PsilosMission extends BXD_Missions
 	string SurvivorName;		
 	string SurvivorExtName;
 	
-	bool IsExtended() return true;
+	override bool IsExtended() { return true; }
 	
 	void PsilosMission()
 	{	
@@ -425,7 +425,7 @@ class PsilosMission extends BXD_Missions
 		}
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//Despawn all mission objects at mission timeout except those retains until next mission
 		for ( int i = 0; i < m_MissionObjects.Count(); i++ )
@@ -439,7 +439,7 @@ class PsilosMission extends BXD_Missions
 		}
 	}
 	
-	void ExtendMission()
+	override void ExtendMission()
 	{
 		//Set new mission messages
 		m_MissionMessage1 = "Muito bem, sobrevivente, se você encontrou os " + ReqShroomsCount + " cogumelos, leve-os para o seguinte local. Espere um segundo...";
@@ -468,12 +468,12 @@ class PsilosMission extends BXD_Missions
 		else Print("[SMM] Can't find MissionBuilding Village Police Station in "+ m_MissionDescription[3] +"!");
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone
 		//do nothing			
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//Check if container gets taken from player
 		if ( MissionSettings.Opt_DenyObjTakeaway && !m_MissionExtended )
@@ -533,7 +533,7 @@ class PsilosMission extends BXD_Missions
 		//No bots involved in this mission		
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		//Get MissionBuilding at mission position
 		if ( !m_MissionExtended && !MissionBuilding )

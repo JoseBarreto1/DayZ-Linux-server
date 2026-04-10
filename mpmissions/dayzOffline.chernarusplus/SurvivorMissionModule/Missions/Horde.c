@@ -13,7 +13,7 @@ class HordeMission extends BXD_Missions
 	//Mission variables 
 			
 	
-	bool IsExtended() return false;
+	override bool IsExtended() { return false; }
 	
 	void HordeMission()
 	{
@@ -364,12 +364,12 @@ class HordeMission extends BXD_Missions
 		}
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//nothing to despawn
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone	
 
 		//Alert infected 
@@ -389,7 +389,7 @@ class HordeMission extends BXD_Missions
 		m_MsgChkTime = m_MissionTime + MsgDlyFinish;			
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		
 	}
@@ -399,7 +399,7 @@ class HordeMission extends BXD_Missions
 			
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		if ( m_MissionPosition && m_MissionPosition != "0 0 0" )
 		{

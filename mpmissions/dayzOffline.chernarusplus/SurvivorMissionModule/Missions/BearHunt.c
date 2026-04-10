@@ -18,7 +18,7 @@ class BearHuntMission extends BXD_Missions
 	//Mission variables 
 	string SurvivorName;		
 	
-	bool IsExtended() return true;
+	override bool IsExtended() { return true; }
 	
 	void BearHuntMission()
 	{	
@@ -369,12 +369,12 @@ class BearHuntMission extends BXD_Missions
 		}
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//Despawn nothing
 	}
 	
-	void ExtendMission()
+	override void ExtendMission()
 	{
 		//Set new mission messages
 		m_MissionMessage1 = "Muito bem, sobrevivente, você encontrou a localização do urso. Tente enfrentá-lo com segurança e matá-lo mirando na cabeça ou no coração. Um urso é um animal forte, então serão necessários alguns tiros para derrubá-lo.";
@@ -415,7 +415,7 @@ class BearHuntMission extends BXD_Missions
 		else Print("[SMM] Can't find MissionBuilding City School in "+ m_MissionDescription[3] +"!");
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone	
 		//Spawn infected
 		string RandomInfected;
@@ -430,7 +430,7 @@ class BearHuntMission extends BXD_Missions
 				
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//Update Bear position 
 		if ( m_MissionExtended )
@@ -500,7 +500,7 @@ class BearHuntMission extends BXD_Missions
 		//No bots involved in this mission		
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		//Get MissionBuilding at mission position
 		if ( !m_MissionExtended && !MissionBuilding )

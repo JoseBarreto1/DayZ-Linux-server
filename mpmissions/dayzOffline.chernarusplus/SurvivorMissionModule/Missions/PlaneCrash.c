@@ -16,7 +16,7 @@ class PlaneCrashMission extends BXD_Missions
 	//Mission variables 
 	string SurvivorName;		
 	
-	bool IsExtended() return false;
+	override bool IsExtended() { return false; }
 	
 	void PlaneCrashMission()
 	{
@@ -414,12 +414,12 @@ class PlaneCrashMission extends BXD_Missions
 		}	
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//Despawn nothing
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone	
 		//Respawn some infected 
 		for ( int m = 0 ; m < InfectedSpawns.Count() ; m++)
@@ -435,7 +435,7 @@ class PlaneCrashMission extends BXD_Missions
 		m_MsgChkTime = m_MissionTime + MsgDlyFinish;			
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//nothing to check
 	}
@@ -445,7 +445,7 @@ class PlaneCrashMission extends BXD_Missions
 		//no bots involved in this mission		
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		if ( m_MissionPosition && m_MissionPosition != "0 0 0" )
 		{

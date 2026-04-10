@@ -29,7 +29,7 @@ class CityStoreMission extends BXD_Missions
 	vector RewardsPosition = "-3.46 -5.72 6.63";
 	string SurvivorName;	
 	
-	bool IsExtended() return true;
+	override bool IsExtended() { return true; }
 	
 	void CityStoreMission()
 	{		
@@ -620,7 +620,7 @@ class CityStoreMission extends BXD_Missions
 		}
 	}
 	
-	void ObjDespawn() 
+	override void ObjDespawn() 
 	{	
 		//Despawn all mission objects at mission timeout except those retains until next mission
 		for ( int i = 0; i < m_MissionObjects.Count(); i++ )
@@ -640,7 +640,7 @@ class CityStoreMission extends BXD_Missions
 		}
 	}
 	
-	void ExtendMission()
+	override void ExtendMission()
 	{	//When player enters mission target zone at primary mission
 
 		//Set messages for secondary mission
@@ -687,14 +687,14 @@ class CityStoreMission extends BXD_Missions
 		}			
 	}
 	
-	void MissionFinal()
+	override void MissionFinal()
 	{	//When player enters last mission target zone
 		
 		//Spawn second wave of infected at secondary mission
 		SpawnAIs();				
 	}
 	
-	void PlayerChecks( PlayerBase player )
+	override void PlayerChecks( PlayerBase player )
 	{
 		//Check if container gets taken from player
 		if ( MissionSettings.Opt_DenyObjTakeaway && !m_MissionExtended )
@@ -762,7 +762,7 @@ class CityStoreMission extends BXD_Missions
 		//No bots involved in this mission		
 	}
 	
-	bool DeployMission()
+	override bool DeployMission()
 	{	//When first player enters the mission zone (primary/secondary)
 		//Get MissionBuilding at secondary mission position
 		if ( !m_MissionExtended )

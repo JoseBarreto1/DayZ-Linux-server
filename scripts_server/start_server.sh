@@ -4,9 +4,11 @@
 PROJECT="dayzserver" #name project/folder
 SERVER_DIR="$HOME/steamcmd/$PROJECT"
 PROTON_RUN="$SERVER_DIR/proton"
-SERVER_EXE="DayZServer_x64.exe"
+SERVER_EXE="DayZServer_x64.exe" #Stable branch 
+#SERVER_EXE="DayZServer" #Experimental branch
 SCRIPT_DIR="$SERVER_DIR/scripts_server"
-GAME_ID="223350" #Stable branch #GAME_ID="1042420" #Experimental branch
+GAME_ID="223350" #Stable branch 
+#GAME_ID="1042420" #Experimental branch
 
 MOD_ID_FILE="mod_ids.txt"
 MOD_SERVER_DIR="$SERVER_DIR/md"
@@ -114,7 +116,7 @@ load_credentials() {
 validate_dayz_server() {
     local STEAMCMD="$HOME/.steam/steamcmd/steamcmd.sh"
 
-    if [ -x "$SERVER_DIR/DayZServer_x64.exe" ]; then
+    if [ -x "$SERVER_DIR/$SERVER_EXE" ]; then
         echo "✅ dayzserver. Ok!"
         return
     fi
@@ -446,8 +448,9 @@ EOF
                 done
             fi
 
-            echo "🚀 Starting a DayZ server..."
+            echo "🚀 Starting a DayZ server..."            
             "$PROTON_RUN" run "./$SERVER_EXE" $CONFIG $PROFILES "$MODS" "$SERVER_MODS" "$SERVER_PORT" "$SERVER_CPU" "$SERVER_OTHERS" &
+            #"./$SERVER_EXE" $CONFIG $PROFILES "$MODS" "$SERVER_MODS" "$SERVER_PORT" "$SERVER_CPU" "$SERVER_OTHERS" & #Experimental branch
 
             SERVER_LAUNCH_PID=$!
 
