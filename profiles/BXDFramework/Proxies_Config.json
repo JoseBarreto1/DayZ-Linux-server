@@ -1,9 +1,0 @@
-{
-    "version": 1.0,
-    "proxies_settings": {
-        "HideAllProxiesWhenClosed": 1,
-        "HideWeaponProxies": 1,
-        "HideClothingProxies": 1,
-        "HideOtherProxies": 1
-    }
-}

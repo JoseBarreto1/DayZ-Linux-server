@@ -134,6 +134,7 @@ validate_dayz_server() {
         +quit
 
     cp -f "$SERVER_DIR/serverDZ.cfg.example" "$SERVER_DIR/serverDZ.cfg"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/types.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/types.xml"
     
     echo "✅ DayZ Server is ready!"
 }
