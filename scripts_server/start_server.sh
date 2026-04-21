@@ -133,8 +133,14 @@ validate_dayz_server() {
         +app_update $GAME_ID validate \
         +quit
 
-    cp -f "$SERVER_DIR/serverDZ.cfg.example" "$SERVER_DIR/serverDZ.cfg"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/events.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/events.xml"
     cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/types.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/db/types.xml"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/env/zombie_territories.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/env/zombie_territories.xml"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgeconomycore.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgeconomycore.xml"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgeffectarea.example.json" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgeffectarea.json"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgignorelist.example.xml" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgignorelist.xml"
+    cp -f "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgundergroundtriggers.example.json" "$SERVER_DIR/mpmissions/dayzOffline.chernarusplus/cfgundergroundtriggers.json"
+    cp -f "$SERVER_DIR/serverDZ.cfg.example" "$SERVER_DIR/serverDZ.cfg"
     
     echo "✅ DayZ Server is ready!"
 }
