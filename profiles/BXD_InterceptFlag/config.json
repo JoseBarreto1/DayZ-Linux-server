@@ -2,12 +2,14 @@
     "minPlayersRequired": 1,
     "startupWaitTime": 120,
     "nextEventWaitTime": 1200,
-    "preSpawnWarningTime": 60,
+    "preSpawnWarningTime": 120,
     "eventWebhook": "",
     "aiFaction": "shamans",
     "aiLoadout": "VascoLoadout",
     "maxAmountAI": 1,
     "minAmountAI": 1,
+    "spawnZombieCaptureCompleted": true,
+    "spawnAICaptureCompleted": false,
     "zone": {
         "flagClassName": "BXD_InterceptFlagV2",
         "returnRadius": 5.0,
@@ -20,7 +22,7 @@
         "beepInterval": 5,
         "timeToReturnFlag": 3600,
         "zombieConfig": {
-            "numWaves": 1,
+            "numWaves": 2,
             "min": 5,
             "max": 10,
             "zombieTypes": [
@@ -28,13 +30,17 @@
                 "BXD_zmb_explosive_yellow",
                 "BXD_zmb_explosive_grey",
                 "BXD_zmb_wild",
+                "Animal_Demongoat",
+                "Animal_ZombyDogA",
                 "BXD_zmb_Crooked",
                 "ZmbM_kid",
                 "ZmbF_kid3",
                 "ZmbM_kid2",
                 "BXD_zmb_Naked",
                 "BXD_zmb_fastlurk",
-                "Animal_Demongoat"
+                "Animal_Demongoat",
+                "Animal_ZombyDogA",
+                "One_BlackPanter"
             ]
         },
         "disableBoundaryEffect": 0

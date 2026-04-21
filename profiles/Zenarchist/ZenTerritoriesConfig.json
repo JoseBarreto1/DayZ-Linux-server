@@ -13,15 +13,17 @@
         "MediumTent",
         "LargeTent",
         "CarTent",
-        "PartyTent"
+        "PartyTent",
+        "HDSN_BreachingCharge",
+        "HDSN_BreachingChargeHeavy"
     ],
     "ServerAdmins": [
         ""
     ],
     "TentRadius": 0.0,
-    "TentCESpawnLifeTime": 5600.0,
+    "TentCESpawnLifeTime": 3888000.0,
     "BuildBonusSledgeDamage": 300.0,
-    "RequireTerritory": 0,
+    "RequireTerritory": 1,
     "PublicPermissions": 280,
     "MemberPermissions": 1,
     "Notifications": 0,
@@ -41,19 +43,21 @@
             "DrawOnMap": 0
         }
     ],
-    "NoBuildZoneMessage": "You can't build here, you are trying to build in a designated no build zone!",
-    "TerritoryConflictMessage": "You can't build a territory this close to another territory!",
-    "WithinTerritoryWarning": "You can't build this close to an enemy territory!",
-    "DeSpawnWarningMessage": "You are building outside a territory, $ITEMNAME$ will despawn in $LIFETIME$ without a Territory Flag",
-    "BuildPartWarningMessage": "You don't have the right permissions to build in this area!",
-    "DismantleWarningMessage": "You can't dismantle anything this close to a raised flag!",
-    "LowerFlagWarningMessage": "You do not have permissions to lower the flag in this territory!",
-    "TerritoryRequiredWarningMessage": "Sorry, you are required to build a territory to be able to build",
+    "NoBuildZoneMessage": "Você não pode construir aqui, você está tentando construir em uma zona designada como proibida para construção!",
+    "TerritoryConflictMessage": "Você não pode construir em um território tão próximo de outro território!",
+    "WithinTerritoryWarning": "Você não pode construir tão perto de um território inimigo!",
+    "DeSpawnWarningMessage": "Você está construindo fora de um território, $ITEMNAME$ desaparecerá em $LIFETIME$ sem uma Bandeira de Território",
+    "BuildPartWarningMessage": "Você não tem as permissões necessárias para construir nesta área!",
+    "DismantleWarningMessage": "Você não pode desmontar nada tão perto de uma bandeira hasteada!",
+    "LowerFlagWarningMessage": "Você não tem permissão para abaixar a bandeira neste território!",
+    "TerritoryRequiredWarningMessage": "Desculpe, você precisa construir um território para poder construir",
     "FlagRefreshFrequency": 432000,
     "KitLifeTimes": {
         "watchtowerkit": 3888000,
         "fencekit": 3888000,
         "msp_": 3888000,
-        "bbp_": 3888000
+        "bbp_": 3888000,
+        "bxd_": 3888000,
+        "BXD_": 3888000
     }
 }

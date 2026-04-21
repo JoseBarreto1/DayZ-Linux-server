@@ -11,23 +11,23 @@
             "HELI_Simultaneous_Stagger_Time_Max": 1800,
             "HELI_Start_Delay": 220,
             "HELI_Starting_Failed_Retry_Delay": 20,
+            "HELI_Spawn_Start_Delay": 2,
             "HELI_Time_Between": 360,
             "HELI_Time_Limit": 360,
             "HELI_Web_hook": "",
             "aiLoadout": "VascoLoadout",
             "aiFaction": "shamans",
-            "maxAmountAI": 2,
-            "minAmountAI": 1,
+            "maxAmountAI": 6,
+            "minAmountAI": 3,
             "enableMarker": 1,
             "enableRandomPosition": 1,
-            "HELI_Spawn_Start_Delay": 2,
             "HELI_Flag_Lower_If_Abandoned": 1,
             "HELI_Do_Smoke": 1,
             "HELI_Do_Fireworks_On_Win": 1,
             "Map_Marker_Enabled": 1,
             "Perspective_Marker_Enabled": 1,
             "Notification_Enabled": 1,
-            "Logging_Enabled": 1,
+            "Logging_Enabled": 0,
             "Debug_QuickMode": 0,
             "HELI_Enemies": [               
                 {
@@ -41,9 +41,17 @@
                 {
                     "ClassName": "Animal_UrsusArctos",
                     "SpawnRarity": 0
-                },
+                },                
                 {
                     "ClassName": "BXD_zmb_Babdook",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_Demongoat",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_ZombyDogA",
                     "SpawnRarity": 0
                 },
                 {
@@ -63,7 +71,7 @@
                     "SpawnRarity": 0
                 },
                 {
-                    "ClassName": "BXD_zmb_explosive_yellow",
+                    "ClassName": "One_BlackPanter",
                     "SpawnRarity": 0
                 },
                 {
@@ -94,7 +102,7 @@
                 0.0,
                 0.0
             ],
-            "Enemies_Count": 5,
+            "Enemies_Count": 15,
             "Reward_Loot_Count": 6,
             "Static_Objects": []
         }

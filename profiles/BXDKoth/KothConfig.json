@@ -11,7 +11,7 @@
             "KOTH_Simultaneous_Stagger_Time_Min": 1200,
             "KOTH_Simultaneous_Stagger_Time_Max": 1800,
             "KOTH_Start_Delay": 120,
-            "KOTH_Spawn_Start_Delay": 120,
+            "KOTH_Spawn_Start_Delay": 60,
             "KOTH_Starting_Failed_Retry_Delay": 120,
             "KOTH_Time_Between": 1800,
             "KOTH_Time_Limit": 1200,
@@ -19,8 +19,8 @@
             "KOTH_Web_hook": "",
             "aiFaction": "shamans",
             "aiLoadout": "FlamengoLoadout",
-            "maxAmountAI": 5,
-            "minAmountAI": 2,
+            "maxAmountAI": 6,
+            "minAmountAI": 3,
             "porcentMusic": 95,
             "tempMusic": 10,
             "Radius_Zone": 200,
@@ -55,6 +55,14 @@
                 },
                 {
                     "ClassName": "Animal_UrsusArctos",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_Demongoat",
+                    "SpawnRarity": 0
+                },
+                {
+                    "ClassName": "Animal_ZombyDogA",
                     "SpawnRarity": 0
                 },
                 {

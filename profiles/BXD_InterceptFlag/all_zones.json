@@ -29,19 +29,16 @@
     ],
     "returnPoints": [
         {
-            "pos": "random",
+            "pos": "11878.821289 140.022812 12628.006836",
             "editorFileName": "",
             "disableBoundaryEffect": 0,
-            "crates": [
-                {
-                    "crateName": "SeaChest",
-                    "cratePos": "random",
-                    "crateDir": "0 0 0",
-                    "lootPool": [
-                        "Default"
-                    ]
-                }
-            ]
+            "crates": []
+        },
+        {
+            "pos": "11878.821289 140.022812 12628.006836",
+            "editorFileName": "",
+            "disableBoundaryEffect": 0,
+            "crates": []
         }
     ]
 }
