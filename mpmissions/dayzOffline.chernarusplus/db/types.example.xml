@@ -2287,6 +2287,53 @@
 <!-- MOD VWBeetle1963 - FUSCA END -->
 <!-- MOD VWBeetle1963 - FUSCA END -->
 
+<!-- 4KBOSSK VEHICLES START -->
+<!-- 4KBOSSK VEHICLES START -->
+<!-- 4KBOSSK VEHICLES START -->
+	<type name="DodgeRam_3500Rollbar_Red">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="DodgeRam_3500Rollbar_Black">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Kamaz_TyphoonK_CamoGreen3">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Kamaz_TyphoonK_Black">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="NissanGTR_Blue">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="NissanGTR_Red">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Tahoe_Black">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Tahoe_DarkBlue">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Ford_Mustang_Shelby_GT500_Red">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="Ford_Mustang_Shelby_GT500_Black">
+		<lifetime>3888000</lifetime>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+<!-- 4KBOSSK VEHICLES END -->
+<!-- 4KBOSSK VEHICLES END -->
+<!-- 4KBOSSK VEHICLES END -->
+
 <!-- MOD CROFT CAMISAS DE TIME START -->
 <!-- MOD CROFT CAMISAS DE TIME START -->
 <!-- MOD CROFT CAMISAS DE TIME START -->
