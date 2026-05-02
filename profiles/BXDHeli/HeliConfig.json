@@ -9,11 +9,11 @@
             "HELI_Max_Simultaneous": 1,
             "HELI_Simultaneous_Stagger_Time_Min": 1200,
             "HELI_Simultaneous_Stagger_Time_Max": 1800,
-            "HELI_Start_Delay": 220,
-            "HELI_Starting_Failed_Retry_Delay": 20,
-            "HELI_Spawn_Start_Delay": 2,
-            "HELI_Time_Between": 360,
-            "HELI_Time_Limit": 360,
+            "HELI_Start_Delay": 2200,
+            "HELI_Starting_Failed_Retry_Delay": 1800,
+            "HELI_Spawn_Start_Delay": 60,
+            "HELI_Time_Between": 1800,
+            "HELI_Time_Limit": 1400,
             "HELI_Web_hook": "",
             "aiLoadout": "VascoLoadout",
             "aiFaction": "shamans",
@@ -75,14 +75,6 @@
                     "SpawnRarity": 0
                 },
                 {
-                    "ClassName": "BXD_zmb_explosive_grey",
-                    "SpawnRarity": 0
-                },
-                {
-                    "ClassName": "BXD_zmb_wild_tox",
-                    "SpawnRarity": 0
-                },
-                {
                     "ClassName": "ZmbM_kid3",
                     "SpawnRarity": 0
                 }
@@ -130,7 +122,7 @@
                     { "itemName": "FAL", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "AKM", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "VSS", "qty": 100.0, "spawnChance": 30, "children": [] },
-                    { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
+                    { "itemName": "ShippingContainerKeys_Blue", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK101_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK74_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
@@ -184,7 +176,7 @@
                     { "itemName": "FAL", "qty": 100.0, "spawnChance": 50, "children": [] },
                     { "itemName": "AKM", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "VSS", "qty": 100.0, "spawnChance": 30, "children": [] },
-                    { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
+                    { "itemName": "ShippingContainerKeys_Blue", "qty": 100.0, "spawnChance": 20, "children": [] },
                     { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK101_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK74_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
@@ -238,7 +230,7 @@
                     { "itemName": "PlateCarrierVest_Camo", "qty": 100.0, "spawnChance": 50, "children": [] },
                     { "itemName": "AKM", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "VSS", "qty": 100.0, "spawnChance": 30, "children": [] },
-                    { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
+                    { "itemName": "ShippingContainerKeys_Blue", "qty": 100.0, "spawnChance": 40, "children": [] },
                     { "itemName": "Vikhr", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK101_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "Mag_AK74_30Rnd", "qty": 100.0, "spawnChance": 30, "children": [] },
@@ -291,6 +283,7 @@
                     { "itemName": "BXD_Refrigerator_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
                     { "itemName": "BXD_Barrel_Red_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
                     { "itemName": "BXD_Shelf_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
+                    { "itemName": "ShippingContainerKeys_Blue", "qty": 100.0, "spawnChance": 20, "children": [] },
                     { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
                     { "itemName": "BXD_Barrel_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
                     { "itemName": "BXD_Desk_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
@@ -331,6 +324,7 @@
                     { "itemName": "BXD_Barrel_Red_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
                     { "itemName": "BXD_Shelf_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
                     { "itemName": "TacticalBaconCan", "qty": 100.0, "spawnChance": 95, "children": [] },
+                    { "itemName": "ShippingContainerKeys_Blue", "qty": 100.0, "spawnChance": 30, "children": [] },
                     { "itemName": "BXD_Barrel_Green_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },
                     { "itemName": "BXD_Desk_Kit", "qty": 100.0, "spawnChance": 65, "children": [] },
                     { "itemName": "BXD_Barrel_Blue_Kit", "qty": 100.0, "spawnChance": 15, "children": [] },

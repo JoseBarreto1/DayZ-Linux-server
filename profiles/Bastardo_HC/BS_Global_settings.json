@@ -1,5 +1,5 @@
 {
-    "ServerStartGracePeriod": 5,
+    "ServerStartGracePeriod": 10,
     "PeriodicTickIntervalSeconds": 3600,
-    "MaxGlobalDynamicCrates": -1
+    "MaxGlobalDynamicCrates": 1
 }

@@ -1,6 +1,6 @@
 {
-    "CrashIntervalMin": 90,
-    "CrashIntervalMax": 150,
+    "CrashIntervalMin": 2100,
+    "CrashIntervalMax": 2200,
     "MaxActivePlaneEvents": 2,
     "AvoidBuildings": 1,
     "BuildingClearRadius": 25.0,

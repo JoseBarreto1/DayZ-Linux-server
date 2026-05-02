@@ -7,10 +7,11 @@
         "StaticSpawns": 0,
         "ActiveCrateCount": 1,
         "AutoRefresh": 1,
-        "RefreshInterval": 900,
+        "RefreshInterval": 2400,
         "CrateType": "BS_Hacked_Crate",
         "LootCategoriesToUse": [
-            "DefaultArmaments",
+            "DefaultBuilding",
+            "DefaultMisc",
             "DefaultMedical"
         ],
         "UseCrateNotifications": 1,
@@ -60,25 +61,35 @@
         "PlayerNearbyCheckRadius": 10.0,
         "SpawnAIOnHackStart": 0,
         "AISpawnTypes": [
-            "ZmbM_SoldierNormal"
+            "eAI_SurvivorM_Elias|loadout:SaoPauloLoadout,faction:SaoPaulo",
+            "ZmbM_SoldierNormal",
+            "eAI_SurvivorM_Elias|loadout:SaoPauloLoadout,faction:SaoPaulo",
+            "Zmbm_Mummy",
+            "eAI_SurvivorM_Elias|loadout:SaoPauloLoadout,faction:SaoPaulo",
+            "Animal_UrsusArctos"            
         ],
-        "MinAIToSpawn": 1,
-        "MaxAIToSpawn": 3,
+        "MinAIToSpawn": 4,
+        "MaxAIToSpawn": 8,
         "AISpawnRadiusMin": 10.0,
-        "AISpawnRadiusMax": 25.0,
+        "AISpawnRadiusMax": 40.0,
         "SpawnAIOnCrateSpawn": 1,
         "UseAIWaves": 1,
         "NumberOfAIWaves": 3,
         "TimeBetweenAIWavesSeconds": 240.0,
         "AIWaveSpawnTypes": [
-            "ZmbM_HermitSkinny_Beige",
-            "ZmbM_FarmerFat_Green",
-            "Animal_UrsusArctos"
+            "eAI_SurvivorM_Elias|loadout:BotafogoLoadout,faction:Botafogo",
+            "Animal_UrsusArctos",
+            "eAI_SurvivorM_Elias|loadout:BotafogoLoadout,faction:Botafogo",
+            "Animal_Demongoat",
+            "Zmbm_Mummy",
+            "eAI_SurvivorM_Elias|loadout:BotafogoLoadout,faction:Botafogo",
+            "Animal_CanisLupus_Grey",
+            "ZmbM_kid3"
         ],
         "MinAIToSpawnPerWave": 2,
-        "MaxAIToSpawnPerWave": 3,
+        "MaxAIToSpawnPerWave": 4,
         "AIWaveSpawnRadiusMin": 10.0,
-        "AIWaveSpawnRadiusMax": 20.0,
+        "AIWaveSpawnRadiusMax": 30.0,
         "AIWaveInitialDelaySeconds": 10.0,
         "lb_preset_name": ""
     }

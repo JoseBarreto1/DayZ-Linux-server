@@ -1,18 +1,17 @@
 [
     {
-        "ConfigUniqueID": "DefaultStaticEvent_Example1",
-        "UseExpansionMapMarker": 1,
-        "UseAdvancedGroupsMapMarker": 1,
-        "UseBasicMapMarker": 1,
+        "ConfigUniqueID": "",
+        "UseExpansionMapMarker": 0,
+        "UseAdvancedGroupsMapMarker": 0,
+        "UseBasicMapMarker": 0,
+        "UseVPPMapMarker": 0,
         "StaticSpawns": 1,
-        "ActiveCrateCount": 1,
+        "ActiveCrateCount": 0,
         "AutoRefresh": 0,
         "RefreshInterval": 7200,
-        "CrateType": "BS_Hacked_Crate",
-        "LootCategoriesToUse": [
-            "DefaultMedical"
-        ],
-        "UseCrateNotifications": 1,
+        "CrateType": "",
+        "LootCategoriesToUse": [],
+        "UseCrateNotifications": 0,
         "CrateSpawnNotification_Key": "#STR_BSHC_Notification_Spawn_Default",
         "CrateStartNotification_Key": "#STR_BSHC_Notification_Start_Default",
         "CrateEndNotification_Key": "#STR_BSHC_Notification_End_Default",
@@ -23,11 +22,11 @@
         "CrateStartNotification_Key_Located": "#STR_BSHC_Notification_Start_Located",
         "CrateEndNotification_Key_Located": "#STR_BSHC_Notification_End_Located",
         "CrateDespawnNotification_Key_Located": "#STR_BSHC_Notification_Despawn_Located",
-        "EnableSpawnNotification": 1,
-        "EnableStartNotification": 1,
-        "EnableEndNotification": 1,
-        "EnableDespawnNotification": 1,
-        "ShowLocationInNotifications": 1,
+        "EnableSpawnNotification": 0,
+        "EnableStartNotification": 0,
+        "EnableEndNotification": 0,
+        "EnableDespawnNotification": 0,
+        "ShowLocationInNotifications": 0,
         "WarningTimeMinutes": 10,
         "IgnorePlayerCheckOnWarnedSpawn": 1,
         "ExpansionMarkerColor": "255,255,0,0",
@@ -38,23 +37,14 @@
         "EnableMarkerUnlockedStatus": 1,
         "RequireAccessAction": 1,
         "CountdownTime": 900,
-        "CrateLocations": [
-            {
-                "Position": "2471.820068 193.177002 5114.220215",
-                "Rotation": "0.0 0.0 0.0",
-                "LocationName": "Zelenogorks",
-                "AISpawnPositions": []
-            }
-        ],
+        "CrateLocations": [],
         "AutoDespawnTimeMinutes": 30,
         "MaxLifetimeMinutes_NotTouched": 0,
         "MinPlayersToSpawnCrate": 0,
         "EnablePlayerNearbyCheck": 1,
         "PlayerNearbyCheckRadius": 15.0,
         "SpawnAIOnHackStart": 0,
-        "AISpawnTypes": [
-            "ZmbM_SoldierNormal"
-        ],
+        "AISpawnTypes": [],
         "MinAIToSpawn": 1,
         "MaxAIToSpawn": 3,
         "AISpawnRadiusMin": 10.0,
@@ -63,16 +53,13 @@
         "UseAIWaves": 0,
         "NumberOfAIWaves": 3,
         "TimeBetweenAIWavesSeconds": 60.0,
-        "AIWaveSpawnTypes": [
-            "ZmbM_HermitSkinny_Beige",
-            "ZmbM_FarmerFat_Green",
-            "Animal_UrsusArctos"
-        ],
+        "AIWaveSpawnTypes": [],
         "MinAIToSpawnPerWave": 2,
         "MaxAIToSpawnPerWave": 3,
         "AIWaveSpawnRadiusMin": 10.0,
         "AIWaveSpawnRadiusMax": 20.0,
         "AIWaveInitialDelaySeconds": 10.0,
-        "lb_preset_name": ""
+        "lb_preset_name": "",
+        "PersistActiveCrateOnRestart": 0
     }
 ]

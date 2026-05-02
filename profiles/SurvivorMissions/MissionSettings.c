@@ -15,7 +15,7 @@ class MissionSettings
 	const string RCbuildType = "Land_City_School";					//Building type for map wide raycast
 	const bool CheckEWD = false;				//1 = Performs a check on MissionBuildings of events data at server start. Disable when check ran once successfully
 	
-	const int DebugMission = 53;				//select mission by number (array index of EWD), set -1 to let SurvivorMissionModule select the mission
+	const int DebugMission = -1;				//select mission by number (array index of EWD), set -1 to let SurvivorMissionModule select the mission
 	
 	//Mission options
 	static bool Opt_OnStartCleanUp = true;		//1 = Clean up previous mission position from any items at server start, 0 = deactivate OnStartCleanUp
@@ -40,12 +40,12 @@ class MissionSettings
 	static string TimeoutMsg = "Sinto muito, mas você chegou tarde demais!\nChamarei você para novas tarefas neste canal de rádio.\nCâmbio, desligo!"; // (Mensagem -2)
 
 	//Mission module settings
-	static int DelayTime = 300;					//seconds (!Do not set lower than 300 seconds), delay time of first and between previous and next mission
-	static int CleanUpDlyTime = 180;			//seconds (!Do not set lower than 180 seconds), delay time of OnStartCleanup executed once after mpmission is loaded by the server
-	static int MsgFreqDlyTime = 900;			//seconds (!Do not set lower than 900 seconds), radio frequency information delay time 
+	static int DelayTime = 1200;					//seconds (!Do not set lower than 300 seconds), delay time of first and between previous and next mission
+	static int CleanUpDlyTime = 600;			//seconds (!Do not set lower than 180 seconds), delay time of OnStartCleanup executed once after mpmission is loaded by the server
+	static int MsgFreqDlyTime = 2200;			//seconds (!Do not set lower than 900 seconds), radio frequency information delay time 
 	static float RadioFrequency = 99.7;			//Mhz (!Do only set a frequency from channels used ingame), radio frequency of mission channel	
-	static int MsgWaitTime = 300;				//seconds (!Do not set lower than 300 seconds), message interval, cycle duration time
-	static int MsgCutoffTime = 2;				//minutes, time of messaging cutoff before mission ends 	
+	static int MsgWaitTime = 1200;				//seconds (!Do not set lower than 300 seconds), message interval, cycle duration time
+	static int MsgCutoffTime = 10;				//minutes, time of messaging cutoff before mission ends 		
 	
 	static string GetStoriesFilePath() { return StoriesFilePath; }
 	

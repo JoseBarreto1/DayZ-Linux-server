@@ -167,9 +167,9 @@
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>5</nominal>
-        <min>4</min>
-        <max>5</max>
+        <nominal>7</nominal>
+        <min>5</min>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -181,6 +181,7 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_OvisAries"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_Demongoat"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Animal_OvisAriesF"/>
         </children>
     </event>
@@ -202,9 +203,9 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>8</nominal>
-        <min>4</min>
-        <max>6</max>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>9</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -215,8 +216,13 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_Grey"/>
-            <child lootmax="0" lootmin="0" max="4" min="0" type="Animal_CanisLupus_White"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_Grey"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="pelt_wolf_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_CanisPestis"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_ZombyDogA"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="One_BlackPanter"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_ZombyDogB"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_White"/>
         </children>
     </event>
     <event name="InfectedArmy">

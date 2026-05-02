@@ -29,7 +29,7 @@ TIME_CHECK_SERVER_CRASHED_IN_SEC=120 #(2 minutos = 120 segundos)
 SERVER_MODS='-serverMod=servermod'
 SERVER_PORT='-port=2302'
 SERVER_CPU='-cpuCount=2'
-SERVER_OTHERS='' #'-dologs -adminlog -netlog -freezecheck'
+SERVER_OTHERS='-nologs' #'-dologs -adminlog -netlog -freezecheck'
 
 CONFIG="-config=serverDZ.cfg"
 PROFILES="-profiles=profiles"

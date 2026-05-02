@@ -2,7 +2,7 @@
     "Controls": {
         "Version": "1.26.01.04",
         "Description": "Default settings file",
-        "Interval": 5,
+        "Interval": 45,
         "Variance": 1,
         "FlightHours": [
             0,

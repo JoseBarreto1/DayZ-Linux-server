@@ -62,7 +62,7 @@
             "SlotName": "Feet",
             "Items": [
                 {
-                    "ClassName": "SK8_Sneakers_Blue",
+                    "ClassName": "AtheticShoes_Blue",
                     "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
