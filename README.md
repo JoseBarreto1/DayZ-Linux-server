@@ -1,14 +1,14 @@
-# 🧟 DayZ Linux Server — Automatic Setup
+# 🧟 DayZ Linux Server — Automatic Setup (en_US)
 
-> Automatic configuration scripts for **DayZ servers on Linux**, designed to simplify the creation and maintenance of your own server.
+> Automatic setup scripts for **DayZ servers on Linux**, designed to make it easier to create and maintain your own server.
 
-This project is based on a **real server used daily**, already containing several ready-to-use configurations. This allows you to spin up a fully functional server with just a few commands.
+This project is based on a **real server used daily**, already containing several ready-made configurations. This allows you to spin up a functional server with just a few commands.
 
 ---
 
 ## 📑 Table of Contents
 
-- [How it works](#%EF%B8%8F-how-it-works)
+- [How the project works](#-how-the-project-works)
 - [Requirements](#-requirements)
 - [Configuration variables](#-configuration-variables)
 - [Step-by-step installation](#-step-by-step-installation)
@@ -19,33 +19,34 @@ This project is based on a **real server used daily**, already containing severa
 
 ---
 
-## ⚙️ How it works
+## ⚙️ How the project works
 
-Inside the `scripts_server` folder there is a single script:
+Inside the `scripts_server` folder there is only one script:
 
 ### 🚀 `start_server.sh`
 
-Responsible for installing, configuring, and keeping the server running, as well as checking and notifying updates for both the server and the installed mods.
+Responsible for installing, configuring and keeping the server running, as well as checking and notifying updates for the server and installed mods.
 
 | Feature | Description |
 |---|---|
-| 📦 Auto install | Installs the server if it doesn't exist yet |
+| 📦 Automatic installation | Installs the server if it doesn't exist yet |
 | 🔽 Mod download | Downloads and prepares the configured mods |
 | ▶️ Startup | Starts the server automatically |
 | 🔍 Monitoring | Monitors the process in real time |
-| 🔄 Timed restart | Automatically restarts every **6 hours** |
-| 💥 Crash restart | Automatically restarts on **crash** |
-| 🔍 Update check | Checks for updates on the server and installed mods |
+| 🔄 Timed restart | Restarts automatically every **6 hours** |
+| 💥 Crash restart | Restarts automatically in case of a **crash** |
+| 🔍 Update check | Checks for server and mod updates |
 | 🔔 Notification | Notifies when updates are available |
 | 💬 Discord Webhook | Optional support for Discord notifications |
+| 🤖 Discord Bot | Displays server status in real time on Discord (optional) |
 
 ---
 
 ## 📋 Requirements
 
-Before getting started, make sure you have:
+Before starting, make sure you have:
 
-- **OS:** Linux (tested on Ubuntu 24.04)
+- **Operating System:** Linux (tested on Ubuntu 24.04)
 - **Git** installed
 - An active **Steam account** with **DayZ** in your Steam library
 
@@ -55,7 +56,9 @@ Before getting started, make sure you have:
 
 ## 🔐 Configuration variables
 
-During script execution, your credentials will be requested and used by **SteamCMD** to download the server and Workshop mods.
+When the script runs for the first time, it will ask for your credentials, which will be used by **SteamCMD** to download the server and Workshop mods.
+
+All settings are automatically saved to the `scripts_server/config.env` file, which is shared between `start_server.sh` and `bot.py`.
 
 ---
 
@@ -66,10 +69,26 @@ WEBHOOK_URL_SERVER=""   # Server restart notifications
 WEBHOOK_URL_MOD=""      # Mod update notifications
 ```
 
-You will then receive notifications when:
+You will receive notifications when:
 
 - 🔄 The server **restarts** or **updates**
 - ⬇️ A mod is **updated**
+
+---
+
+### Optional — Discord Bot (Server Status)
+
+```bash
+DISCORD_BOT_TOKEN=""   # Discord bot token
+DISCORD_BOT_IP=""      # Public IP of the DayZ server (e.g. 177.123.456.234)
+```
+
+When configured, the Discord bot will display the **server status** as the bot's activity in real time, updating every 60 seconds:
+
+- ✅ `12/60 - Server Name` — when the server is online
+- ❌ `Server offline` — when the server is not responding
+
+> ⚠️ **Important:** If `DISCORD_BOT_TOKEN` or `DISCORD_BOT_IP` are empty, the bot **will not start** and Python 3 and its modules **will not be installed**.
 
 ---
 
@@ -94,11 +113,20 @@ git clone https://github.com/JoseBarreto1/DayZ-Linux-server.git .
 ./scripts_server/start_server.sh
 ```
 
-**4. (Optional) Set the Discord Webhook:**
+**4. (Optional) Configure:**
+
+- Discord Webhook:
 
 ```bash
-sed -i 's/^WEBHOOK_URL_MOD=.*/WEBHOOK_URL_MOD="your_discord_webhook_url"/' scripts_server/start_server.sh
-sed -i 's/^WEBHOOK_URL_SERVER=.*/WEBHOOK_URL_SERVER="your_discord_webhook_url"/' scripts_server/start_server.sh
+sed -i 's|^WEBHOOK_URL_MOD=.*|WEBHOOK_URL_MOD="your_discord_webhook_url"|' scripts_server/config.env
+sed -i 's|^WEBHOOK_URL_SERVER=.*|WEBHOOK_URL_SERVER="your_discord_webhook_url"|' scripts_server/config.env
+```
+
+- Discord Bot:
+
+```bash
+sed -i 's|^DISCORD_BOT_TOKEN=.*|DISCORD_BOT_TOKEN="your_token_here"|' scripts_server/config.env
+sed -i 's|^DISCORD_BOT_IP=.*|DISCORD_BOT_IP="your_ip_here"|' scripts_server/config.env
 ```
 
 On the first run, the script will automatically:
@@ -107,19 +135,33 @@ On the first run, the script will automatically:
 2. Download the **DayZ Server**
 3. Download the **configured mods**
 4. **Start** the server
+5. Start the **Discord Bot** *(if configured)*
+
+---
+
+## 🤖 How to create a Discord bot
+
+If you don't have a bot yet, follow the steps below:
+
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
+2. Click **New Application** and give your bot a name
+3. Go to **Bot** in the side menu and click **Reset Token** to generate the token
+4. Copy the token and paste it into `DISCORD_BOT_TOKEN` in `config.env`
+5. Under **OAuth2 → URL Generator**, select the `bot` scope and the `Send Messages` permission
+6. Use the generated link to invite the bot to your Discord server
 
 ---
 
 ## 🌐 Required ports
 
-For your server to appear in the DayZ Launcher, open the following ports:
+For the server to appear in the DayZ Launcher, open the following ports:
 
 | Port | Protocol | Usage |
 |---|---|---|
 | `2302 - 2305` | UDP | DayZ Server |
-| `27016` | UDP | Steam Query |
+| `27016` | UDP | Steam Query / Discord Bot (A2S) |
 
-> ⚠️ These ports must be open on your **system firewall**, **server/VPS**, and **router** (if hosting at home).
+> ⚠️ Ports must be open in the **system firewall**, on the **server/VPS**, and on your **router** (if hosting at home).
 
 ---
 
@@ -129,14 +171,16 @@ For your server to appear in the DayZ Launcher, open the following ports:
 DayZ-Linux-server/
 │
 ├── scripts_server/
-│   ├── logs/                # Folder to assist with mod update tracking
+│   ├── logs/                # Server and Discord Bot logs
 │   ├── mod_ids.txt          # List of mod IDs to be used on the server
-│   └── start_server.sh      # Main startup and update checker script
+│   ├── config.env           # Shared settings (Steam credentials, Discord Bot)
+│   ├── bot.py               # Discord bot to display server status (optional)
+│   └── start_server.sh      # Main startup and update-check script
 │
-├── serverDZ.cfg.example     # Server configuration file
+├── serverDZ.cfg.example     # Basic server configuration
 ├── profiles/                # Server profiles
 ├── keys/                    # Mod keys
-├── servermod/               # Folder for mods loaded on the server side only
+├── servermod/               # Server-side only mods folder
 ├── mpmissions/              # Server mission folder (init.c, types.xml, events.xml)
 └── README.md
 ```
@@ -146,8 +190,9 @@ DayZ-Linux-server/
 ## ⚠️ Notes
 
 - Tested on **Ubuntu 24.04**
-- May not work out of the box on other Linux distributions
-- Depending on your system's directory structure, adjustments may be required
+- May not work directly on other Linux distributions
+- Depending on your system's directory structure, adjustments may be needed
+- The `config.env` file contains sensitive credentials — **do not share or commit** this file
 
 ---
 
@@ -155,7 +200,7 @@ DayZ-Linux-server/
 
 This project was created to:
 
-- ✅ Simplify DayZ server setup on Linux
+- ✅ Make it easier to run DayZ servers on Linux
 - ✅ Automate mod updates
 - ✅ Reduce manual maintenance
 - ✅ Serve as a base for server administrators
@@ -164,7 +209,7 @@ This project was created to:
 
 ## 🤝 Contributing
 
-Suggestions, improvements, and bug fixes are welcome!
+Suggestions, improvements and fixes are welcome!
 
 1. **Fork** the project
 2. Create a **branch** for your feature (`git checkout -b feature/my-feature`)
@@ -220,6 +265,7 @@ Responsável por instalar, configurar e manter o servidor em execução, além d
 | 🔍 Verificação | Verifica atualizações do servidor e dos mods instalados |
 | 🔔 Notificação | Notifica quando houver atualizações disponíveis |
 | 💬 Discord Webhook | Suporte opcional para notificações via Discord |
+| 🤖 Discord Bot | Exibe status do servidor em tempo real no Discord (opcional) |
 
 ---
 
@@ -239,6 +285,8 @@ Antes de iniciar, certifique-se de que possui:
 
 Durante a execução do script, será solicitado suas credenciais que serão usadas pelo **SteamCMD** para baixar o servidor e os mods da Workshop.
 
+Todas as configurações são salvas automaticamente no arquivo `scripts_server/config.env`, que é compartilhado entre o `start_server.sh` e o `bot.py`.
+
 ---
 
 ### Opcionais — Notificações via Discord
@@ -252,6 +300,22 @@ Com isso você receberá notificações quando:
 
 - 🔄 O servidor **reiniciar** ou **atualizar**
 - ⬇️ Um mod for **atualizado**
+
+---
+
+### Opcionais — Discord Bot (Status do servidor)
+
+```bash
+DISCORD_BOT_TOKEN=""   # Token do bot do Discord
+DISCORD_BOT_IP=""      # IP público do servidor DayZ (ex: 177.123.456.234)
+```
+
+Quando configurado, o bot do Discord exibirá em tempo real o **status do servidor** como atividade do bot, atualizando a cada 60 segundos:
+
+- ✅ `12/60 - Nome do Servidor` — quando o servidor está online
+- ❌ `Server offline` — quando o servidor não responde
+
+> ⚠️ **Importante:** Se `DISCORD_BOT_TOKEN` ou `DISCORD_BOT_IP` estiverem vazios, o bot **não será iniciado** e o Python 3 e seus módulos **não serão instalados**.
 
 ---
 
@@ -276,11 +340,20 @@ git clone https://github.com/JoseBarreto1/DayZ-Linux-server.git .
 ./scripts_server/start_server.sh
 ```
 
-**4. (Opcional) Configure o Webhook do Discord:**
+**4. (Opcional) Configure:**
+
+- Webhook do Discord:
 
 ```bash
-sed -i 's/^WEBHOOK_URL_MOD=.*/WEBHOOK_URL_MOD="webhook_discord_url"/' scripts_server/start_server.sh
-sed -i 's/^WEBHOOK_URL_SERVER=.*/WEBHOOK_URL_SERVER="webhook_discord_url"/' scripts_server/start_server.sh
+sed -i 's|^WEBHOOK_URL_MOD=.*|WEBHOOK_URL_MOD="webhook_discord_url"|' scripts_server/config.env
+sed -i 's|^WEBHOOK_URL_SERVER=.*|WEBHOOK_URL_SERVER="webhook_discord_url"|' scripts_server/config.env
+```
+
+- Bot do Discord:
+
+```bash
+sed -i 's|^DISCORD_BOT_TOKEN=.*|DISCORD_BOT_TOKEN="seu_token_aqui"|' scripts_server/config.env
+sed -i 's|^DISCORD_BOT_IP=.*|DISCORD_BOT_IP="seu_ip_aqui"|' scripts_server/config.env
 ```
 
 Na primeira execução, o script irá automaticamente:
@@ -289,6 +362,20 @@ Na primeira execução, o script irá automaticamente:
 2. Baixar o **DayZ Server**
 3. Baixar os **mods configurados**
 4. **Iniciar** o servidor
+5. Iniciar o **Bot do Discord** *(se configurado)*
+
+---
+
+## 🤖 Como criar um bot no Discord
+
+Caso ainda não tenha um bot criado, siga os passos abaixo:
+
+1. Acesse o [Discord Developer Portal](https://discord.com/developers/applications)
+2. Clique em **New Application** e dê um nome ao bot
+3. Vá em **Bot** no menu lateral e clique em **Reset Token** para gerar o token
+4. Copie o token e cole em `DISCORD_BOT_TOKEN` no `config.env`
+5. Em **OAuth2 → URL Generator**, selecione o escopo `bot` e a permissão `Send Messages`
+6. Use o link gerado para convidar o bot ao seu servidor Discord
 
 ---
 
@@ -299,7 +386,7 @@ Para que o servidor apareça no Launcher do DayZ, libere as seguintes portas:
 | Porta | Protocolo | Uso |
 |---|---|---|
 | `2302 - 2305` | UDP | Servidor DayZ |
-| `27016` | UDP | Steam Query |
+| `27016` | UDP | Steam Query / Discord Bot (A2S) |
 
 > ⚠️ As portas devem estar liberadas no **firewall do sistema**, no **servidor/VPS** e no **roteador** (caso esteja hospedando em casa).
 
@@ -311,11 +398,13 @@ Para que o servidor apareça no Launcher do DayZ, libere as seguintes portas:
 DayZ-Linux-server/
 │
 ├── scripts_server/
-│   ├── logs/                # Pasta para auxiliar na atualização dos mods
+│   ├── logs/                # Logs do servidor e do Discord Bot
 │   ├── mod_ids.txt          # Lista com ids dos mods que serão utilizados no servidor
+│   ├── config.env           # Configurações compartilhadas (credenciais Steam, Discord Bot)
+│   ├── bot.py               # Bot do Discord para exibir status do servidor (opcional)
 │   └── start_server.sh      # Script principal de inicialização e verificação de atualizações
 │
-├── serverDZ.cfg.example     # Configurações do servidor
+├── serverDZ.cfg.example     # Configurações básicas do servidor
 ├── profiles/                # Perfis do servidor
 ├── keys/                    # Chaves dos mods
 ├── servermod/               # Pasta dos mods que são carregados apenas do lado servidor.
@@ -330,6 +419,7 @@ DayZ-Linux-server/
 - Testado em **Ubuntu 24.04**
 - Pode não funcionar diretamente em outras distribuições Linux
 - Dependendo da estrutura de diretórios do seu sistema, ajustes podem ser necessários
+- O arquivo `config.env` contém credenciais sensíveis — **não o compartilhe nem faça commit** deste arquivo
 
 ---
 
@@ -359,3 +449,100 @@ Sugestões, melhorias e correções são bem-vindas!
 ## 🧟 Divirta-se!
 
 Agora é só iniciar o servidor e sobreviver em Chernarus. Boa sorte, sobrevivente!
+
+---
+
+## 🖥️ Mantendo o servidor ativo com Screen
+
+Por padrão, ao fechar o terminal ou desconectar da VPS, todos os processos em execução são encerrados — incluindo o servidor DayZ. O **Screen** resolve isso permitindo criar sessões de terminal que continuam rodando em segundo plano.
+
+### 📦 Instalação do Screen
+
+```bash
+# Ubuntu / Debian
+sudo apt-get install screen -y
+
+# CentOS / Fedora
+sudo dnf install screen -y
+```
+
+---
+
+### ▶️ Iniciando o servidor com Screen
+
+```bash
+screen -S dayzserver -dm bash -c './scripts_server/start_server.sh'
+```
+
+| Parâmetro | Descrição |
+|---|---|
+| `-S dayzserver` | Define o nome da sessão |
+| `-dm` | Inicia a sessão em segundo plano (detached) |
+| `bash -c '...'` | Comando a ser executado na sessão |
+
+---
+
+### 📋 Verificando sessões ativas
+
+```bash
+screen -ls
+```
+
+Exemplo de saída:
+```
+There is a screen on:
+    12345.dayzserver    (Detached)
+1 Socket in /run/screen/S-user.
+```
+
+---
+
+### 🔍 Acessando a sessão (visualizar logs em tempo real)
+
+```bash
+screen -r dayzserver
+```
+
+> ⚠️ Para **sair sem encerrar** a sessão, pressione `Ctrl + A` e depois `D`. Isso mantém o servidor rodando em segundo plano.
+
+---
+
+### 🛑 Encerrando o servidor
+
+**Opção 1 — De dentro da sessão:**
+```bash
+# Acesse a sessão
+screen -r dayzserver
+
+# Encerre o processo com Ctrl + C e depois feche a sessão
+exit
+```
+
+**Opção 2 — De fora da sessão (sem precisar acessar):**
+```bash
+screen -S dayzserver -X quit
+```
+
+---
+
+### 🔄 Reiniciando o servidor
+
+```bash
+# Encerra a sessão atual
+screen -S dayzserver -X quit
+
+# Aguarda 2 segundos e inicia novamente
+sleep 2 && screen -S dayzserver -dm bash -c './scripts_server/start_server.sh'
+```
+
+---
+
+### 📌 Referência rápida
+
+| Ação | Comando |
+|---|---|
+| Iniciar servidor | `screen -S dayzserver -dm bash -c './scripts_server/start_server.sh'` |
+| Ver sessões ativas | `screen -ls` |
+| Acessar sessão | `screen -r dayzserver` |
+| Sair sem encerrar | `Ctrl + A` → `D` |
+| Encerrar sessão | `screen -S dayzserver -X quit` |

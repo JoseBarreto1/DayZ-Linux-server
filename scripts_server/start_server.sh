@@ -15,12 +15,14 @@ MOD_SERVER_DIR="$SERVER_DIR/md"
 MOD_GAME_DIR="$HOME/steamcmd/mods/steamapps/workshop/content/221100/"
 
 ENV_CONFIG="$SCRIPT_DIR/config.env"
-WEBHOOK_URL_SERVER=""
-WEBHOOK_URL_MOD=""
 
 LOG_DIR="$SCRIPT_DIR/logs"
 CACHE_FILE="$LOG_DIR/dayz_check_mod_update"
 LOG_FILE="$LOG_DIR/changes"
+
+BOT_SCRIPT="$SCRIPT_DIR/bot.py"
+BOT_PID_FILE="$LOG_DIR/discord_bot.pid"
+BOT_VENV="$SCRIPT_DIR/.venv"
 
 SERVER_RESTART_TIME_IN_MIN=360 #(6 horas = 360 minutos)
 TIME_CHECK_MOD_UPDATES_IN_SEC=600 #(10 minutos = 600 segundos)
@@ -105,12 +107,98 @@ load_credentials() {
 
         echo "USER_STEAM=\"$USER_STEAM\"" > $ENV_CONFIG
         echo "PASSWORD_STEAM=\"$PASSWORD_STEAM\"" >> $ENV_CONFIG
+        echo "DISCORD_BOT_TOKEN=\"\"" >> $ENV_CONFIG
+        echo "DISCORD_BOT_IP=\"\"" >> $ENV_CONFIG
+        echo "WEBHOOK_URL_SERVER=\"\"" >> $ENV_CONFIG
+        echo "WEBHOOK_URL_MOD=\"\"" >> $ENV_CONFIG
     fi
 
     source $ENV_CONFIG
     chmod 600 $ENV_CONFIG
 
     echo "💾 Usuário carregado: $USER_STEAM"
+}
+
+# ── Funções do Discord Bot ────────────────────────────────────────────────────
+
+bot_enabled() {
+    # Retorna 0 (true) somente se TOKEN e IP estiverem preenchidos
+    [[ -n "${DISCORD_BOT_TOKEN}" && -n "${DISCORD_BOT_IP}" ]]
+}
+
+start_discord_bot() {
+    if ! bot_enabled; then
+        echo "⚠️  Discord Bot desativado (DISCORD_BOT_TOKEN ou DISCORD_BOT_IP vazio no config.env)."
+        return
+    fi
+ 
+    if [ -f "$BOT_PID_FILE" ] && kill -0 "$(cat "$BOT_PID_FILE")" 2>/dev/null; then
+        echo "✅ Discord Bot já está em execução (PID $(cat "$BOT_PID_FILE"))."
+        return
+    fi
+ 
+    # Verifica Python 3
+    if ! command -v python3 &>/dev/null; then
+        echo "⬇️  Python 3 não encontrado. Instalando..."
+        if   command -v apt-get &>/dev/null; then sudo apt-get update -qq && sudo apt-get install -y python3 python3-venv python3-full
+        elif command -v dnf     &>/dev/null; then sudo dnf install -y python3
+        elif command -v pacman  &>/dev/null; then sudo pacman -S --noconfirm python
+        elif command -v brew    &>/dev/null; then brew install python3
+        else echo "❌ Gerenciador de pacotes não reconhecido. Instale o Python 3 manualmente." ; return 1
+        fi
+    fi
+ 
+    # Garante que python3-venv está instalado (necessário no Ubuntu 24.04)
+    if ! python3 -m venv --help &>/dev/null; then
+        echo "⬇️  Instalando python3-venv..."
+        sudo apt-get install -y python3-venv python3-full 2>/dev/null || true
+    fi
+ 
+    # Cria o ambiente virtual se não existir
+    if [ ! -d "$BOT_VENV" ]; then
+        echo "🐍 Criando ambiente virtual em $BOT_VENV ..."
+        python3 -m venv "$BOT_VENV"
+    fi
+ 
+    # Instala módulos dentro do venv se necessário
+    _install_if_missing() {
+        local import_name="$1" pkg_name="$2" flags="$3"
+        if ! "$BOT_VENV/bin/python" -c "import ${import_name}" &>/dev/null; then
+            echo "⬇️  Instalando ${pkg_name} no venv..."
+            "$BOT_VENV/bin/pip" install $flags "${pkg_name}"
+        fi
+    }
+    _install_if_missing "discord" "discord.py" "-U"
+    _install_if_missing "a2s"     "python-a2s" ""
+ 
+    if [ ! -f "$BOT_SCRIPT" ]; then
+        echo "❌ bot.py não encontrado em: $BOT_SCRIPT"
+        return 1
+    fi
+ 
+    echo "🤖 Iniciando Discord Bot..."
+    mkdir -p "$LOG_DIR"
+ 
+    DISCORD_BOT_TOKEN="$DISCORD_BOT_TOKEN" \
+    DISCORD_BOT_IP="$DISCORD_BOT_IP" \
+    DISCORD_BOT_PORT="$DISCORD_BOT_PORT" \
+    "$BOT_VENV/bin/python" "$BOT_SCRIPT" >> "$LOG_DIR/discord_bot.log" 2>&1 &
+ 
+    echo $! > "$BOT_PID_FILE"
+    echo "✅ Discord Bot iniciado (PID $!)."
+}
+
+stop_discord_bot() {
+    if [ -f "$BOT_PID_FILE" ]; then
+        local PID
+        PID=$(cat "$BOT_PID_FILE")
+        if kill -0 "$PID" 2>/dev/null; then
+            echo "🛑 Encerrando Discord Bot (PID $PID)..."
+            kill "$PID" && rm -f "$BOT_PID_FILE"
+        else
+            rm -f "$BOT_PID_FILE"
+        fi
+    fi
 }
 
 validate_dayz_server() {
@@ -435,7 +523,7 @@ main() {
                         -d @- <<EOF
 {
 "username": "DayZ Server",
-"content": "⬇️ The server has been updated!\n@everyone"
+"content": "⬇️ The server has been updated!"
 }
 EOF
                 fi
@@ -482,7 +570,7 @@ EOF
                     -d @- <<EOF
 {
 "username": "DayZ Server",
-"content": "✅ Server started successfully!\n@everyone"
+"content": "✅ Server started successfully!"
 }
 EOF
             else
@@ -496,6 +584,8 @@ EOF
 load_credentials
 
 validate_dayz_server
+
+start_discord_bot
 
 check_mod_update &
 
